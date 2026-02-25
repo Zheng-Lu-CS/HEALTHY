@@ -486,13 +486,16 @@ def build_ic_scores(df: pd.DataFrame) -> pd.DataFrame:
     def num(col):
         return pd.to_numeric(d[col], errors="coerce") if col in d.columns else pd.Series([np.nan] * len(d))
 
+    def false_series():
+        return pd.Series([False] * len(d), index=d.index)
+
     # Sensory
-    hearing_impair = (num("听力障碍") == 1) if "听力障碍" in d.columns else False
-    vision_impair = (num("视力障碍") == 1) if "视力障碍" in d.columns else False
-    hearing_screen = (num("感知-听力") == 0) if "感知-听力" in d.columns else False
-    vision_screen = (num("感知-视力") == 0) if "感知-视力" in d.columns else False
-    hearing_impact = (num("听力障碍是否影响日常") == 1) if "听力障碍是否影响日常" in d.columns else False
-    vision_impact = (num("视力障碍是否影响日常") == 1) if "视力障碍是否影响日常" in d.columns else False
+    hearing_impair = (num("听力障碍") == 1) if "听力障碍" in d.columns else false_series()
+    vision_impair = (num("视力障碍") == 1) if "视力障碍" in d.columns else false_series()
+    hearing_screen = (num("感知-听力") == 0) if "感知-听力" in d.columns else false_series()
+    vision_screen = (num("感知-视力") == 0) if "感知-视力" in d.columns else false_series()
+    hearing_impact = (num("听力障碍是否影响日常") == 1) if "听力障碍是否影响日常" in d.columns else false_series()
+    vision_impact = (num("视力障碍是否影响日常") == 1) if "视力障碍是否影响日常" in d.columns else false_series()
     sensory = hearing_impair | vision_impair | hearing_screen | vision_screen | hearing_impact | vision_impact
 
     # Vitality
@@ -511,10 +514,10 @@ def build_ic_scores(df: pd.DataFrame) -> pd.DataFrame:
     )
 
     # Locomotion
-    gait = (num("步态异常-编码") == 1) if "步态异常-编码" in d.columns else False
-    walk_250 = (num("衰弱快速筛查量表-1您能步行250米么？") == 1) if "衰弱快速筛查量表-1您能步行250米么？" in d.columns else False
-    sarc_walk = (num("肌少症评估-2步行穿过房间是否存在困难，是否需要帮助？") >= 1) if "肌少症评估-2步行穿过房间是否存在困难，是否需要帮助？" in d.columns else False
-    sppb = (num("运动-总分") <= IC_CONFIG["sppb_cutoff"]) if "运动-总分" in d.columns else False
+    gait = (num("步态异常-编码") == 1) if "步态异常-编码" in d.columns else false_series()
+    walk_250 = (num("衰弱快速筛查量表-1您能步行250米么？") == 1) if "衰弱快速筛查量表-1您能步行250米么？" in d.columns else false_series()
+    sarc_walk = (num("肌少症评估-2步行穿过房间是否存在困难，是否需要帮助？") >= 1) if "肌少症评估-2步行穿过房间是否存在困难，是否需要帮助？" in d.columns else false_series()
+    sppb = (num("运动-总分") <= IC_CONFIG["sppb_cutoff"]) if "运动-总分" in d.columns else false_series()
 
     # Grip strength
     if "Fried衰弱表型评估-握力左手最大值" in d.columns or "Fried衰弱表型评估-握力右手最大值" in d.columns:
@@ -524,16 +527,16 @@ def build_ic_scores(df: pd.DataFrame) -> pd.DataFrame:
         sex = num("性别")
         grip_low = ((sex == 1) & (grip < IC_CONFIG["grip_male_low"])) | ((sex == 0) & (grip < IC_CONFIG["grip_female_low"]))
     else:
-        grip_low = False
+        grip_low = false_series()
 
     locomotion = gait | walk_250 | sarc_walk | sppb | grip_low
 
     # Cognition
-    cog = (num("认知-总分") < IC_CONFIG["cognition_cutoff"]) if "认知-总分" in d.columns else False
+    cog = (num("认知-总分") < IC_CONFIG["cognition_cutoff"]) if "认知-总分" in d.columns else false_series()
 
     # Psychological
-    psych_score = (num("心理-总分") >= IC_CONFIG["psych_cutoff"]) if "心理-总分" in d.columns else False
-    psych_dx = (num("是否焦虑抑郁症") == 1) if "是否焦虑抑郁症" in d.columns else False
+    psych_score = (num("心理-总分") >= IC_CONFIG["psych_cutoff"]) if "心理-总分" in d.columns else false_series()
+    psych_dx = (num("是否焦虑抑郁症") == 1) if "是否焦虑抑郁症" in d.columns else false_series()
     psych = psych_score | psych_dx
 
     d["IC_sensory"] = sensory.astype(int)
