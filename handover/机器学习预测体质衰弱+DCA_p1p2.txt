@@ -1,0 +1,101 @@
+Song and Liu BMC Geriatrics (2025) 25:1003 BMC Geriatrics
+https://doi.org/10.1186/s12877-025-06738-3
+RESEARCH Open Access
+Machine learning algorithms to predict frailty
+in older adults in China: a cross-sectional
+study
+Yanliqing Song1 and Yue Liu2*
+Abstract
+Objective To investigate the predictive value of Machine Learning (ML) for the occurrence of frailty in Chinese elderly
+and to identify significant factors associated with frailty.
+Methods This study utilized data from the 2020 China Health and Retirement Longitudinal Study (CHARLS), focusing
+on 7880 elderly individuals. Six machine learning (ML) algorithms were employed: Logistic Regression (LR), K-Nearest
+Neighbors (KNN), Support Vector Machine (SVM), Decision Tree (DT), LightGBM, and Random Forest (RF). The
+performance of these models was assessed using several metrics including the Area Under the Receiver Operating
+Characteristic Curve (AUC), sensitivity, specificity, Negative Predictive Value (NPV), Positive Predictive Value (PPV),
+and Decision Curve Analysis (DCA). To compare the differences in ROC curves among different models, the Delong
+test was applied, followed by Bonferroni correction to adjust for multiple comparisons and control for Type I error.
+Additionally, the Brier score was used to evaluate the calibration of the prediction model.Permutation Importance and
+SHAP analysis were conducted to interpret feature contributions.
+Results AUC values ranged from 0.722 to 0.816, with LightGBM achieving the highest predictive performance and
+demonstrating the greatest net benefit across different threshold probability ranges. Feature importance analysis
+revealed Multimorbidity, Depression, Self-rated Health, Social Events, and Drinking as the top predictors. Permutation
+Importance indicated differences in ranking between LightGBM and Random Forest, with SHAP analysis showing
+LightGBM’s ability to capture nonlinear effects, while Random Forest exhibited a more balanced global interpretation.
+Conclusion ML algorithms can effectively predict the occurrence of frailty in Chinese elderly and identify significant
+factors associated with frailty. For datasets with complex feature interactions, LightGBM is preferable, while Random
+Forest offers improved stability and variance control. These findings support ML-based frailty screening and
+intervention strategies for aging populations.
+Keywords Machine learning, Frailty, China, Elderly, Health promotion
+*Correspondence:
+Yue Liu
+lyuece@163.com
+1College of Sports, Nanjing Tech University, Nanjing, China
+2School of Athletic Performance, Shanghai University of Sport, Shanghai,
+China
+© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you
+give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the
+licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit h t t p : / / c e r a t i
+v e c o m m o n .s o r g / l i c e n s e s / y b - n c - n d / 4 . 0. /
+
+Song and Liu BMC Geriatrics (2025) 25:1003 Page 2 of 14
+Introduction
+for predicting frailty in the elderly indicates that, out of
+The aging population is accelerating worldwide, and 41 studies, only four studies were about Chinese elderly
+in Asia, China has become the country with the larg- people, which defined frailty in the elderly using the
+est number of elderly people. According to the seventh FRAIL scale, Fried, and FI respectively, and only one
+national census report released by the National Bureau study used the large sample data of CLHLS before 2019
+of Statistics of China, by the end of 2020, the popula- to construct FI [19].
+tion aged 60 and above in China reached 264 million, During the 2019 COVID-19 pandemic, countries
+accounting for 18.7% of the total population. By 2050, the adopted measures such as lockdowns and maintaining
+proportion of the elderly aged 65 and above is expected social distance to mitigate the spread of the virus. These
+to reach 30% of the total population [1]. According to measures disrupted individuals’ daily lives, including
+survey statistics, the average life expectancy of the elderly physical activity and sleep patterns, leading to a long-
+in China has increased from 77.3 years in 2019 to 78.2 term deterioration in the health status of the elderly [20].
+years in 2021. The healthy life expectancy of the elderly A narrative review study shows that COVID-19 indeed
+in China was 68.7 years in 2018, which means that these increases the degree of frailty in the elderly. Compared
+elderly people live with diseases for an average of 8–9 with the situation before the pandemic, the incidence
+years [2]. of frailty in the elderly population increased in the first
+Frailty is a recognized risk factor for adverse health out- and second years of the pandemic [21].The situation
+comes in the aging population [3]. Frailty is a transitional after COVID-19 shares common characteristics with the
+state between robust health and disability, characterized frailty syndrome. Similarly, neurological, cardiovascu-
+by fatigue, reduced muscle mass and strength, and other lar, and musculoskeletal diseases after COVID-19 may
+physiological function declines [4]. This is a reversible worsen functional status and lead to the manifestation
+dynamic pathological process and has become a signifi- and progression of frailty [22].
+cant challenge for healthy aging [5]. The global preva- In our current work, we analyzed the latest China
+lence of frailty ranges from 4.0% to 59.1%, and in China, Health and Retirement Longitudinal Study (CHARLS)
+it ranges from 7.0% to 28.0%, showing an increasing trend data obtained during the COVID-19 pandemic. We chose
+year by year [6, 7]. Adverse outcomes associated with this dataset because it best represents the frailty charac-
+frailty include poor quality of life, falls, fractures, func- teristics of the elderly population in China at this stage.
+tional decline and disability, hospitalization, and even Six ML models, including KNN, logistic regression, deci-
+death [8, 9]. However, if properly treated, frailty is revers- sion tree (DT), random forest (RF), LightGBM, and SVM,
+ible [10]. were established in order to predict frailty and identify
+The reversibility of frailty is an important factor that significant factors associated with frailty.
+promotes its early detection research. In fact, a tool that
+Research data and methods
+can detect frailty at an early stage, or even better, predict
+it, can greatly help us manage potential causes, which is Data sources
+crucial for preventing the elderly from developing more The data for this study are derived from the 2020 China
+severe diseases (such as disability). Machine Learning Health and Retirement Longitudinal Study (CHARLS), a
+(ML) is one of the most promising methods for develop- nationally representative social science survey [23]. This
+ing such tools [11]. Predictive models help identify high- comprehensive interdisciplinary survey is collaboratively
+risk groups before adverse events occur [12]. Recently, conducted by Wuhan University and Peking Univer-
+Machine Learning (ML) methods such as Support Vector sity. The CHARLS baseline survey spans 150 regions in
+Machines (SVM) and Random Forests (RF) are increas- China, including 450 villages and city communities, and
+ingly applied to predictive models and show better per- involves 10,257 households encompassing 17,708 indi-
+formance than traditional methods [13, 14], significantly viduals, reflecting the overall conditions of the elderly
+reducing the manpower costs of healthcare [15]. population in China. To ensure the representativeness of
+We already know that frailty screening tools vary based the sample, a multi-stage PPS random sampling method
+on different definitions of frailty [16]. There are essen- based on implicit stratification was employed [24].
+tially two understandings of frailty; one view considers All experimental methods in this study adhered to the
+it as a wasting syndrome (weight loss, reduced activity, principles outlined in the Declaration of Helsinki and
+slower gait speed, weaker grip strength, and fatigue), with the guidelines established by the relevant ethics review
+the most commonly used definition of frailty being FFP committees. Data collection, processing, and analysis
+[17]. Another view considers frailty as an accumulation were conducted in accordance with internationally rec-
+of deficits [18], with the most commonly used defini- ognized standards and best practices in the field. The
+tion of frailty being FI, a more comprehensive approach. study received approval from the Biomedical Ethics
+Moreover, a recent review of machine learning systems Committee of Peking University (IRB00001052-11015).

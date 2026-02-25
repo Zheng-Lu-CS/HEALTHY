@@ -1,0 +1,105 @@
+Guo et al. BMC Geriatrics (2024) 24:1008 BMC Geriatrics
+https://doi.org/10.1186/s12877-024-05583-0
+RESEARCH Open Access
+Intrinsic capacity and its association
+with predictors among Chinese empty nest
+older adults in communities: a latent class
+analysis
+Wenxin Guo1†, Lina Meng1†, Junzhe Han1, Bin Yang1, Jiayu Sun1, Yuting Guo2, Jiawei Wu3 and Yang Liu1*
+Abstract
+Objectives This study aimed to examine Intrinsic Capacity (IC) subgroups and the association of IC subgroups
+with IC predictors in Chinese urban empty nesters.
+Methods A convenient sample of 385 older adults aged 60 and above in Community Health Service Center
+was recruited from Hei Longjiang Province, China, between June 2023 and December 2023. Latent class Analysis (LCA)
+was conducted to explore IC subgroups using the sensory, cognition, locomotion, psychological, and vitality domains
+of IC as input variables. Multinomial logistic regression was performed to explore the association between latent
+subgroups and the IC predictors.
+Results We identified three IC subgroups: "Low IC level—Low locomotion domain"(33.5%), "Medium IC level—Low
+sensory domain" (16.9%) and "High IC level" (49.6%). Being young, married, without multimorbidity, receiving visits
+from children ≥ 1 time per week, a low score of self-neglect, a high score of social networking, and a low score of lone-
+liness were closely correlated to the "High IC level" subgroup of empty-nest older adults in communities.
+Conclusion The potential subgroups of the IC of empty-nest older adults in communities can be identified
+through five IC domains. The older empty-nesters should pay extra attention to their critical IC predictors. Commu-
+nity medical staff and other workers should provide intervention measures for different subgroups of older adults
+to improve their IC in an effective and individualized manner.
+Keywords Older adults, Intrinsic capacity, Health ecology model, Influencing factors, Latent class analysis
+Background
+In today’s world, aging has become an increasingly seri-
+ous public issue, and public healthcare is facing major
+†Wenxin Guo and Lina Meng contributed equally to this work.
+challenges [1]. China has now become one of the coun-
+*Correspondence:
+tries with the severest aging population. According to the
+Yang Liu
+hmuliuyang@163.com seventh national census data, as of 2020, there are at least
+1 Department of Nursing, Daqing Campus, Harbin Medical University, 39 145 million empty-nest older adults in China, accounting
+Xinyang Road, Daqing 163319, China
+for 55.68% of the total older population [2]. Studies have
+2 Sartu District Dongfeng Street Community Health Service Center,
+Building 2-54, Xincun District 2, Daqing, Sartu District 163001, China shown that compared to non-empty-nest older people,
+3 Department of Basic Medicine, Harbin Medical University, 39 Xinyang empty-nest older adults are more prone to problems such
+Road, Daqing, Daqing Campus 163319, China
+as falls, cognitive decline, and depression [3–5]. Their
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if
+you modified the licensed material. You do not have permission under this licence to share adapted material derived from this article or
+parts of it. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+
+Guo et al. BMC Geriatrics (2024) 24:1008 Page 2 of 11
+functional status is far inferior to that of non-empty-nest Previous researchers have primarily focused on the
+older adults, and their disability and mortality rates are relationship between IC scores of the older adults and
+also higher, not to mention the increasing phenomenon individual variables. Unfortunately, they mostly employ
+of dying alone [6, 7]. Therefore, the need for empty-nest traditional variable-centered regression analysis meth-
+older adults to maintain and improve their functional ods, ignoring the multi-dimensional structure and sam-
+abilities has become particularly urgent. How to effec- ple heterogeneity of IC, which may hamper precise and
+tively enhance and improve their functional abilities has personalized intervention programs [19, 20]. Fortunately,
+become a key challenge for empty-nest older adults. latent class analysis (LCA) can identify and describe the
+Intrinsic capacity (IC) represents the sum of the mental underlying subgroups within the overall sample, thereby
+and physical capabilities that older individuals can utilize classifying the samples with potential heterogeneity into
+at any given time. As a multidimensional construct, IC more meaningful subgroups [21, 22]. Additionally, this
+comprises sensory, cognition, locomotion, psychologi- method allows for the identification of the most in-need
+cal, and vitality domains, which interact and influence population and the determination of intervention targets
+each other, forming the foundation for the functioning of within the five domains of IC. Therefore, statistical meth-
+the older adults [8]. The risk of IC damage and various ods of LCA can be used to identify potential subgroups
+adverse outcomes are closely related. For example, a lon- of empty-nest older individuals, in order to gain a deeper
+gitudinal aging study analysis has indicated that higher understanding of the differences in influential factors
+IC is associated with reduced risk of falls [9]. Other among these subgroups.
+studies have found that a decrease in IC is associated Overall, the current research on the factors influencing
+with a decrease in quality of life, an increased risk of dis- the IC of empty-nest older adults in Chinese communi-
+ability [10], an increased risk of hospitalization [11], an ties lacks comprehensive and in-depth exploration. To
+increased incidence of frailty [12], and an increased mor- the best of our knowledge, there has been no research
+tality rate [13], consistent with cohort studies from Hong that applies the LCA method to the exploration of the
+Kong [14]. It can be seen that improving IC is crucial for IC of empty-nest older adults in Chinese communities.
+the health and life of the older adults, and how to main- Therefore, our understanding of the potential subgroups
+tain and improve IC in the older adults has become an of IC among empty nesters is extremely limited, which
+increasingly important factor in nursing practices. greatly hinders the provision of personalized and differ-
+Due to the multidimensional structure described above, entiated care services for this population. This study aims
+IC may be influenced by multiple factors. Most existing to use latent class analysis (LCA) to explore the under-
+literatures have focused on the influencing factors of IC lying subgroups of community-dwelling empty nesters
+among older adults in the community, confirming that, and to construct the health ecology model to compre-
+among others, personal factors, disease conditions, life- hensively and systematically assess the influential fac-
+style habits are closely related to IC [14–17]. Although tors of the IC of these individuals. These factors include
+these studies have gradually enriched the understand- personal characteristics (such as age, gender and multi-
+ing of the influencing factors of IC in older adults in the morbidity), psychological behaviors (such as smoking,
+community, the selection of influencing factors in a sin- drinking, self-neglect, loneliness), interpersonal networks
+gle study is not comprehensive enough, and there are (marital status, social networks, frequency of visits from
+still certain theoretical shortcomings. More importantly, children), work and living conditions (educational level,
+the exploration of the influencing factors of IC in empty monthly income), and policy environment (type of medi-
+nest older adults is relatively rare. This study attempts to cal insurance). Therefore, this study is expected to pro-
+explore the influencing factors of IC in empty-nest older vide scientific evidence for healthcare professionals and
+adults in a more comprehensive and multidimensional community workers to develop multifaceted and per-
+manner through the health ecology model. The health sonalized intervention measures, in order to effectively
+ecology model consists of five layers from the inside to prevent or delay the decline of IC in community-dwelling
+the outside, namely personal traits layer, psychological older adults, thereby improving their functional status,
+behavior layer, interpersonal network layer, work and liv- reducing the occurrence of adverse events, and enhanc-
+ing conditions layer, and policy environment layer [18]. ing their quality of life.
+The factors contained in these five layers interact with
+Methods
+each other and jointly affect human health. The health
+ecology model takes into account both remote and proxi- Design
+mal factors influencing human health, and is a compre- We employed convenient sampling method in the cross-
+hensive thinking model that guides public health events. sectional study, to investigate community-dwelling

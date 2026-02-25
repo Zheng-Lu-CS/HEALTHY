@@ -1,0 +1,111 @@
+1346433
+research-article2025 JPCXXX10.1177/21501319251346433Journal of Primary Care & Community HealthSun et al
+Original Research
+Journal of Primary Care & Community Health
+Intrinsic Capacity of Chinese Volume 16: 1–10
+© The Author(s) 2025
+Article reuse guidelines:
+Community-Dwelling Older Adults
+sagepub.com/journals-permissions
+httpDs:O//dIo: i1.o0r.g1/1107.711/2717/52011530113912952153134466443333
+Using WHO Integrated Care for Older journals.sagepub.com/home/jpc
+People (ICOPE) Framework: Structural
+Equation Model Analysis
+Junjun Sun1,2 , Kwanjai Amnatsatsue1 , Patsri Srisuwan3,
+Patcharaporn Kerdmongkol1 , and Dechavudh Nityasuddhi4
+Abstract
+Objective: This study aimed to examine the intrinsic capacity in Chinese older adults and its determinants (sociodemographic,
+lifestyle-related, environmental, and health-related factors) based on the WHO Integrated Care for Older People (ICOPE)
+framework.
+Methods: A cross-sectional community-based study was conducted among 485 community-dwelling older adults recruited
+from 4 community health service centers in Xinxiang City, Henan Province between August 2024 and February 2025.
+Intrinsic capacity was assessed across 5 domains: locomotion, cognition, vitality, psychology, and sensory capacity (hearing
+and vision). Structural equation model (SEM) was used to examine relationships among intrinsic capacity, sociodemographic
+factors, lifestyle, family support, social participation, healthcare access, and health conditions.
+Results: More than a half of subjects were female (61.2%), married (84.7%), having less than high school education (52%),
+with a mean age of 73.7 years (SD = 5.5). About 55.9% showed intrinsic capacity impairment, with most impairment of
+cognition (49.9%), followed by vision (44.9%), hearing (23.7%), locomotion (22.5%), vitality (18.1%), and psychological
+capacity (13%). The SEM demonstrated good fit and explained 83% of the variance in intrinsic capacity. Significant
+determinants, ranked by effect size, included dietary habits (β = .544), age (β = −.303), pain (β = −.240), handgrip strength
+(β = .205), social participation (β = .181), access to healthcare services (β = .138), hospitalization (β = −.10), and physical
+exercise (β = .089). All paths in the model were statistically significant ( p ` 0.05).
+Conclusions: The SEM analysis demonstrated that dietary habits, handgrip strength, social participation, access to
+healthcare services, and physical exercise were positively associated with intrinsic capacity, while age, pain, and hospitalization
+showed negative associations. These findings suggest that primary care approaches focusing on multi-domain interventions,
+particularly health promotion, self-care, and early screening, may be promising areas for future public health initiatives.
+Community-based programs integrating these modifiable factors should be prioritized to promote intrinsic capacity and
+functional independence among Chinese community-dwelling older adults.
+Keywords
+intrinsic capacity, Chinese older adults, ICOPE framework, structural equation model, primary healthcare
+Received: March 27, 2025; revised: May 9, 2025; accepted: May 12, 2025
+Introduction socioeconomic burden on healthcare systems was closely
+linked to increased prevalence of multimorbidity and dis-
+Population aging presents unprecedented challenges to
+ability in populations with high life expectancy. However,
+global health and social care systems, with the proportion of
+traditional disease-centered approaches to aging research
+adults aged 60 years and older projected to increase from
+have proven insufficient, as the absence of disease does not
+12% to 22% between 2015 and 2050.1 The rising
+necessarily indicate healthy aging.2 In response to this
+Creative Commons Non Commercial CC BY-NC: This article is distributed under the terms of the Creative Commons
+Attribution-NonCommercial 4.0 License (https://creativecommons.org/licenses/by-nc/4.0/) which permits non-commercial use,
+reproduction and distribution of the work without further permission provided the original work is attributed as specified on the SAGE and Open
+Access pages (https://us.sagepub.com/en-us/nam/open-access-at-sage).
+
+2 Journal of Primary Care & Community Health
+evolving healthcare landscape, the WHO introduced a adults rely on family-based care and 7% on community-
+groundbreaking model in 2015 that shifts emphasis from based services, highlighting the critical role of family and
+disease-centered to function-centered paradigms.3 This community support.12 Additionally, research has demon-
+model defines healthy aging as “the process of developing strated that health service access—including geographic
+and maintaining functional ability that enables well-being accessibility, service availability, and financial affordabil-
+in older age.” Central to this model is intrinsic capacity— ity—significantly impacted health outcomes in older popu-
+the composite of all physical and mental capacities that lations.13 Despite their importance, these environmental
+individuals draw upon throughout their life course—encom- determinants remain understudied in current research.
+passing 5 key domains: locomotion, vitality, cognition, psy- Compared to general regression analysis, structural equa-
+chological well-being, and sensory function.4 tion modeling (SEM) offers distinct advantages14 by
+The WHO has published the Integrated Care for Older enabling the examination of interdependent relationships
+People (ICOPE) framework to guide assessing and promot- among multiple influencing factors and their simultaneous
+ing intrinsic capacity of older adults.5 Within ICOPE, the impacts on intrinsic capacity. Furthermore, SEM allows
+assessment of intrinsic capacity involves in-depth evaluation intrinsic capacity to be conceptualized as a latent variable
+across 5 domains using standardized measurements. This measured through 5 domains, which aligns with the theo-
+approach serves as a valuable tool for promoting healthy retical framework of intrinsic capacity as a holistic con-
+aging by identifying and addressing declines in intrinsic struct. Moreover, existing studies have disproportionately
+capacity, thereby facilitating more person-centered and focused on either economically advantaged urban centers
+effective interventions. A decline in 1 or more of the 5 like Beijing or economically disadvantaged rural areas,15,16
+domains is considered to constitute intrinsic capacity impair- with limited evidence from medium-sized Chinese cities.
+ment. A recent meta-analyze has revealed concerning preva- As a third-tier city in central Henan, Xinxiang represents an
+lence rates, with 67.8% of community-dwelling older adults intermediate level of economic development. Furthermore,
+globally and 66.0% in China experiencing intrinsic capacity its demographic structure closely mirrors Henan Province’s
+impairment.6 This impairment triggers a broad spectrum of aging pattern, with 17.68% of its 6.17 million permanent
+adverse outcomes, including functional decline, frailty, mor- residents aged 60 years and above, and 13.04% aged
+tality, poor quality of life, and so on.7 Identifying key deter- 65 years and above, perfectly aligned with provincial aver-
+minants that influence intrinsic capacity is therefore essential age.17 Therefore, this study selected Xinxiang City in Henan
+for developing targeted screening protocols and interven- Province as the research location, filling a critical research
+tions that mitigate functional decline, preserve indepen- gap between China’s economically advantaged urban cen-
+dence, and optimize quality of life among older adults. ters and disadvantaged rural areas.
+Recent studies have explored various factors associated This study, adopting the WHO ICOPE framework,
+with intrinsic capacity among community-dwelling older assessed intrinsic capacity impairment and investigated the
+adults, primarily focusing on sociodemographic character- relationships among intrinsic capacity, sociodemographic
+istics (eg, advanced age and education), lifestyle behaviors factors, lifestyle behaviors, family support, social participa-
+(eg, tobacco use and alcohol consumption), and health indi- tion, healthcare access, and health conditions using SEM.
+cators (eg, comorbidity and handgrip strength).8,9 However, The research was conducted among community-dwelling
+a critical limitation persisted: most studies have inade- older adults in Xinxiang City, Henan Province.
+quately addressed environmental influences on intrinsic
+capacity.10 The International Classification of Functioning,
+Methods
+Disability and Health (ICF) framework highlights environ-
+mental contexts as significant contributors to intrinsic
+Design and Sample
+capacity, emphasizing the dynamic interaction between
+these external factors and individual health conditions.11 This cross-sectional study involved older adults from
+This consideration is particularly relevant in China, where Xinxiang City who were selected through a multi-stage clus-
+the “90-7-3 model” indicates approximately 90% of older ter sampling approach. First, all 4 administrative districts of
+1Mahidol University, Bangkok, Thailand
+2XinXiang Medical University, Henan, China
+3Phramongkutklao Hospital, Bangkok, Thailand
+4Independent Scholar, Bangkok, Thailand
+Corresponding Author:
+Kwanjai Amnatsatsue, Department of Public Health Nursing, Faculty of Public Health, Mahidol University, 420/1 Ratchawithi Road., Thung Phaya Thai,
+Ratchathewi, Bangkok 10400, Thailand.
+Email: Kwanjai.amn@mahidol.ac.th

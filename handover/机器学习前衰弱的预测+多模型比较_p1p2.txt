@@ -1,0 +1,106 @@
+Sajeev et al. BMC Geriatrics (2022) 22:794
+https://doi.org/10.1186/s12877-022-03475-9
+RESEARCH Open Access
+Machine learning models for identifying
+pre-frailty in community dwelling older adults
+Shelda Sajeev1,2,3*, Stephanie Champion4, Anthony Maeder3,4 and Susan Gordon4
+Abstract
+Background: There is increasing evidence that pre-frailty manifests as early as middle age. Understanding the factors
+contributing to an early trajectory from good health to pre-frailty in middle aged and older adults is needed to inform
+timely preventive primary care interventions to mitigate early decline and future frailty.
+Methods: A cohort of 656 independent community dwelling adults, aged 40–75 years, living in South Australia,
+undertook a comprehensive health assessment as part of the Inspiring Health cross-sectional observational study.
+Secondary analysis was completed using machine learning models to identify factors common amongst participants
+identified as not frail or pre-frail using the Clinical Frailty Scale (CFS) and Fried Frailty Phenotype (FFP). A correlation-
+based feature selection was used to identify factors associated with pre-frailty classification. Four machine learning
+models were used to derive the prediction models for classification of not frail and pre-frail. The class discrimination
+capability of the machine learning algorithms was evaluated using area under the receiver operating characteristic
+curve (AUC), sensitivity, specificity, precision, F1-score and accuracy.
+Results: Two stages of feature selection were performed. The first stage included 78 physiologic, anthropometric,
+environmental, social and lifestyle variables. A follow-up analysis with a narrower set of 63 variables was then con-
+ducted with physiologic factors associated with the FFP associated features removed, to uncover indirect indicators
+connected with pre-frailty. In addition to the expected physiologic measures, a range of anthropometric, environ-
+mental, social and lifestyle variables were found to be associated with pre-frailty outcomes for the cohort. With FFP
+variables removed, machine learning (ML) models found higher BMI and lower muscle mass, poorer grip strength and
+balance, higher levels of distress, poor quality sleep, shortness of breath and incontinence were associated with being
+classified as pre-frail. The machine learning models achieved an AUC score up to 0.817 and 0.722 for FFP and CFS
+respectively for predicting pre-frailty. With feature selection, the performance of ML models improved by up to 7.4%
++
+for FFP and up to 7.9% for CFS.
++
+Conclusions: The results of this study indicate that machine learning methods are well suited for predicting pre-
+frailty and indicate a range of factors that may be useful to include in targeted health assessments to identify pre-
+frailty in middle aged and older adults.
+Keywords: Aged, Machine Learning, Elderly, Frailty/diagnosis, Geriatric Assessment, Pre-frailty
+Background
+Frailty is a geriatric syndrome associated with impair-
+ments to multiple interrelated physiological systems. It
+*Correspondence: shelda.sajeev@flinders.edu.au results in decreased resilience, increased vulnerability to
+1 School of Business and Information Systems, Torrens University, 88 Wakefield stressors [1, 2], poorer health outcomes [3] and increased
+St, Adelaide, SA 5000, Australia morbidity and mortality [4]. It is preceded by pre-frailty,
+Full list of author information is available at the end of the article
+a transitional period where individuals are at a greater
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+
+Sajeev et al. BMC Geriatrics (2022) 22:794 Page 2 of 12
+risk of hospitalization, disability and death, but are more health care policy for older people, and improved pre-
+likely to return to good health than those who’ve already dictions of health service use patterns. However, further
+progressed to a frail state [4]. investigation of the validity of pre‐frailty criteria meas-
+In Australia, approximately 50% of people aged 65 years ures is needed to determine the applicability for people
+and older are classified as pre-frail [5]. As the average younger than 65 years.
+lifespan increases and the population ages, the number This study investigates physiological, anthropomor-
+of Australians at risk of becoming pre-frail or frail also phic, environmental, social and lifestyle factors that may
+rises, contributing to significant morbidity and mortal- be associated with pre-frailty outcomes, using machine
+ity, as well as increased health care costs [6]. This trend learning (ML) approaches. ML is a well-known compu-
+is occurring globally. A recent systematic review found tational technique that offers a means to construct accu-
+there was a high risk of frailty and pre-frailty in commu- rate and reliable prediction tools, and to identify the
+nity dwelling adults across 28 countries [7]. key indicators contributing to the risk of pre-frailty and
+Although frailty is often associated with older age it is frailty. ML is a branch of artificial intelligence that is used
+not a natural or inevitable consequence of growing older for data analysis and comprises of numerous algorithms
+[8]. Frailty results from cumulative exposures across the capable of learning from the data, identifying patterns
+life course [9], so while the prevalence of frailty increases and transforming data into knowledge with minimal or
+exponentially across the adult lifespan, the precursors no human intervention [21].
+can manifest before middle age [10]. During the pre- Based on the outcomes of a comprehensive set of
+frailty period there is an opportunity to intervene to health assessments, four of the most popular ML algo-
+reduce adverse outcomes, but early indicators of a transi- rithms were used to identify differences amongst indi-
+tion into frailty are often detected too late [11, 12]. viduals classified as not frail and pre-frail using the CFS
+Known physiological factors contribute to pre-frailty [18] and FFP [17].
+and frailty, but the impact of environmental, social and
+Methods
+modifiable lifestyle factors on ageing trajectories is less
+established [13, 14]. A better understanding of the inter- Study design, participants, and features
+related risk factors contributing to pre-frailty will provide The Inspiring Health study population comprised of 656
+insight to develop more effective primary health care volunteers aged 40–75 years, living independently in one
+interventions to delay or prevent adverse decline and large Australian metropolitan city. The cohort included
+improve the health and independence of people as they more women than men (66.8% women) and the average
+age [15]. There is a growing interest amongst policymak- age was 59.9 years (SD 10.6). Details of the participant
+ers and health care services to recognise determinants demographics, study recruitment, inclusion and exclu-
+associated with becoming frail earlier and provide pre- sion criteria, and methodology for data collection has
+ventative interventions [16]. There is some evidence to been published previously [15]. Health assessments were
+show the effectiveness of programs to reverse pre-frailty performed in accordance with relevant guidelines and
+[4]. Strategies to reliably identify and intervene in early regulations.
+stages of pre-frailty will assist community dwelling adults Participants completed online surveys assessing men-
+to preserve their independence for longer [6]. tal, social and physical health, medical history and health
+Broadly, tools used for early identification of frailty behaviours; and attended an extensive health assessment
+indicators include objective performance-based meas- session to collect objective measures of anthropometry
+ures of physical function, such as the Fried Frailty Phe- and physiological measures. A complete list of the health
+notype (FFP) [17], subjective clinical classifications, such assessments collected as part of the Inspiring Health
+as the Clinical Frailty Scale (CFS) [18], and self-report study, and the management of these assessments have
+measures, such as the Edmonton Frail Scale [19]. His- been reported [15].
+torically these tools were utilized with older people after A summary of the cohort characteristics, health meas-
+admission to hospitals or residential facilities, but more ures and assessments used in the analysis is outlined
+recently, they have been validated for identifying pre- below (Table 1). A detailed description of how these fea-
+frailty indicators in middle-aged, community dwelling tures were defined is also provided in Additional file 1:
+adults [20]. Appendix A.
+Increased screening of environmental, social and
+lifestyle factors contributing to frailty and pre-frailty Outcome measures
+amongst middle-aged individuals will assist in devel- The outcome measures used to categorise not frail
+oping more accurate modelling of predictors of frailty, and pre-frailty was the CFS and FFP. As it was possi-
+more efficient clinical practice guidelines, better targeted ble to collect objective measures of physical function,

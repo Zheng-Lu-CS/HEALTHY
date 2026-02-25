@@ -1,0 +1,107 @@
+Lu et al. Archives of Public Health (2025) 83:313 Archives of Public Health
+https://doi.org/10.1186/s13690-025-01782-2
+RESEARCH Open Access
+Prevalence and associated factors of intrinsic
+capacity based on Andersen Model among
+older adults: a national cross-sectional study
+in China
+Fengling Lu1†, Wenbin Zou1†, Yi Li1, Wei Wei2, Xiaolin Wei3* and Guanyang Zou1*
+Abstract
+Background Extensive evidence indicates intrinsic capacity (IC) as a strong predictor for health outcomes.
+Identifying conditions associated with IC impairment provides an opportunity to intervene to slow down, stop or
+reverse the declines. However, current evidence on factors affecting IC remains limited and inconsistent. This study
+aimed to identify factors associated with IC and the degree of IC impairment in older adults, thereby assisting in the
+development of comprehensive intervention strategies to mitigate the IC impairment.
+Methods We analyzed data of 10,654 participants sourced from the fifth wave of the Chinese Longitudinal Healthy
+Longevity Survey (2020). Chi-square tests, and multinomial logistic regression analysis were employed to analyze the
+possible variables associated with IC impairment based on Andersen Model.
+Results 10,617 participants were included into this study, and 86.9% of them have impairment in at least one
+dimension of IC. We identified 18 factors based on Andersen Model and 14 of them were associated with IC
+impairment. In the predisposing characteristics dimension of Andersen Model, older adults particularly those
+aged ≥ 80 years exhibited higher risk of IC impairment than those aged 60–69 years. Individuals living in urban
+areas, educated, drinking less than once a month, using the internet, and having social participation were less likely
+to experience IC impairment. In the enabling resources dimension of Andersen Model, individuals with access to
+pension, medical insurance, work, and spousal emotional support exhibited lower risk of IC impairment. In the
+need factors dimension of Andersen Model, individuals who self-rated their health as poor, and those with pain and
+multimorbidity exhibited higher risk of IC impairment. Individuals sleeping 5–7 h per night demonstrated a lower risk
+of IC impairment relative to more than 7 h.
+Conclusion More than half of the older adults exhibited varying degrees of IC impairment in China. Governments
+and community health systems should implement programs promoting rural urbanization, digital literacy, social
+†Fengling Lu and Wenbin Zou are contributed equally.
+*Correspondence:
+Xiaolin Wei
+xiaolin.wei@utoronto.ca
+Guanyang Zou
+Gzou2023@outlook.com
+Full list of author information is available at the end of the article
+© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you
+give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the
+licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit h t t p : / / c e r a t i
+v e c o m m o n .s o r g / l i c e n s e s / y b - n c - n d / 4 . 0. /
+
+Lu et al. Archives of Public Health (2025) 83:313 Page 2 of 11
+participation, and equitable allocation of medical insurance and pension resources to mitigate IC impairment in older
+adults.
+Keywords Intrinsic capacity, Andersen Model, Associated factors, Healthy aging
+that services should be delivered based on the needs
+Text box 1. Contributions to the literature of older adults rather than the necessity of the services
+• This study identified factors associated with intrinsic capacity of older themselves [15]. The Andersen Model [16, 17] addresses
+adults based on Andersen Model with data generated from Chinese service delivery from a demand rather than supply-side
+Longitudinal Healthy Longevity Survey (2020), addressing the issue of
+perspective [18], aligning closely with WHO principles. It
+single perspectives in existing research on this topic.
+encompasses three dimensions: predisposing characteris-
+• Predisposing characteristics exemplified by age, living area, internet
+usage, enabling resources like working, pension, and medical insur- tics, enabling resources, and need factors. Based on the
+ance, and need factors including self-rated health, pain, comorbidities Andersen Model, it is possible to identify factors influ-
+and nocturnal sleep duration were associated with intrinsic capacity encing healthcare resource utilization, which may affect
+impairment.
+IC in turn. This facilitates the development of compre-
+• Governments and community health systems should implement pro-
+hensive interventions to mitigate IC impairment.
+grams promoting rural urbanization, digital literacy, social participation,
+China has the largest older population globally [19],
+and equitable allocation of social resources to mitigate IC impairment
+in older adults. making research on IC of older adults in this country par-
+ticularly representative. Therefore, we conducted a study
+on the elderly population in China to assess the preva-
+Introduction
+lence and identify factors associated with IC impairment
+The demographic transition is one of the most challeng- based on Andersen Model. We hypothesized that factors
+ing developments in our modern world [1]. In 2020, 9% such as predisposing characteristics, enabling resources,
+of the world’s population was 65 years and older, and by and need factors would be independently associated with
+2050, one in six people in the world will be over the age IC impairment among older adults.
+of 65 [2]. With the possibility of differences in individual
+Methods
+aging rates and the constantly increasing lifespans, the
+idea of healthy aging as an optimal biological, sociologi- Theoretical framework
+cal and physiological development throughout life arose This study was underpinned by the Health Care Utili-
+[1]. The World Health Organization (WHO) published an zation Model originally propounded by Andersen and
+action plan, “Decade of healthy aging 2020 ~ 2030”, which Newman [20], which was referred to as the “Andersen
+calls for ten years of concerted, catalytic, sustained col- Model”. There are three key elements in the Andersen
+laboration [3, 4]. And the WHO also outlines a model of Model: predisposing characteristics, enabling resources,
+healthy aging in 2015 with three primary factors: intrinsic and need factors [21]. Predisposing characteristics are
+capacity, functional ability, and environment [5]. Intrin- primarily an individual’s innate or acquired character-
+sic capacity (IC) is the core of healthy aging, which is istics such as demographic, social structure, and health
+defined as “all the physical and mental capacities that an beliefs to use medical and health services before the
+individual can draw on at any point” [5]. Five domains for onset of disease. Enabling resources refer to the resources
+measurements of IC were developed: locomotion, vitality, possessed by individuals, families, and communities that
+cognition, psychological and sensory capacities (includ- enhance the likelihood of those in need seeking or utiliz-
+ing hearing and vision) [6]. In general, an individual’s IC ing relevant services. Need factors represents both self-
+peaks in early adulthood and then gradually decreases perceived and evaluated need for health service [22–24].
+as they get older [7]. Variation in IC is far greater across Andersen Model is a multilevel theory primarily
+people in older age than across younger groups, and such applied to services utilization studies across various
+diversity is one of the hallmarks of ageing [8]. fields such as sociology, medicine, public health, and psy-
+The prevalence of IC impairment in older adults world- chology [25]. In recent years, this model has also been
+wide is 67.8% [9]. Though measurements of IC and deri- employed in research examining determinants of health-
+vation of the summative index score are heterogeneous related issues to identify key variables, such as the factors
+[10, 11], extensive evidence indicates IC as a strong pre- influencing health literacy [26] and health poverty vul-
+dictor for health outcomes, including disability, activities nerability [22]. In this study, Andersen Model presents a
+of daily living, recurrent falls, emergency department theoretical framework for a comprehensive understand-
+visits, quality of life, even mortality [12–14]. The WHO ing of the factors associated with IC impairment in older
+advocates for integrated care for older people (ICOPE) adults.
+to prevent and mitigate the decline in IC, emphasizing

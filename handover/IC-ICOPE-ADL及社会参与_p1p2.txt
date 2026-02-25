@@ -1,0 +1,117 @@
+Leung et al. BMC Geriatrics (2022) 22:304
+https://doi.org/10.1186/s12877-022-02980-1
+RESEARCH Open Access
+Intrinsic capacity of older people
+in the community using WHO Integrated
+Care for Older People (ICOPE) framework:
+a cross-sectional study
+Angela Y. M. Leung1,2,3 , Jing Jing Su1,2,3 , Elsa S. H. Lee4, Jeff T. S. Fung3 and Alex Molassiotis1,3*
+Abstract
+Background: The World Health Organization (WHO) published the Integrated Care for Older People (ICOPE) frame-
+work to guide assessing and promoting intrinsic capacity of older adults. This study, adopting the WHO ICOPE frame-
+work, assessed the intrinsic capacity impairment and investigated the relationship among intrinsic capacity, social
+engagement, and self-care capacity on performing activities of daily living. It also assessed the sensitivity of the initial
+brief screening and the detailed full assessment.
+Methods: This is a cross-sectional study conducted in 11 community centers in Hong Kong. Intrinsic capacity was
+assessed in two steps identical to WHO ICOPE handbook: using WHO ICOPE brief screening tool (step 1) and detailed
+full assessment (step 2) to assess the intrinsic capacity domains of locomotion, cognition, vitality, psychological well-
+being, and sensory capacity (hearing and vision). Structural equational modeling analysis was used to examine the
+relationship among intrinsic capacity, social engagement, and self-care capacity, and the mediating role of intrinsic
+capacity in the relationships.
+Results: A total of 304 older adults with a mean age 76.73 (SD 7.25) years participated in WHO ICOPE Step 1 brief
+=
+screening, and 221 participants (72.7%) showed intrinsic capacity impairment. After completing Step 2 full assess-
+ment, 202 participants (66.4%) had one or more impaired intrinsic capacity domains. The overall sensitivity and
+specificity of the screening tool were 95% and 57.6% respectively, whereas the sensitivity of each domain ranged
+from 74.7% to 100%. The percentage of impairment in locomotion (117, 39.8%), cognition (75, 25.5%), psychological
+well-being (34, 11.6%), vision (75, 24.7%), hearing capacity (82, 27.9%), and vitality (8, 2.7%). People in younger old
+age (β -0.29, p < 0.001), with more education (β 0.26, p < 0.001), and absence of hypertension (β -0.11, p < 0.05)
+= = =
+were more likely to have better intrinsic capacity. Intrinsic capacity was positively associated with self-care capacity in
+performing activities of daily living (β 0.21, p < 0.001) and social engagement (β 0.31, p < 0.001).
+= =
+Conclusions: The ICOPE screening tool is a sensitive instrument to detect intrinsic capacity impairment among
+community-dwelling older adults and it does not demand substantial workforce; its use is worthy to be supported.
+The intrinsic capacity impairment in community-dwelling older adults are prevalent, in particular, in locomotor and
+*Correspondence: alex.molasiotis@polyu.edu.hk
+3 School of Nursing, The Hong Kong Polytechnic University, Hong Kong
+SAR, China
+Full list of author information is available at the end of the article
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+
+Leung et al. BMC Geriatrics (2022) 22:304 Page 2 of 12
+cognitive capacity. Actions should be taken to slow or prevent the impairment, support self-care and social engage-
+ment in old age.
+Keywords: ICOPE, Intrinsic capacity, Older adults, Healthy aging, Integrated care
+Background Previous studies [8, 9] provide important insights on
+The world population is aging rapidly and the popula- the role of intrinsic capacity for older adults; however,
+tion of older adults is projected to rise from one bil- more primary studies that adopt ICOPE within differ-
+lion to 2.1 billion from 2019 to 2050 [1]. The worldwide ent contexts and healthcare systems from screening, full
+average healthy life years at the age of 60 years ranged assessment, care planning, and referral are needed. Still,
+widely between 9.79 in Lesotho to 20.39 in Japan, there is less agreement on how the domains of intrinsic
+implying distinctively diversified health conditions for capacity should be screened and assessed, and inter-
+older adults [2]. Thus, the World Health Organization national validation studies are ongoing particularly as
+(WHO) has released the World Report on Ageing and Step 2 full assessment is often lacking. The prevalence of
+Health to reframe and re-orientate global action for intrinsic capacity impairment, to be evaluated by WHO
+healthy aging [3]. Step 2 full assessment, remains unclear although this
+The World Report took a capacity-based approach assessment is using reliable and validated instruments.
+to frame healthy aging as a process of maintaining Thus, this study aims to assess the level of intrinsic capac-
+and promoting intrinsic capacity instead of merely the ity among community-dwelling older adults and examine
+absence of illnesses. To better operationalize the intrin- its relationship with self-care capacity and social engage-
+sic capacity concept, a novel model of integrated care ment. More specifically, the study aimed to answer:
+for older adults (ICOPE) was published by WHO [4].
+Central to the ICOPE model is assessing and promot- a. What is the level of intrinsic capacity impairment in
+ing intrinsic capacity, namely the locomotion, cogni- community-dwelling Chinese older adults in Hong
+tion, psychological well-being, vitality, sensory (visual Kong?
+and hearing) capacity, and the social and physical envi- b. What is the sensitivity and specificity of WHO
+ronment an individual engages with to contribute to ICOPE Step 1 screening tool in detecting intrinsic
+healthy aging [5]. capacity impairment when using ICOPE Step 2 full
+Improving older adults’ intrinsic capacity has several assessment as gold standard?
+health implications. It considers capacity change as a c. What role does intrinsic capacity play in the relation-
+continuum through a life course and advocates pursu- ship with self-care capacity, social engagement and
+ing optimal functional conditions for all older adults with demographic factors?
+or without illnesses [6]. It also acknowledges the indi-
+viduality that people with the same illness condition can
+experience distinct functional consequences, or people
+Methods
+with multi-morbidities require an integrated approach to
+Study design and participants
+functional management [7]. Previous studies showed that
+This study used a cross-sectional design. A conveni-
+intrinsic capacity impairment affect self-care, increas-
+ence sample of community-dwelling older adults were
+ing dependence, hospitalization, and mortality among
+invited to join the study between April to September
+older adults [8, 9]. However, how intrinsic capacity is
+2021. Eligible participants were aged over 60 years, liv-
+connected with psychosocial well-being (such as social
+ing in their own homes, and required no or some support
+engagement or loneliness) is unclear. A recent discus-
+with self-care (feeding, bathing, dressing, toileting). Par-
+sion paper reported that lockdown and limited social
+ticipants with acute cardiovascular diseases, acute infec-
+interactions during the COVID-19 pandemic posed a
+tion, organ dysfunction, dementia, acute mental illness,
+greater risk to older adults to psychological distress [10].
+nearly total-dependent or total-dependent in self-care
+Research relating to psychosocial well-being in old age is
+and being unable to communicate in Cantonese were
+worthy to be supported. Existing studies affirmed biolog-
+excluded. The sample size required for Structural Equa-
+ical rather than chronological age on self-care independ-
+tion Modeling (SEM) depends on the number of factors
+ence; however, the evidence was insufficient beyond the
+and the number of indicators [11]. In this study, there
+inclusion of individual attributes, psychosocial aspects
+were three factors (or called latent variables) and sixteen
+(i.e., social engagement and loneliness) and intrinsic
+indicators (or called observed variables). Using the online
+capacity.
+Free Statistics Calculator version 4 [12] derived from the

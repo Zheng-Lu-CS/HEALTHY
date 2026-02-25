@@ -1,0 +1,97 @@
+Kwon et al. BMC Geriatrics (2025) 25:987 BMC Geriatrics
+https://doi.org/10.1186/s12877-025-06612-2
+RESEARCH Open Access
+Predictive model development for possible
+sarcopenia in community-dwelling older
+adults: a cross-sectional machine learning
+approach using the Korean frailty and aging
+cohort study
+Sooyoung Kwon1, Layoung Kim2, Chang Won Won3, Namhee Kim4, Jae Young Chang5, Miji Kim5*† and
+Gwang Suk Kim6*†
+Abstract
+Background Sarcopenia, an age-related decline in muscle mass and physical function, is a major risk factor for frailty,
+a condition associated with negative health outcomes and increased disease burden in older adults. Providing simple,
+accurate community-based screening is essential for early prevention and improving the health and quality of life of
+older adults. Employing screening criteria for possible sarcopenia can broadly identify individuals at risk for sarcopenia
+and enhance early diagnosis and preventive measures. However, there is a lack of possible sarcopenia prediction
+models. This study developed and evaluated a model for predicting possible sarcopenia among community-dwelling
+older adults and identified key predictors.
+Methods A supervised machine learning approach was used, with data from the 2022–2023 Korean Frailty and
+Aging Cohort Study (n = 1,761). Individuals were classified as having possible or no possible sarcopenia based on the
+2019 Asian Working Group for Sarcopenia criteria. Logistic regression, random forest, support vector machine, and
+extreme gradient boosting machine learning models were developed, and their predictive performance was assessed
+using accuracy, precision, recall, F1-score, and receiver operating characteristic curve–area under the curve. Feature
+importance was analysed applying Shapley additive explanations.
+Results The final sample comprised 500 individuals with possible sarcopenia (mean age: 83.0 ± 3.76 years;
+34.4% men) and 1,261 without possible sarcopenia (mean age: 81.0 ± 3.40 years, 51.6% men). Logistic regression
+demonstrated the best predictive performance among the four models, with the highest recall of 0.700 and F1-score
+†Miji Kim and Gwang Suk Kim contributed equally to this work.
+*Correspondence:
+Miji Kim
+mijiak@khu.ac.kr
+Gwang Suk Kim
+gskim@yuhs.ac
+Full list of author information is available at the end of the article
+© The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+International License, which permits any non-commercial use, sharing, distribution and reproduction in any medium or format, as long as you
+give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if you modified the
+licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit h t t p : / / c e r a t i
+v e c o m m o n .s o r g / l i c e n s e s / y b - n c - n d / 4 . 0. /
+
+Kwon et al. BMC Geriatrics (2025) 25:987 Page 2 of 13
+of 0.654. The most influential predictors for possible sarcopenia were lower body mass index, walking aid use,
+cognitive impairment, older age, and exhaustion.
+Conclusions Multidomain geriatric indicators including anthropometric status (body mass index), walking aid use,
+cognitive function, age, and exhaustion can guide pragmatic, community-based screening for possible sarcopenia.
+Simple, accessible assessments of these predictors may facilitate earlier identification and referral, and should be
+considered in sarcopenia screening and prevention strategies.
+Clinical trial number Not applicable.
+Keywords Aged, Community-dwelling, Machine learning, Cognitive impairment, Body mass index, Possible
+sarcopenia
+Background
+limitations, and cognitive impairment, and they exhib-
+Understanding older adults’ health and reducing their ited longer Timed Up and Go times [10]. They also had
+burden are global priorities. Frailty is associated with a lower body mass index (BMI), waist circumference, and
+various negative health outcomes and an increased dis- systolic blood pressure, along with a higher prevalence of
+ease burden in older adults, including an increased risk of hyperlipidaemia and estimated glomerular filtration rate
+falls, fractures, cardiovascular diseases, depression, and [11]. The factors associated with possible sarcopenia are
+mortality [1, 2]. Sarcopenia is the leading risk factor for diverse, including sociodemographic characteristics and
+frailty [3, 4]. It involves physiological changes in which physical and psychological function indicators. Thus,
+muscle mass and strength decrease with age [4]. These community-based easy risk prediction and the identifica-
+changes are associated with reduced capacity for physi- tion of key indicators are needed.
+cal activity [5], increased risk of falls and fractures [2], the Machine learning has been widely used to develop pre-
+development of metabolic syndrome (including diabetes) dictive models in health-related fields [14, 15]. Recent
+[6], dementia or cognitive decline [7]. Managing sarco- studies have applied machine learning techniques to sar-
+penia is becoming increasingly important for preventing copenia by discriminating between possible sarcopenia
+frailty. and metabolic syndrome using arterial waveforms [16],
+Since 2010, international consensus statements have detecting cases from electronic health records [17], pre-
+recommended screening for physical function, particu- dicting sarcopenia from ocular examinations [18], and
+larly walking speed and handgrip strength, in individu- comparing sex-stratified risks [19]. However, models
+als with suspected physical function decline; if decline is targeting possible sarcopenia, which may capture indi-
+confirmed, sarcopenia should be screened by quantifying viduals overlooked by diagnostic criteria, remain limited.
+muscle mass using dual-energy X-ray absorptiometry Machine learning can prioritise simply collected predic-
+(DXA) or bioelectrical impedance analysis (BIA) [8, 9]. In tors, thereby guiding scalable screening workflows in
+2019, the Asian Working Group for Sarcopenia (AWGS) community and primary care settings. Accordingly, this
+introduced a revised diagnostic algorithm: (1) Possible study aimed to develop a machine learning–based model
+sarcopenia is defined by low muscle strength (handgrip to predict possible sarcopenia and to determine the most
+strength) and/or poor physical performance (5-time informative predictors to guide early identification and
+chair stand test); (2) sarcopenia is diagnosed when low referral.
+muscle mass coexists with either reduced strength or
+Methods
+impaired physical performance; and (3) severe sarcopenia
+when all three domains are impaired [8]. Because DXA Design
+and/or BIA are often unavailable in community and pri- We conducted a secondary data analysis using data from
+mary care, the possible sarcopenia construct provides a the Korean Frailty and Aging Cohort Study (KFACS).
+pragmatic pathway for early identification and manage- Additionally, we adopted a supervised machine learning-
+ment and has shown good performance in community based approach to predict possible sarcopenia.
+screening [10–12].
+The estimated global prevalence of sarcopenia varies Primary data source
+from 10% to 27% in individuals aged ≥ 60 years in a meta- The KFACS is a longitudinal, population-based study
+analysis [13]. A Korean study using 2019 AWGS criteria involving community-dwelling adults aged 70 years and
+found that 22.4% of community-dwelling adults aged 70 older in Korea. The KFACS was designed to investigate
+years and older had possible sarcopenia or sarcopenia frailty status and the transitions between frailty states
+[10]. Individuals with possible sarcopenia were more over time [20]. We selected 2022–2023 data (the fourth
+likely to have lower educational attainment, mobility

@@ -1,0 +1,101 @@
+Zhu et al. BMC Geriatrics (2024) 24:494 BMC Geriatrics
+https://doi.org/10.1186/s12877-024-05093-z
+RESEARCH Open Access
+Factors associated with intrinsic capacity
+impairment in hospitalized older adults:
+a latent class analysis
+Lingzhi Zhu1, Xiaoxing Shen2, Xiaolan Shi2 and Xiaojun Ouyang2*
+Abstract
+Background Intrinsic capacity (IC) is proposed by the World Health Organization (WHO) to promote healthy aging.
+Although some studies have examined the factors influencing IC, few studies have comprehensively confirmed
+lifestyle factors on IC, especially IC impairment patterns. The present study aimed to identify the patterns of IC
+impairment and explore the lifestyle and other factors associated with different patterns of IC impairment.
+Methods This cross-sectional study was conducted in a Chinese geriatric hospital. IC was evaluated in five domains
+according to the recommendations of WHO: cognition, locomotion, vitality, sensory and psychological domains. The
+sociodemographic and health-related characteristics of participants were assessed.The health promoting lifestyle was
+evaluated using the Health-Promoting Lifestyle Profile-II scale, including nutrition, health responsibility, interpersonal
+relationships, physical activity, spiritual growth and stress management. We applied latent class analysis to identify IC
+impairment patterns and compared basic activities of daily living, instrumental activities of daily living, frailty, quality
+of life and falls among different IC impairment patterns. Multinomial logistic regression analysis was conducted to
+identify factors influencing the IC impairment patterns.
+Results Among 237 participants included, the latent class analysis identified three patterns of IC impairment: 44.7%
+high IC (Class 1), 31.2% intermediate IC mainly locomotor impairment (Class 2) and 24.1% low IC mainly cognitive
+impairment (Class 3). Older adults in class 1 had the best function ability and quality of life, while class 3 had the
+highest levels of disability and frailty, the poorest quality of life and a higher prevalence of falls. Compared with class
+1, older adults with advanced age (OR = 22.046, 95%CI:1.735-280.149), osteoporosis (OR = 3.377, 95%CI:1.161–9.825),
+and lower scores in physical activity (OR = 0.842, 95%CI:0.749–0.945), stress management (OR = 0.762, 95%CI:0.585–
+0.993) and social support (OR = 0.897, 95%CI:0.833–0.965) were more likely to belong to the class 2. Simultaneously,
+compared with class 1, older adults with advanced age (OR = 104.435, 95%CI:6.038-1806.410), stroke (OR = 3.877,
+95%CI:1.172–12.823) and lower scores in physical activity (OR = 0.784, 95%CI:0.667–0.922) and social support
+(OR = 0.909, 95%CI:0.828–0.998) were more likely to be class 3. In addition, compared with class 2, older adults with a
+lower score in nutrition (OR = 0.764, 95%CI:0.615–0.950) were more likely to belong to the class 3.
+Conclusions This study provides evidence that there are heterogeneous IC impairment patterns in older adults and
+identifies various associated factors in each pattern, including age, stroke, osteoporosis, social support and lifestyle
+*Correspondence:
+Xiaojun Ouyang
+xiaojun_ouyang@aliyun.com
+Full list of author information is available at the end of the article
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The
+Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available
+in this article, unless otherwise stated in a credit line to the data.
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 2 of 13
+behaviors such as nutrition, physical activity and stress management. It informs stakeholders on which modifiable
+factors should be targeted through public health policy or early intervention to promote IC and healthy aging in older
+adults.
+Keywords Intrinsic capacity, Latent class analysis, Lifestyle, Older adults
+Background
+expectancy and physical function [17, 18]. Although
+The world’s population is rapidly aging. According to data some studies have investigated the association between
+from World Population Prospects 2022, the proportion a single element of lifestyle, such as physical activity and
+of people aged 65 or older reached 9.7% in 2022, increas- smoking, with IC, the Health-Promoting Lifestyle Profile
+ing to 16.4% in 2050 [1]. Aging related physiological and II (HPLP-II) provides multi-dimensional assessments of
+pathological changes increase the risk of multimorbid- the lifestyle that promotes health. The health promoting
+ity, falls and disability, which challenges the healthcare lifestyle is a multidimensional pattern of self-organized
+system and society [2]. As a response to population actions and perceptions that contribute to maintaining or
+aging and reducing care dependency, the World Health improving individual health, self-realization, and happi-
+Organization (WHO) advocates transitioning from a ness. It includes six dimensions: self-actualization, health
+disease-centered model to a model centered on positive responsibility, exercise, nutrition, interpersonal support
+functioning for healthy aging, emphasizing the main- and stress management [19]. Few studies have investi-
+tenance of functional ability and prevention of capacity gated the association between the health promoting life-
+loss. Intrinsic capacity (IC) is the composite of an indi- style and IC [9, 20]. However, lifestyles are modifiable
+vidual’s physical and mental capacities, including vitality, factors, and adopting strategies focused on promoting a
+locomotion, cognition, psychology and sensory domains, healthy lifestyle could be the most cost-effective way to
+which interact with environmental factors determining maintain function among older adults, particularly in
+the functional ability of that person [3]. countries with limited resources.
+The multidimensional structure of IC has been vali- Although previous studies investigated factors influ-
+dated [4, 5], which can predict many adverse outcomes encing the number or degree of impaired IC domains
+such as falls, quality of life decline, frailty, disability, and [8–10], the IC measurements in these studies were
+death in older adults [6]. However, the mechanism lead- inconsistent with the WHO recommendations. Most
+ing to IC impairment is unclear due to its complexity and importantly, there is a lack of standard operation of the
+the result of numerous factors. Si et al. identified that IC score [21]. However, latent class analysis (LCA) may
+people with favourable early-life factors were more likely be a good way to solve this problem, which looks at IC
+to have higher intrinsic capacity in later life [7]. Three impairment from the perspective of “clusters” rather than
+cross-sectional studies of large populations have shown “numbers”. It can identify different patterns of IC impair-
+that sociodemographic factors (e.g., age, sex, work status, ment in older adults and ensure IC integrity. LCA, an
+marital state, education level, region, place of residence, unsupervised technique, is based on peoples’ different
+and income), chronic diseases (chronic obstructive pul- scoring patterns across variables, which could identify
+monary disease, osteoarthritis and chronic neurologic subgroups of individuals with shared characteristics [22].
+illness) and lifestyles (physical activity, smoking) may Therefore, the aim of this study is to identify the pat-
+cause IC decline [8–10]. Lifestyle intervention, including terns of IC impairment and explore the lifestyle and other
+nutrition, physical activity, well-being, stress manage- factors associated with different patterns of IC impair-
+ment, and sleep, has the potential to prevent functional ment in older hospitalized patients.
+decline, frailty, and sarcopenia to optimize the trajec-
+Methods
+tory of aging [11]. WHO also reported that 53% of deaths
+were due to adverse lifestyle behaviors [12]. Individuals Study design and participants
+who maintain a healthy lifestyle, such as refraining from From December 2022 to August 2023, a cross-sectional
+smoking and heavy drinking, engaging in physical activ- study was conducted at the Geriatric Hospital of Nanjing
+ity and daily intake of fruits and vegetables, have been Medical University in China. Medical inpatients admit-
+observed to be associated with better health outcomes, ted to the Department of Geriatrics aged ≥ 60 years and
+including healthy aging [13], longer life expectancy [14], willing to participate in our study. The exclusion criteria
+increase in life-years lived in good health [15] and cog- were as follows: (1) acute conditions (e.g., acute coronary
+nitive health [16]. Furthermore, these associations exist syndrome, acute heart failure, acute cerebrovascular dis-
+even among individuals 75 years and older, highlight- ease, acute exacerbation of chronic obstructive pulmo-
+ing the need to advocate for favourable lifestyle behav- nary disease); (2)inability to complete assessment due
+iors even among the oldest population to enhance life to deafness, blindness and severe cognitive impairment

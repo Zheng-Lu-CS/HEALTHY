@@ -1,0 +1,98 @@
+Lu et al. BMC Geriatrics (2023) 23:509 BMC Geriatrics
+https://doi.org/10.1186/s12877-023-04180-x
+RESEARCH Open Access
+Diagnostic performance analysis
+of the Integrated Care for Older People (ICOPE)
+screening tool for identifying decline in intrinsic
+capacity
+Fei Lu1, Jiaojiao Li1, Xiaohong Liu1*, Shuo Liu1, Xiaohong Sun1 and Xueying Wang2
+Abstract
+Background Intrinsic capacity (IC) is a comprehensive indicator of an individual’s positive attributes. The World
+Health Organization (WHO) recommends a two-step approach to assess IC decline among older people. The first
+step involves the used of the integrated care for older people (ICOPE) screening tool to identify potential issues,
+and the second step involves using detailed assessments for confirmation. This study aimed to assess the diagnostic
+performance of the ICOPE screening tool as a simple preliminary screening to identify IC decline among community-
+dwelling older people, which has been rarely reported in China.
+Methods This cross-sectional study included 228 community-dwelling older individuals aged ≥ 75 (mean age,
+84.0 ± 4.4 years; 131 [57.5%] females) who completed the IC evaluation according to the WHO IC assessment pathway.
+The diagnostic performance of the ICOPE screening tool was calculated using a 2 × 2 table and a receiver operating
+characteristic curve.
+Results The proportion of possible IC decline identified by the ICOPE screening tool was 79.4%, whereas the actual IC
+decline assessed by the detailed assessment was 73.2%, mainly in locomotion. The ICOPE screening tool showed sen-
+sitivity and specificity of 94.6% and 62.3%, respectively, with an overall diagnostic accuracy of 86.0%. The diagnostic
+effectiveness of the ICOPE screening tool was 0.91 (95% confidence interval: 0.87–0.95, p = 0.020). Except for the sen-
+sory dimension, the sensitivity of the ICOPE screening tool for diagnosing impairments in each dimension of the IC
+was the highest in the cognition domain (100%) and the lowest in the vitality domain (51.3%), whereas the specificity
+was the highest in vitality (94.7%) and the lowest in cognition (55.6%).
+Conclusions The ICOPE screening tool exhibits high sensitivity and can be used as an IC screening tool in commu-
+nity-dwelling older people. However, further improvements are needed in the vitality dimension of the ICOPE screen-
+ing tool to enhance its sensitivity in identifying individuals at risk of malnutrition.
+Keywords Diagnostic performance, Intrinsic capacity, ICOPE screening tool, Older people
+*Correspondence:
+Xiaohong Liu
+xhliu41@sina.com
+Full list of author information is available at the end of the article
+© The Author(s) 2023. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+
+Lu et al. BMC Geriatrics (2023) 23:509 Page 2 of 8
+Background IC decline issues, and the second step involves the use of
+The aging global population is constantly increasing. As detailed assessments to confirm individuals with actual
+a populous country, China faces a severe aging challenge. IC decline. Based on this assessment, personalized inter-
+According to the National Bureau of Statistics of China’s ventions [10] can be provided to older people with IC
+2022 investigation on population changes [1], the pro- decline in step 3. Steps 4 and 5 involve monitoring care
+portion of people aged 60 years and above has reached plans and supporting caregivers, respectively.
+19.8%, with those aged 65 years and above accounting for However, what is the diagnostic performance of the
+14.9%, indicating that China has become an aging soci- ICOPE screening tool in detecting IC decline? There are
+ety. Those born during the second baby boom, between two published studies, one from Hong Kong, China [11],
+1962 and 1975, will gradually enter retirement by 2023, and the other from Spain [12]; both of them indicate that
+further increasing the burden of aging in China. In 2022, the ICOPE screening tool has high sensitivity but vary-
+the Lancet published a report on China’s path to healthy ing screening effectiveness across different dimensions.
+aging [2], which showed that its life expectancy has grad- Additionally, no relevant studies have been conducted in
+ually approached that of other developed countries. mainland China.
+In 2021, the World Health Organization (WHO) pro- Therefore, this study aimed to evaluate diagnostic
+posed the “Decade of Healthy Aging 2020–2030” [3], performance, which includes the sensitivity, specificity,
+which involves the following four areas: (1) provid- and diagnostic accuracy of the ICOPE screening tool to
+ing person-centered integrated care to meet the needs determine whether the screening tool is suitable for com-
+of older people; (2) changing attitudes and behaviors munity-dwelling older people using step 2 of the detailed
+towards aging; (3) supporting community interventions assessment of IC as the gold standard.
+to maintain the intrinsic capacity (IC) of older people [4]
+Methods
+and promote functional ability; and (4) providing long-
+term care for older people in need. Therefore, the con- Study design and participants
+cept of healthy aging implies that the medical model for This study used the baseline data of a previous cohort
+older people should shift from a disease-centered to a study [13]. This cohort study primarily aimed to explore
+function-centered approach [5]. IC is the basis of func- the trajectory of IC in older people and its predictive
+tional turning. value for adverse outcomes. The external environment
+The concept of IC is an evolution of the International also influences the functional performance of older peo-
+Classification of Functioning, Disability, and Health ple and the occurrence of adverse outcomes [14]. There-
+framework proposed by the WHO in 2001 [6]. Within fore, to reduce the confounding effects of the external
+this framework, the health condition (disease) construct environment and support systems and better explain the
+is inadequate to define IC. Only the functional domain impact of individual differences in IC, this study selected
+aligns with IC, which was proposed in 2015 by the WHO residents of a relatively consistent external environment
+[4]. The WHO [4] defined the concept of IC as a com- in an elderly friendly community (Taikang Yanyuan) in
+bination of all the mental and physical capacities that an Beijing as the research participants. This study cohort
+individual can access at any time. included community-dwelling older people continuously
+In 2018, Cesari et al. [7] reviewed the literature and from July–September 2018. The inclusion criteria were
+proposed the following five dimensions of IC: locomo- as follows: individuals aged ≥ 75 years and those who had
+tion, cognition, vitality, psychology, and sensory (hearing completed the IC assessment. The exclusion criteria were
+and vision). Visual and hearing impairments can affect as follows: individuals with acute illness within three
+older people’s activities and cognition, and the presence months prior to enrollment, including but not limited
+of both can exacerbate these effects [7]. Therefore, they to acute coronary syndrome, pulmonary infection, and
+are generally considered as two capacities within the sen- stroke.
+sory dimension. Beard et al. [8] verified the validity of
+this multidimensional model based on the China Health Measurements
+and Retirement Longitudinal Study and found that the Sociodemographic data, such as age, sex, height, weight,
+individual’s IC could reflect functional ability. Yu et al. [9] and education level, were collected. Polypharmacy refers
+in Hong Kong also supported the construction of the five to the use of ≥ 5 medications, including prescription and
+domains of IC using structural equation models. In 2019, non-prescription drugs [15].
+the WHO proposed the person-centered assessment and The Cumulative Illness Rating Scale for Geriatrics
+pathways in primary care [10], which contains 5 steps. (CIRS-G) [16] was used to assess comorbidities. This
+The first step involves the use of the integrated care for scale includes the distribution of diseases in 14 systems.
+older people (ICOPE) screening tool to identify potential Each system is classified into 5 levels based on disease

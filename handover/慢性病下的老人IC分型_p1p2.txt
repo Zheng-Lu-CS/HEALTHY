@@ -1,0 +1,105 @@
+Clinical Interventions in Aging
+Open Access Full Text Article ORIGINAL RESEARCH
+Patterns and Factors of Intrinsic Capacity Impairment
+in Older Adults with Chronic Diseases: A Latent
+Class Analysis
+Yumeng Zhang1,2, Zhixia Jiang3, Rujun Hu1, Heting Liang1, Shaoting Yang2, Qingyun Mao2, Siqin Liu1, Xiaoli Yuan1
+1Department of Nursing, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, People’s Republic of China; 2Faculty of Nursing, Zunyi
+Medical University, Zunyi, Guizhou, People’s Republic of China; 3College Office, Guizhou Nursing Vocational College, Guiyang, Guizhou, People’s
+Republic of China
+Correspondence: Xiaoli Yuan, Department of Nursing, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, People’s Republic of China,
+Email 872428494@qq.com
+Background: Due to the increase in life expectancy, the prevalence of older adults with chronic diseases is gradually increasing.
+Intrinsic capacity (IC) is an important indicator for assessing the physical condition of older adults. Older adults often experience
+a decline in IC before serious illness develops. Early screening for IC decline and timely interventions are essential. The goal of this
+study was to explore the patterns of IC impairment and their influencing factors in older adults with chronic diseases, and to provide
+a reference for the development of interventions to enhance their IC.
+Methods: We conducted a cross-sectional study of 8427 older adults (≥60 years) in Zunyi City, China. A composite score for IC,
+covering the cognitive, sensory, locomotion, vitality, and psychological domains, was calculated using a weighting method. Data were
+collected on demographics, chronic conditions, and a battery of standardized assessments. These included measures of functional
+capacity (BADL, IADL), cognitive status (CMMS), physical performance (SPPB), nutritional risk (MNA-SF), depressive symptoms
+(GDS-15), and sensory function (vision, hearing).
+Results: Overall, 87.56% of participants showed IC impairment. Latent class analysis identified three distinct patterns of IC
+impairment: a “Higher IC group”, a “Cognitive-locomotion domain-impaired mid-IC group”, and a “Locomotion-impaired predomi-
+nantly low-IC group”, which comprised 23.2%, 59.96%, and 16.84% of the sample, respectively; age, BMI, BADL, IADL, sex,
+educational level, marital status, type of medical insurance, average household monthly income, drinking, annual physical examina-
+tion, socialization, and exercise were all influential factors in the patterns of IC (P<0.05).
+Conclusion: The impairment of IC in older adults is group heterogeneous and affected by different factors; using IC as a multi-
+categorical variable is beneficial to refine the patterns of IC impairment; healthcare professionals should carry out early targeted
+interventions for different patterns of older adults to enhance their IC and promote healthy aging.
+Keywords: older adults, intrinsic capacity, chronic diseases, latent class analysis
+Introduction
+As the population ages, the number of older adults with disabilities is increasing, one of the reasons for this phenomenon
+being the high prevalence of chronic diseases among older adults.1 Currently, the prevalence of chronic diseases among
+older adults in China is 81.1%2 and continues to rise. Chronic diseases are a major cause of death and disease burden.3
+In 2015, the World Health Organization (WHO) introduced the concept of “healthy ageing” and, for the first time, proposed
+the notion of Intrinsic Capacity (IC). IC refers to the aggregate of older adults’ physical and mental capacities that determine their
+ability to combine with environmental factors and their interactions.4 Subsequently, WHO identified five core components of IC:
+cognition, sensory, motor, vitality, and psychological, which comprehensively reflect the functional status of older adults,
+highlight the importance of slowing IC decline5 and recommend that screening for decline in IC be used as a foundation for
+assessing the health-related needs of older adults, and then interventions based on the results of the assessments.6
+Clinical Interventions in Aging 2025:20 2317–2336 2317
+Received: 27 June 2025 © 2025 Zhang et al. This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at https://www.dovepress.com/terms.
+Accepted: 21 November 2025 php and incorporate the Creative Commons Attribution – Non Commercial (unported, v4.0) License (http://creativecommons.org/licenses/by-nc/4.0/). By accessing the
+Published: 1 December 2025 work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For
+permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (https://www.dovepress.com/terms.php).
+/moc.sserpevod.www//:sptth
+morf
+dedaolnwod
+gnigA
+ni
+snoitnevretnI
+lacinilC
+.ylno
+esu
+lanosrep
+roF
+
+Zhang et al
+WHO has proposed that older adults often show declining IC before impending serious illness,4 and that it is
+particularly important to have early IC screening and timely intervention in older patients. IC shifts the focus from
+disease-centered measures of health to maintaining functional performance for healthy ageing, and has been proposed as
+an indicator for monitoring and evaluating the progress and impact of the “United Nations Decade of Collaborative
+Action on Healthy Ageing” (UNDHA).7 Early assessment of IC is therefore of significant value for advancing healthy
+ageing and enhancing longevity.
+Although the concept of IC is gaining traction in general geriatric research, its application to specific high-risk
+subgroups remains limited. In particular, there is a scarcity of evidence characterizing IC impairment specifically among
+older adults with chronic diseases. This is a critical gap because this population bears a dual burden: the management of
+multiple long-term conditions and a heightened risk of accelerated functional decline.2,8,9 Understanding the distinct
+patterns of IC decline in this vulnerable group is essential to move beyond a generalized approach to geriatric care.
+Therefore, our study focuses specifically on older adults with chronic conditions. Identifying specific typologies of IC
+impairment in this population has direct practical importance.2 For clinicians, such insights can inform the development
+of targeted screening protocols and personalized care plans that address the most vulnerable IC domains. For policy-
+makers, elucidating these patterns is crucial for the efficient allocation of healthcare resources and for designing effective
+public health strategies aimed at preserving function and independence in this growing demographic.
+Latent Class Analysis (LCA) is a statistical method that identifies subgroups of individuals with shared characteristics
+by analyzing patterns of scores across multiple variables among study participants.10 This approach is particularly useful
+for deriving distinct patterns of IC decline in older adults. Compared to traditional clustering methods, LCA have several
+advantages, including providing classification, determination of the optimal number of latent classes, and a lower
+misclassification rate. In order to gain insight into the impact of chronic diseases on the typology of IC, this study
+used LCA to identify latent classes and influencing factors of IC in older adults with chronic diseases. The findings aim
+to provide a reference for developing targeted clinical interventions.
+Materials and Methods
+Participants
+The study used a convenience sampling method to select older adults aged 60 years and older from seven medical
+institutions, three communities, and five nursing homes in Zunyi City, Guizhou Province, between October 2022 and
+September 2023 as study subjects. The inclusion criteria for the study subjects were as follows: (1) age ≥60 years; (2)
+voluntary participation in this study and provision of informed consent. The exclusion criteria were as follows: (1)
+suffering from acute critical illness (including shock, respiratory failure, acute heart failure, acute myocardial infarction,
+stroke) and unable to cooperate with the investigation; (2) acute exacerbation of a chronic disease or advanced stage of
+the disease (expected survival <3 months). This study was approved by the Ethics Review Committee of the Affiliated
+Hospital of Zunyi Medical University (approval number: KLL2022-814).
+Assessment of IC
+IC was assessed through five domains,6 and scoring was weighted for each domain with reference to the IC composite
+scoring method:11 0 for severe impairment, 1 for mild-moderate impairment, and 2 for normal. The total score is 10, with
+0–4 indicating severe impairment of IC, 5–8 indicating mild-moderate impairment of IC, and 9–10 indicating normal IC.
+In this study, the following scales were selected by considering the reliability of the scales, the level of understanding of
+older adults, and the convenience of follow-up:
+Vitality: The vitality domain was assessed using the Short-Form Mini-Nutritional Assessment (MNA-SF), developed
+by Rubenstein et al12 with a Cronbach’s alpha coefficient of 0.703. The scale consists of 6 entries with a total score of
+0–14. According to the weighted scores, a score of 0–7 on the MNA-SF is recorded as 0 in the vitality domain; a score of
+7–11 is recorded as 1 in the vitality domain; and a score of 12–14 is recorded as 2 in the vitality domain.
+Psychological: The Geriatric Depression Scale-15 (GDS-15) was used to assess the psychological functioning of
+older adults, which was designed for the characteristics of older adults on the basis of the Geriatric Depression Scale.13
+2318 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
