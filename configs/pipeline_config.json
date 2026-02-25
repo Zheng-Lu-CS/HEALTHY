@@ -1,0 +1,23 @@
+{
+  "random_seed": 42,
+  "missing_tokens": [
+    "N-D",
+    "N.D",
+    "N/A",
+    "NA",
+    "ND",
+    "N\\A",
+    "UK",
+    "UNK",
+    "UNKNOWN"
+  ],
+  "ic_config": {
+    "cognition_cutoff": 24,
+    "psych_cutoff": 5,
+    "vitality_bmi_low": 18.5,
+    "calf_circumference_low": 33,
+    "sppb_cutoff": 9,
+    "grip_male_low": 28,
+    "grip_female_low": 18
+  }
+}
