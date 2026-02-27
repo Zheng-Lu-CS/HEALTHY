@@ -35,7 +35,7 @@ RANDOM_SEED = 42
 
 
 def load_raw():
-    xlsx = next(DATA_DIR.glob("*.xlsx"))
+    xlsx = next(p for p in DATA_DIR.glob("*.xlsx") if not p.name.startswith("~$"))
     docx = next(DATA_DIR.glob("*.docx"), None)
     df = pd.read_excel(xlsx)
     df = normalize_missing(df)
@@ -330,7 +330,50 @@ def leakage_and_sensitivity(df: pd.DataFrame, mappings: dict[str, dict[str, str]
 
     (REPORT_DIR / "LEAKAGE_CHECK.md").write_text("\n".join(lines), encoding="utf-8")
 
-    return imp_full_df, X_sample, shap_values_agg
+    return imp_full_df, X_sample, shap_values_agg, leakage_fields
+
+
+def cluster_importance_noleak(df: pd.DataFrame, mappings: dict[str, dict[str, str]], leakage_fields: list[str]):
+    # remove leakage fields from features
+    df_nl = df.drop(columns=[c for c in leakage_fields if c in df.columns], errors="ignore")
+    ic_df = build_ic_scores(df_nl)
+    X, _, _, _ = prepare_features(ic_df, mappings)
+
+    assign = pd.read_csv(OUTPUT_DIR / "D3_cluster_assignments.csv")
+    y = assign["cluster_id"]
+    y_cat = pd.Categorical(y)
+    y_codes = y_cat.codes
+
+    model = XGBClassifier(
+        n_estimators=300,
+        max_depth=4,
+        learning_rate=0.05,
+        subsample=0.8,
+        colsample_bytree=0.8,
+        objective="multi:softprob",
+        num_class=len(y_cat.categories),
+        random_state=RANDOM_SEED,
+        eval_metric="mlogloss",
+    )
+    model.fit(X, y_codes)
+
+    sample_idx = np.random.choice(len(X), size=min(1000, len(X)), replace=False)
+    X_sample = X.iloc[sample_idx]
+
+    explainer = shap.TreeExplainer(model)
+    shap_values = explainer.shap_values(X_sample)
+    if isinstance(shap_values, list):
+        shap_values = np.mean(np.stack(shap_values, axis=0), axis=0)
+    if shap_values.ndim == 3:
+        shap_values = shap_values.mean(axis=2)
+
+    importance = np.abs(shap_values).mean(axis=0).ravel()
+    if importance.shape[0] != X.shape[1]:
+        importance = importance[: X.shape[1]]
+
+    imp_df = pd.DataFrame({"feature": X.columns, "mean_abs_shap": importance}).sort_values("mean_abs_shap", ascending=False)
+    imp_df.to_csv(OUTPUT_DIR / "D4_feature_importance_cluster_noleak.csv", index=False)
+    return imp_df
 
 
 def dependence_plots(imp_df: pd.DataFrame, X: pd.DataFrame, shap_values: np.ndarray, top_n: int = 10):
@@ -419,8 +462,9 @@ def main():
     write_embedding_model_card(df, mappings)
     write_cluster_model_card(OUTPUT_DIR / "D3_embeddings.parquet")
 
-    imp_full_df, X_sample, shap_values = leakage_and_sensitivity(df, mappings)
+    imp_full_df, X_sample, shap_values, leakage_fields = leakage_and_sensitivity(df, mappings)
     dependence_plots(imp_full_df, X_sample, shap_values, top_n=10)
+    _ = cluster_importance_noleak(df, mappings, leakage_fields)
     write_shap_guide()
     write_llm_spec()
 
