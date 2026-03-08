@@ -1,0 +1,977 @@
+Clinical Interventions in Aging
+Open Access Full Text Article ORIGINAL RESEARCH
+Patterns and Factors of Intrinsic Capacity Impairment
+in Older Adults with Chronic Diseases: A Latent
+Class Analysis
+Yumeng Zhang1,2, Zhixia Jiang3, Rujun Hu1, Heting Liang1, Shaoting Yang2, Qingyun Mao2, Siqin Liu1, Xiaoli Yuan1
+1Department of Nursing, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, People’s Republic of China; 2Faculty of Nursing, Zunyi
+Medical University, Zunyi, Guizhou, People’s Republic of China; 3College Office, Guizhou Nursing Vocational College, Guiyang, Guizhou, People’s
+Republic of China
+Correspondence: Xiaoli Yuan, Department of Nursing, Affiliated Hospital of Zunyi Medical University, Zunyi, Guizhou, People’s Republic of China,
+Email 872428494@qq.com
+Background: Due to the increase in life expectancy, the prevalence of older adults with chronic diseases is gradually increasing.
+Intrinsic capacity (IC) is an important indicator for assessing the physical condition of older adults. Older adults often experience
+a decline in IC before serious illness develops. Early screening for IC decline and timely interventions are essential. The goal of this
+study was to explore the patterns of IC impairment and their influencing factors in older adults with chronic diseases, and to provide
+a reference for the development of interventions to enhance their IC.
+Methods: We conducted a cross-sectional study of 8427 older adults (≥60 years) in Zunyi City, China. A composite score for IC,
+covering the cognitive, sensory, locomotion, vitality, and psychological domains, was calculated using a weighting method. Data were
+collected on demographics, chronic conditions, and a battery of standardized assessments. These included measures of functional
+capacity (BADL, IADL), cognitive status (CMMS), physical performance (SPPB), nutritional risk (MNA-SF), depressive symptoms
+(GDS-15), and sensory function (vision, hearing).
+Results: Overall, 87.56% of participants showed IC impairment. Latent class analysis identified three distinct patterns of IC
+impairment: a “Higher IC group”, a “Cognitive-locomotion domain-impaired mid-IC group”, and a “Locomotion-impaired predomi-
+nantly low-IC group”, which comprised 23.2%, 59.96%, and 16.84% of the sample, respectively; age, BMI, BADL, IADL, sex,
+educational level, marital status, type of medical insurance, average household monthly income, drinking, annual physical examina-
+tion, socialization, and exercise were all influential factors in the patterns of IC (P<0.05).
+Conclusion: The impairment of IC in older adults is group heterogeneous and affected by different factors; using IC as a multi-
+categorical variable is beneficial to refine the patterns of IC impairment; healthcare professionals should carry out early targeted
+interventions for different patterns of older adults to enhance their IC and promote healthy aging.
+Keywords: older adults, intrinsic capacity, chronic diseases, latent class analysis
+Introduction
+As the population ages, the number of older adults with disabilities is increasing, one of the reasons for this phenomenon
+being the high prevalence of chronic diseases among older adults.1 Currently, the prevalence of chronic diseases among
+older adults in China is 81.1%2 and continues to rise. Chronic diseases are a major cause of death and disease burden.3
+In 2015, the World Health Organization (WHO) introduced the concept of “healthy ageing” and, for the first time, proposed
+the notion of Intrinsic Capacity (IC). IC refers to the aggregate of older adults’ physical and mental capacities that determine their
+ability to combine with environmental factors and their interactions.4 Subsequently, WHO identified five core components of IC:
+cognition, sensory, motor, vitality, and psychological, which comprehensively reflect the functional status of older adults,
+highlight the importance of slowing IC decline5 and recommend that screening for decline in IC be used as a foundation for
+assessing the health-related needs of older adults, and then interventions based on the results of the assessments.6
+Clinical Interventions in Aging 2025:20 2317–2336 2317
+Received: 27 June 2025 © 2025 Zhang et al. This work is published and licensed by Dove Medical Press Limited. The full terms of this license are available at https://www.dovepress.com/terms.
+Accepted: 21 November 2025 php and incorporate the Creative Commons Attribution – Non Commercial (unported, v4.0) License (http://creativecommons.org/licenses/by-nc/4.0/). By accessing the
+Published: 1 December 2025 work you hereby accept the Terms. Non-commercial uses of the work are permitted without any further permission from Dove Medical Press Limited, provided the work is properly attributed. For
+permission for commercial use of this work, please see paragraphs 4.2 and 5 of our Terms (https://www.dovepress.com/terms.php).
+/moc.sserpevod.www//:sptth
+morf
+dedaolnwod
+gnigA
+ni
+snoitnevretnI
+lacinilC
+.ylno
+esu
+lanosrep
+roF
+
+Zhang et al
+WHO has proposed that older adults often show declining IC before impending serious illness,4 and that it is
+particularly important to have early IC screening and timely intervention in older patients. IC shifts the focus from
+disease-centered measures of health to maintaining functional performance for healthy ageing, and has been proposed as
+an indicator for monitoring and evaluating the progress and impact of the “United Nations Decade of Collaborative
+Action on Healthy Ageing” (UNDHA).7 Early assessment of IC is therefore of significant value for advancing healthy
+ageing and enhancing longevity.
+Although the concept of IC is gaining traction in general geriatric research, its application to specific high-risk
+subgroups remains limited. In particular, there is a scarcity of evidence characterizing IC impairment specifically among
+older adults with chronic diseases. This is a critical gap because this population bears a dual burden: the management of
+multiple long-term conditions and a heightened risk of accelerated functional decline.2,8,9 Understanding the distinct
+patterns of IC decline in this vulnerable group is essential to move beyond a generalized approach to geriatric care.
+Therefore, our study focuses specifically on older adults with chronic conditions. Identifying specific typologies of IC
+impairment in this population has direct practical importance.2 For clinicians, such insights can inform the development
+of targeted screening protocols and personalized care plans that address the most vulnerable IC domains. For policy-
+makers, elucidating these patterns is crucial for the efficient allocation of healthcare resources and for designing effective
+public health strategies aimed at preserving function and independence in this growing demographic.
+Latent Class Analysis (LCA) is a statistical method that identifies subgroups of individuals with shared characteristics
+by analyzing patterns of scores across multiple variables among study participants.10 This approach is particularly useful
+for deriving distinct patterns of IC decline in older adults. Compared to traditional clustering methods, LCA have several
+advantages, including providing classification, determination of the optimal number of latent classes, and a lower
+misclassification rate. In order to gain insight into the impact of chronic diseases on the typology of IC, this study
+used LCA to identify latent classes and influencing factors of IC in older adults with chronic diseases. The findings aim
+to provide a reference for developing targeted clinical interventions.
+Materials and Methods
+Participants
+The study used a convenience sampling method to select older adults aged 60 years and older from seven medical
+institutions, three communities, and five nursing homes in Zunyi City, Guizhou Province, between October 2022 and
+September 2023 as study subjects. The inclusion criteria for the study subjects were as follows: (1) age ≥60 years; (2)
+voluntary participation in this study and provision of informed consent. The exclusion criteria were as follows: (1)
+suffering from acute critical illness (including shock, respiratory failure, acute heart failure, acute myocardial infarction,
+stroke) and unable to cooperate with the investigation; (2) acute exacerbation of a chronic disease or advanced stage of
+the disease (expected survival <3 months). This study was approved by the Ethics Review Committee of the Affiliated
+Hospital of Zunyi Medical University (approval number: KLL2022-814).
+Assessment of IC
+IC was assessed through five domains,6 and scoring was weighted for each domain with reference to the IC composite
+scoring method:11 0 for severe impairment, 1 for mild-moderate impairment, and 2 for normal. The total score is 10, with
+0–4 indicating severe impairment of IC, 5–8 indicating mild-moderate impairment of IC, and 9–10 indicating normal IC.
+In this study, the following scales were selected by considering the reliability of the scales, the level of understanding of
+older adults, and the convenience of follow-up:
+Vitality: The vitality domain was assessed using the Short-Form Mini-Nutritional Assessment (MNA-SF), developed
+by Rubenstein et al12 with a Cronbach’s alpha coefficient of 0.703. The scale consists of 6 entries with a total score of
+0–14. According to the weighted scores, a score of 0–7 on the MNA-SF is recorded as 0 in the vitality domain; a score of
+7–11 is recorded as 1 in the vitality domain; and a score of 12–14 is recorded as 2 in the vitality domain.
+Psychological: The Geriatric Depression Scale-15 (GDS-15) was used to assess the psychological functioning of
+older adults, which was designed for the characteristics of older adults on the basis of the Geriatric Depression Scale.13
+2318 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+The Cronbach’s alpha coefficient is 0.78. It consists of 15 items with a total of 15 points, and the higher the score, the
+more pronounced the depressive symptoms. According to the weighted scoring, a score of 0–4 on the GDS-15 is scored
+as 0 in the psychological domains; a score of 5–9 is scored as 1 in the psychological domains; and a score of 10–15 is
+scored as 2 in the psychological domains.
+Locomotion: This was evaluated using the Short Physical Performance Battery (SPPB), developed by Guralnik et al14
+with a Cronbach’s alpha coefficient of 0.76. It consists of 3 dimensions: “Balance”, “4-metre walking speed” and “Chair
+rise test”, with a total score of 12 points, according to the weighted scoring, 0–2 points for SPPB. According to the
+weighted scoring, if SPPB scores 0–2 points, 0 points will be recorded in the locomotion domain; if it scores 3–9 points,
+1 point will be recorded in the locomotion domain; if it scores 10–12 points, 2 points will be recorded in the locomotion
+domain.
+Cognitive: The Chinese Mini-Mental Status (CMMS)15 was employed to assess cognitive function. This 30-item
+instrument yields a total score of 30 points, evaluating the following domains: time orientation (5 points), spatial
+orientation (5 points), immediate memory (3 points), attention and calculation (5 points), delayed recall (3 points),
+language ability (8 points), and visuospatial skills (1 point). Higher total scores indicate better cognitive performance.
+According to the weighted scores, a CMMS score of 0–9 was assessed as severe cognitive impairment, with 0 points
+scored in the cognitive domain; a score of 10–26 was assessed as mild cognitive impairment, with 1 point scored in the
+cognitive domain; and a score of 27–30 was assessed as normal cognitive functioning, with 2 points scored in the
+cognitive domain.
+Sensory: The assessment of vision and hearing in the sensory domains is in the form of a self-report, using two self-
+report questions (if glasses/hearing aids are normally worn, then the time of wearing them will be taken as the time of
+wearing them):16 Question 1: Respondents are asked to answer the question “Do you have any loss of vision (hearing)
+that interferes with daily life, based on their daily level of vision and hearing?” The options were set to “yes” and “no”,
+and participants who answered “yes” were considered to have visual (“hearing”) difficulties. On a weighted scale, the
+sensory domains were scored as 0 if both vision and hearing were impaired, 1 if either vision or hearing were impaired,
+and 2 if both vision and hearing were normal.
+Assessment of ADL
+ADL was assessed through the Basic Activities of Daily Living (BADL) and Instrumental Activities of Daily Living
+(IADL). The Barthel Index was used to assess BADL. The Barthel Index consists of 10 entries with scores ranging from
+0 to 100, with 0 to 40 representing heavy dependence, 45 to 60 representing moderate dependence, 65 to 95 representing
+mild dependence, and 100 representing complete independent. The higher the total score, the better their BADL. The
+IADL scale was used to assess the IADL. The IADL scale consists of 8 entries with a score range of 0 to 24, with
+a higher score representing a better IADL.
+Assessment of Multimorbidity
+The nine chronic diseases encompassed hypertension, diabetes, coronary heart disease, cerebrovascular disease, Chronic
+Obstructive Pulmonary Disease (COPD), cataract, degenerative osteoarthropathy, chronic bronchitis, and hyperlipidemia.
+Older adults with two or more of the above chronic conditions were classified as multimorbidity respondents, while
+respondents with only one or none of the chronic conditions were categorized as non-multimorbidity respondents. The
+information on chronic diseases was collected through self-reports, based on diagnostic evidence from medical records or
+physician prescriptions, and further validated by the interviewer during data collection.
+General Information Survey
+This general information survey covers demographic data and health-related characteristics, including sex, age, body
+mass index (BMI), educational level, marital status, number of children, place of residence (rural/urban), mode of
+residence (living alone/not living alone), type of health insurance, average household monthly income, drinking,
+smoking, participation in annual physical examinations, and participation in social activities, exercise.
+Clinical Interventions in Aging 2025:20 https://doi.org/10.2147/CIA.S549998 2 3 1 9
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+Data Collection
+Participants were recruited from medical institutions, communities, and nursing homes. After providing written informed
+consent, each participant underwent a face-to-face assessment conducted by trained nurses. All nurses received
+systematic training on survey terminology and assessment tools to ensure inter-rater reliability. Using standardized
+instructions, the assessors completed the questionnaires based on participants’ responses. The completeness of ques-
+tionnaires was reviewed on-site. All data were cross-checked by two researchers to eliminate questionnaires with logical
+inconsistencies, thereby ensuring the validity of the collected data. All collected data were anonymized and stored
+securely on password-protected servers, with access restricted to the research team, to ensure confidentiality.
+Management of Missing Data
+To ensure data accuracy, prevent overall bias caused by excessively large or small variable values, and avoid data entry
+errors, it was necessary to detect outliers in continuous variables. In this study, potential outliers were identified using the
+box plot method. Each flagged value was re-checked against its original data source. If the original data were unavailable
+or the value was confirmed to be an outlier, it was replaced with “null” to represent missing data. Records containing
+missing values were excluded from the final analysis.
+Statistical Analysis
+SPSS 29.0 (IBM Inc., Armonk, NY, United States) was used for statistical analysis. Quantitative data were expressed as
+frequencies and percentages (%), and Z-tests and chi-square tests were used to compare differences between groups.
+Means ± standard deviation (X� �S) were used for measures that conformed to normal distribution, and median with
+interquartile spacing [M (P25, P75)] for measures that did not conform to normal distribution.
+The selection of covariates was informed by the World Health Organization’s conceptual framework for healthy
+ageing, which highlights the roles of IC, health behaviors, and environmental influences. Variables were excluded if they
+demonstrated limited theoretical or empirical association with IC (eg, occupation, which exhibited restricted variability in
+this largely retired population) or if data completeness or reliability were concerns (eg, detailed dietary records). We
+chose sex, age, BMI, BADL, IADL, educational level, marital status, number of children, place of residence (rural/
+urban), mode of residence (living alone/not living alone), type of health insurance, average household monthly income,
+drinking, smoking, whether or not they have annual medical check-ups, participation in social activities, exercise, and
+whether or not they have multimorbidity as covariates, with age, BMI, BADL and IADL as continuous variables. P<0.05
+was considered statistically significant. Multivariate logistic regression analysis was used to identify the potential
+influences of different subgroups of older adults with chronic diseases. Given the exploratory objective of identifying
+a broad set of potential factors associated with the latent classes, we prioritized the reduction of Type II errors (false
+negatives) over strict control for multiple comparisons in the multivariable logistic regression. Therefore, formal
+adjustments (eg, Bonferroni) were not applied. The results are interpreted with a focus on the magnitude and direction
+of the odds ratios (ORs) and their 95% confidence intervals (CIs), in addition to p-values, to provide a more nuanced
+understanding of the associations.17 Correlations between different chronic diseases and various domains of IC were
+analyzed using Spearman correlation analysis.
+Mplus version 8.3 (Muthen & Muthen, Los Angeles, CA, USA) was employed to conduct LCA. Models with one to
+four latent classes were estimated separately. Model fit was assessed using several indices: the Akaike Information
+Criterion (AIC), Bayesian Information Criterion (BIC), and adjusted BIC (aBIC), each derived from the log-likelihood
+(LL). Lower values of AIC, BIC, and aBIC indicate superior model fit. Classification accuracy was evaluated using
+entropy, which ranges from 0 to 1; values closer to 1 reflect better classification, with an entropy above 0.8 generally
+considered acceptable (corresponding to over 90% classification accuracy). To compare nested models, the Lo–Mendell–
+Rubin likelihood ratio test (LMR) and the bootstrap likelihood ratio test (BLRT) were utilized. A significant result (P <
+0.05) for both tests suggests that the k-class model provides a better fit than the (k-1)-class model, where k denotes the
+number of latent classes.
+2320 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+R 4.4.3 (R Foundation, Vienna, Austria) was used to draw stacked plots of distributional probabilities of latent classes
+models and heat maps of correlations between different chronic diseases and various domains of IC. Correlations were
+classified as strong, moderate, weak and no correlation through the correlation coefficient (ρ), with three thresholds of
+0.8, 0.5 and 0.3, respectively.
+Results
+Sample Characteristics
+A total of 8,427 older adults with a mean age of 71.69 (±7.05) years were included in the study. The sample was nearly
+balanced in gender (50.85% male) and predominantly had an educational level of elementary school or below (65.31%).
+The majority of participants were married (83.45%), lived with others (94.05%), had health insurance coverage
+(97.94%), and nearly half (46.62%) reported a monthly household income of less than 2,000 yuan. Regarding IC, the
+majority (62.76%) were categorized as having mild-moderate impairment. The detailed sociodemographic and health
+characteristics of the participants are presented in Table 1.
+Latent Class Analysis for IC of Older Adults
+The five domains of IC were used as exogenous variables to fit the number of latent classes from 1 to 4 stepwise. The
+values of AIC, BIC, and aBIC were lower when three classes were retained, with entropy values >0.8, indicating that the
+model had high accuracy. Both LMR and BLRT were significant (P < 0.001), and the class probabilities of each class
+were 23.2%, 59.96%, and 16.84%, respectively, which verified the reliability of the categorization. Considering the
+model fit indices and category interpretability, the three-class model was selected as the optimal solution for this study
+(Table 2). The high diagonal values in the classification accuracy matrix (all >0.8, Table 3) indicated stable class
+assignment.
+After categorization, the distribution of IC level in each class is shown in Table 4. Combining Figure 1 and Table 4, it
+can be seen that the IC impairment rate of older adults in Class 1 is lower than that of the other two groups, and only
+a small number of older adults are impaired in locomotion domains, which is called the “Higher IC level group”,
+accounting for 23.2% (1,955 cases); very few older adults in Class 2 had normal cognitive domains and were severe
+impairments in the locomotion domain, named the “Cognitive- locomotion domain-impaired mid-IC group”, which
+accounted for 59.96% (5053 cases); older adults in Class 3 had moderate to high levels of impairment in all domains,
+particularly in the locomotion domain, and were named the “Locomotion-impaired predominantly low-IC group”,
+accounting for 16.84% of the cases (1,419 cases).
+Comparison of Characteristics of Three Latent Classes of IC Levels Among Older
+Adults
+The results of univariate analysis showed that sex, age, BMI, literacy, marital status, number of children, place of
+residence (rural/urban), mode of residence (living alone/not living alone), type of health insurance, average household
+monthly income, drinking, smoking, whether or not they had annual physical examination, participation in social
+activities, exercise, and whether or not they had chronic disease latent classes were all statistically significant
+(P<0.05), see Table 5.
+Multivariate Logistic Regression of Influences on Three Latent Classes
+The results of the multinomial logistic regression analysis with different latent classes as dependent variables and
+variables that were statistically significant in the univariate analysis as independent variables are shown in Table 6.
+Compared to Class 1, Class 2 was associated with slightly younger age (OR = 0.989, 95% CI: 0.978–0.999), lower
+IADL scores (OR = 0.836, 95% CI: 0.818–0.855), and a higher likelihood of regular exercise (OR = 1.806, 95% CI:
+1.515–2.152). In terms of chronic conditions, individuals with hypertension (OR = 1.278, 95% CI: 1.087–1.502) or
+coronary heart disease (OR = 1.471, 95% CI: 1.216–1.779) were more likely to be in Class 2, whereas those with chronic
+bronchitis (OR = 0.718, 95% CI: 0.561–0.918) or hyperlipidemia (OR = 0.704, 95% CI: 0.566–0.876) were more likely
+Clinical Interventions in Aging 2025:20 https://doi.org/10.2147/CIA.S549998 2 3 2 1
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+Table 1 Baseline Characteristics of Older Adults with Different IC Levels
+Variables Total IC Level
+(n=8427)
+Severe Impairment Mild to Moderate Normal
+(n=2090) Impairment (n=1048)
+(n=5289)
+BMI 22.93 (20.81, 24.97) 21.95 (19.51, 24.16) 23.13 (21.09, 24.98) 23.84 (21.78, 25.71)
+Age 71.69 (66.00, 76.00) 74.69 (69.00, 80.00) 71.02 (66.00, 76.00) 69.05 (64.00, 73.00)
+BADL 90.74 (90.00, 100.00) 77.43 (65.00, 95.00) 94.53 (95.00, 100.00) 98.19 (100.00, 100.00)
+IADL 17.94 (16.00, 22.00) 13.05 (8.00, 18.00) 19.14 (17.00, 22.00) 21.62 (21.00, 23.00)
+Sex, n (%)
+Male 4285 (50.85) 1006 (48.13) 2705 (51.14) 574 (54.77)
+Female 4142 (49.15) 1084 (51.87) 2584 (48.86) 474 (45.23)
+Educational level, n (%)
+Primary school and below 5504 (65.31) 1604 (76.75) 3409 (64.45) 491 (46.85)
+Middle school 1727 (20.49) 320 (15.31) 1105 (20.89) 302 (28.82)
+High school/technical high school 900 (10.68) 130 (6.22) 588 (11.12) 182 (17.37)
+Junior college and above 296 (3.51) 36 (1.72) 187 (3.54) 73 (6.97)
+Marital status, n (%)
+Married 7032 (83.45) 1599 (76.51) 4516 (85.38) 917 (87.50)
+Other (separated/divorced/widowed/ 1395 (16.55) 491 (23.49) 773 (14.62) 131 (12.50)
+unmarried)
+Number of children, n (%)
+No 86 (1.02) 19 (0.91) 55 (1.04) 12 (1.15)
+One 1182 (14.03) 171 (8.18) 759 (14.35) 252 (24.05)
+Two 2828 (33.56) 581 (27.80) 1836 (34.71) 411 (39.22)
+Three and above 4331 (51.39) 1319 (63.11) 2639 (49.90) 373 (35.59)
+Residence, n (%)
+Urban 4699 (55.76) 954 (45.65) 3003 (56.78) 742 (70.80)
+Rural 3728 (44.24) 1136 (54.35) 2286 (43.22) 306 (29.20)
+Mode of residence, n (%)
+Not living alone 7926 (94.05) 1935 (92.58) 4995 (94.44) 996 (95.04)
+Living alone 501 (5.95) 155 (7.42) 294 (5.56) 52 (4.96)
+Type of medical insurance, n (%)
+Insurance 8253 (97.94) 2049 (98.04) 5173 (97.81) 1031 (98.38)
+Self-funded 174 (2.06) 41 (1.96) 116 (2.19) 17 (1.62)
+Average household monthly income
+(1 yuan = 0.139 USD), n (%)
+≥ 2000 yuan 4498 (53.38) 957 (45.79) 2863 (54.13) 678 (64.69)
+< 2000 yuan 3929 (46.62) 1133 (54.21) 2426 (45.87) 370 (35.31)
+Drinking, n (%)
+Nondrinker 7422 (88.07) 1868 (89.38) 4664 (88.18) 890 (84.92)
+Drinker 1005 (11.93) 222 (10.62) 625 (11.82) 158 (15.08)
+Smoking, n (%)
+Nonsmoker 6988 (82.92) 1746 (83.54) 4398 (83.15) 844 (80.53)
+Smoker 1439 (17.08) 344 (16.46) 891 (16.85) 204 (19.47)
+Annual physical examination, n (%)
+Yes 4624 (54.87) 969 (46.36) 2993 (56.59) 662 (63.17)
+No 3803 (45.13) 1121 (53.64) 2296 (43.41) 386 (36.83)
+Socialization, n (%)
+Yes 5104 (60.57) 999 (47.80) 3300 (62.39) 805 (76.81)
+No 3323 (39.43) 1091 (52.20) 1989 (37.61) 243 (23.19)
+(Continued)
+2322 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+Table 1 (Continued).
+Variables Total IC Level
+(n=8427)
+Severe Impairment Mild to Moderate Normal
+(n=2090) Impairment (n=1048)
+(n=5289)
+Exercise, n (%)
+Yes 6455 (76.60) 1308 (62.58) 4243 (80.22) 904 (86.26)
+No 1972 (23.40) 782 (37.42) 1046 (19.78) 144 (13.74)
+Hypertension, n (%)
+No 3168 (37.59) 842 (40.29) 1909 (36.09) 417 (39.79)
+Yes 5259 (62.41) 1248 (59.71) 3380 (63.91) 631 (60.21)
+Diabetes, n (%)
+No 6450 (76.54) 1665 (79.67) 3971 (75.08) 814 (77.67)
+Yes 1977 (23.46) 425 (20.33) 1318 (24.92) 234 (22.33)
+Coronary heart disease, n (%)
+No 6897 (81.84) 1646 (78.76) 4321 (81.70) 930 (88.74)
+Yes 1530 (18.16) 444 (21.24) 968 (18.30) 118 (11.26)
+Cerebrovascular disease, n (%)
+No 7218 (85.65) 1638 (78.37) 4625 (87.45) 955 (91.13)
+Yes 1209 (14.35) 452 (21.63) 664 (12.55) 93 (8.87)
+COPD, n (%)
+No 7724 (91.66) 1833 (87.70) 4909 (92.82) 982 (93.70)
+Yes 703 (8.34) 257 (12.30) 380 (7.18) 66 (6.30)
+Cataracts, n (%)
+No 7942 (94.24) 1876 (89.76) 5045 (95.39) 1021 (97.42)
+Yes 485 (5.76) 214 (10.24) 244 (4.61) 27 (2.58)
+Degenerative osteoarthropathy, n (%)
+No 7497 (88.96) 1770 (84.69) 4754 (89.88) 973 (92.84)
+Yes 930 (11.04) 320 (15.31) 535 (10.12) 75 (7.16)
+Chronic bronchitis, n (%)
+No 7725 (91.67) 1825 (87.32) 4945 (93.50) 955 (91.13)
+Yes 702 (8.33) 265 (12.68) 344 (6.50) 93 (8.87)
+Hyperlipidemia, n (%)
+No 7720 (91.61) 1942 (92.92) 4869 (92.06) 909 (86.74)
+Yes 707 (8.39) 148 (7.08) 420 (7.94) 139 (13.26)
+Presence of multimorbidity, n (%)
+No 4436 (52.64) 874 (41.82) 2890 (54.64) 672 (64.12)
+Yes 3991 (47.36) 1216 (58.18) 2399 (45.36) 376 (35.88)
+Notes: Non-normal continuous variables are described by the median and interquartile range, M (Q1, Q3): Age, BMI, BADL, IADL.
+Abbreviations: IC, Intrinsic capacity; BMI, Body mass index; IADL, Instrumental activities of daily living; BADL, Basic Activities of Daily Living; COPD, Chronic Obstructive
+Pulmonary Disease.
+Table 2 Fit Indices of Latent Class Analysis for Intrinsic Capacity of Older Adults
+Model LL AIC BIC aBIC Entropy P Classification Probability
+LMR BLRT
+1 −34,613.946 69,247.893 69,318.285 69,286.507 – – – 1
+2 −33,579.647 67,201.294 67,349.117 67,282.383 0.621 <0.001 <0.001 0.77418/0.22582
+3 −33,373.486 66,810.972 67,036.226 66,934.536 0.801 <0.001 <0.001 0.23199/0.59962/0.16839
+4 −33,291.084 66,668.168 66,970.853 66,834.207 0.544 0.0329 <0.001 0.29583/0.52059/0.05530/0.12828
+Notes: P<0.05: statistically significant. Bold text indicates that this model has the best fit.
+Abbreviations: LL, loglikelihood; AIC, Akaike Information Criterion; BIC, Bayesian Information Criterion; aBIC, adjusted Bayesian Information Criterion; LMR,
+likelihood Ratio; BLRT, Bootstrap likelihood Ratio Test.
+Clinical Interventions in Aging 2025:20 https://doi.org/10.2147/CIA.S549998 2 3 2 3
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+Table 3 The Probability of Correct
+Classification for Each Category
+Latent Class 1 2 3
+1 0.973 <0.001 0.027
+2 <0.001 0.914 0.086
+3 0.018 0.162 0.82
+Table 4 Distribution of IC Level Among Classes After Classification
+Variables Total Class 1 Class 2 Class 3
+(n = 8427) (n = 1955) (n = 5053) (n = 1419)
+IC Level
+Severe impairment (n=2090) 2090 (24.80) 11 (0.56) 668 (13.22) 1411 (99.44)
+Mild to moderate impairment (n=5289) 5289 (62.76) 1172 (59.95) 4109 (81.32) 8 (0.56)
+Normal (n=1048) 1048 (12.44) 772 (39.49) 276 (5.46) 0 (0.00)
+Abbreviation: IC, Intrinsic capacity.
+to be in Class 1. Furthermore, several factors were protective against being in Class 2 relative to Class 1, including higher
+educational attainment (eg, college and above: OR = 0.22, 95% CI: 0.162–0.299), being male (OR = 0.632, 95% CI:
+0.552–0.725), being married (OR = 0.749, 95% CI: 0.604–0.928), having insurance (OR = 0.572, 95% CI: 0.355–0.922),
+a monthly household income ≥2000 yuan (OR = 0.628, 95% CI: 0.546–0.723), being a drinker (OR = 0.767, 95% CI:
+0.632–0.93), and participating in social activities (OR = 0.664, 95% CI: 0.573–0.77).
+When comparing Class 3 to Class 1, Class 3 was characterized by lower BMI (OR = 0.859, 95% CI: 0.833–0.886),
+BADL (OR = 0.98, 95% CI: 0.974–0.987), and IADL scores (OR = 0.742, 95% CI: 0.724–0.761). The protective effects
+of these socioeconomic factors (higher education, male gender, being married, higher income, and social participation)
+for membership in Class 1 were also consistently observed when Class 3 was the comparator. Regular exercise, however,
+was associated with a higher likelihood of being in Class 3 versus Class 1 (OR = 1.371, 95% CI: 1.087–1.728). Specific
+chronic conditions increasing the risk for Class 3 membership included cerebrovascular disease (OR = 1.402, 95% CI:
+Figure 1 Stacked conditional probability distributions for three latent classes of IC levels in older adults.
+Notes: *P<0.01, **P<0.05.
+Abbreviations: IC, Intrinsic capacity.
+2324 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Table 5 Comparison of Characteristics of Three Latent Classes of IC Levels Among Older Adults
+Variables Total Class 1 Class 2 Class 3 Z/χ2 P
+(n = 8427) (n = 1955) (n = 5053) (n = 1419)
+BMI 22.893 (20.812, 24.974) 23.255 (21.348, 25.236) 23.111 (21.094, 25.100) 21.259 (19.147, 23.828) 311.564 <0.001
+Age 71.000 (66.000, 76.000) 68.000 (64.000, 74.000) 71.000 (67.000, 76.000) 75.000 (69.000, 80.000) 507.708 <0.001
+BADL 100.000 (90.000, 100.000) 100.000 (100.000, 100.000) 100.000 (95.000, 100.000) 80.000 (55.000, 95.000) 1643.495 <0.001
+IADL 20.000 (16.000, 22.000) 22.000 (20.000, 23.000) 19.000 (16.000, 22.000) 12.000 (7.000, 17.000) 2133.757 <0.001
+Sex 166.502 <0.001
+Female 4142 (49.152) 711 (36.368) 2683 (53.097) 748 (52.713)
+Male 4285 (50.848) 1244 (63.632) 2370 (46.903) 671 (47.287)
+Educational level 1043.24 <0.001
+Primary school and below 5504 (65.314) 740 (37.852) 3647 (72.175) 1117 (78.717)
+Middle school 1727 (20.494) 579 (29.616) 945 (18.702) 203 (14.306)
+High school/technical high school 900 (10.680) 450 (23.018) 374 (7.402) 76 (5.356)
+Junior college and above 296 (3.513) 186 (9.514) 87 (1.722) 23 (1.621)
+Marital status 121.065 <0.001
+Other (separated/divorced/widowed/unmarried) 1395 (16.554) 182 (9.309) 886 (17.534) 327 (23.044)
+Married 7032 (83.446) 1773 (90.691) 4167 (82.466) 1092 (76.956)
+Number of children 651.163 <0.001
+No 86 (1.021) 24 (1.228) 50 (0.990) 12 (0.846)
+One 1182 (14.026) 571 (29.207) 496 (9.816) 115 (8.104)
+Two 2828 (33.559) 736 (37.647) 1705 (33.742) 387 (27.273)
+Three and above 4331 (51.394) 624 (31.918) 2802 (55.452) 905 (63.777)
+Residence 277.143 <0.001
+Rural 3728 (44.239) 582 (29.770) 2327 (46.052) 819 (57.717)
+Urban 4699 (55.761) 1373 (70.230) 2726 (53.948) 600 (42.283)
+Mode of residence 7.02 0.030
+Living alone 501 (5.945) 92 (4.706) 318 (6.293) 91 (6.413)
+Not living alone 7926 (94.055) 1863 (95.294) 4735 (93.707) 1328 (93.587)
+Type of medical insurance 10.687 0.005
+Insurance 8253 (97.935) 1932 (98.824) 4931 (97.586) 1390 (97.956)
+Self-funded 174 (2.065) 23 (1.176) 122 (2.414) 29 (2.044)
+Average household monthly income 428.268 <0.001
+(1 yuan = 0.139 USD)
+≥ 2000 yuan 4498 (53.376) 1442 (73.760) 2416 (47.813) 640 (45.102)
+< 2000 yuan 3929 (46.624) 513 (26.240) 2637 (52.187) 779 (54.898)
+(Continued)
+Clinical
+Interventions
+in
+Aging
+2025:20
+https://doi.org/10.2147/CIA.S549998
+2
+3
+2
+5
+Zhang
+et
+al
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Table 5 (Continued).
+Variables Total Class 1 Class 2 Class 3 Z/χ2 P
+(n = 8427) (n = 1955) (n = 5053) (n = 1419)
+Drinking 85.127 <0.001
+Nondrinker 7422 (88.074) 1606 (82.148) 4539 (89.828) 1277 (89.993)
+Drinker 1005 (11.926) 349 (17.852) 514 (10.172) 142 (10.007)
+Smoking 43.985 <0.001
+Nonsmoker 6988 (82.924) 1525 (78.005) 4274 (84.583) 1189 (83.791)
+Smoker 1439 (17.076) 430 (21.995) 779 (15.417) 230 (16.209)
+Annual physical examination 161.407 <0.001
+Yes 4624 (54.871) 1243 (63.581) 2791 (55.235) 590 (41.579)
+No 3803 (45.129) 712 (36.419) 2262 (44.765) 829 (58.421)
+Socialization 317.711 <0.001
+Yes 5104 (60.567) 1463 (74.834) 3006 (59.489) 635 (44.750)
+No 3323 (39.433) 492 (25.166) 2047 (40.511) 784 (55.250)
+Exercise 361.623 <0.001
+Yes 6455 (76.599) 1607 (82.199) 4036 (79.873) 812 (57.223)
+No 1972 (23.401) 348 (17.801) 1017 (20.127) 607 (42.777)
+Hypertension 30.466 <0.001
+No 3168 (37.593) 791 (40.460) 1781 (35.246) 596 (42.001)
+Yes 5259 (62.407) 1164 (59.540) 3272 (64.754) 823 (57.999)
+Diabetes 14.724 <0.001
+No 6450 (76.540) 1455 (74.425) 3859 (76.370) 1136 (80.056)
+Yes 1977 (23.460) 500 (25.575) 1194 (23.630) 283 (19.944)
+Coronary heart disease 36.053 <0.001
+No 6897 (81.844) 1689 (86.394) 4076 (80.665) 1132 (79.774)
+Yes 1530 (18.156) 266 (13.606) 977 (19.335) 287 (20.226)
+Cerebrovascular disease 76.011 <0.001
+No 7218 (85.653) 1749 (89.463) 4349 (86.068) 1120 (78.929)
+Yes 1209 (14.347) 206 (10.537) 704 (13.932) 299 (21.071)
+COPD 42.343 <0.001
+No 7724 (91.658) 1822 (93.197) 4662 (92.262) 1240 (87.385)
+Yes 703 (8.342) 133 (6.803) 391 (7.738) 179 (12.615)
+Cataracts 52.108 <0.001
+No 7942 (94.245) 1876 (95.959) 4784 (94.676) 1282 (90.345)
+Yes 485 (5.755) 79 (4.041) 269 (5.324) 137 (9.655)
+2326
+https://doi.org/10.2147/CIA.S549998
+C
+l i n
+i c a
+l
+I n
+t e
+r v
+e
+n t i o
+n s
+i n
+A
+g
+i n
+g
+2
+0
+2
+5
+: 2
+0
+Zhang
+et
+al
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Degenerative osteoarthropathy 47.235 <0.001
+No 7497 (88.964) 1797 (91.918) 4502 (89.096) 1198 (84.426)
+Yes 930 (11.036) 158 (8.082) 551 (10.904) 221 (15.574)
+Chronic bronchitis 71.191 <0.001
+No 7725 (91.670) 1793 (91.714) 4709 (93.192) 1223 (86.187)
+Yes 702 (8.330) 162 (8.286) 344 (6.808) 196 (13.813)
+Hyperlipidemia 29.263 <0.001
+No 7720 (91.610) 1733 (88.645) 4671 (92.440) 1316 (92.741)
+Yes 707 (8.390) 222 (11.355) 382 (7.560) 103 (7.259)
+Presence of multimorbidity 104.127 <0.001
+No 4436 (52.640) 1174 (60.051) 2662 (52.682) 600 (42.283)
+Yes 3991 (47.360) 781 (39.949) 2391 (47.318) 819 (57.717)
+Notes: χ2: chi-square test. P<0.05: statistically significant. Non-normal continuous variables are described by the median and interquartile range, M (Q1, Q3): Age, BMI, BADL, IADL.
+Abbreviations: IC, Intrinsic capacity; BMI, Body mass index; IADL, Instrumental activities of daily living; BADL, Basic Activities of Daily Living; COPD, Chronic Obstructive Pulmonary Disease.
+Clinical
+Interventions
+in
+Aging
+2025:20
+https://doi.org/10.2147/CIA.S549998
+2
+3
+2
+7
+Zhang
+et
+al
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Table 6 Multivariate Logistic Regression Modeling of Factors Influencing the Three Latent Classes
+Variables Class 2 vs Class 1ª Class 3 vs Class 1ª Class 3 vs Class 2ª
+OR (95% CI) P OR (95% CI) P OR (95% CI) P
+Age 0.989 (0.978, 0.999) 0.030 0.999 (0.985, 1.014) 0.923 1.011 (0.999, 1.023) 0.065
+BMI 1.002 (0.981, 1.023) 0.864 0.859 (0.833, 0.886) <0.001 0.857 (0.837, 0.879) <0.001
+BADL 1.004 (0.998, 1.011) 0.208 0.98 (0.974, 0.987) <0.001 0.976 (0.972, 0.98) <0.001
+IADL 0.836 (0.818, 0.855) <0.001 0.742 (0.724, 0.761) <0.001 0.888 (0.874, 0.902) <0.001
+Sex
+Female 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Male 0.632 (0.552, 0.725) <0.001 0.56 (0.46, 0.682) <0.001 0.886 (0.754, 1.04) 0.139
+Educational level
+Elementary school and below 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Middle school 0.513 (0.441, 0.597) <0.001 0.503 (0.396, 0.639) <0.001 0.98 (0.795, 1.208) 0.848
+High school/technical high school 0.322 (0.266, 0.391) <0.001 0.254 (0.178, 0.364) <0.001 0.789 (0.567, 1.1) 0.162
+College and above 0.22 (0.162, 0.299) <0.001 0.217 (0.118, 0.396) <0.001 0.983 (0.548, 1.764) 0.953
+Marital status
+Other (separated/divorced/widowed/unmarried) 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Married 0.749 (0.604, 0.928) 0.008 0.591 (0.451, 0.773) <0.001 0.789 (0.652, 0.955) 0.015
+Number of children
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+One 0.831 (0.474, 1.459) 0.520 1.622 (0.646, 4.073) 0.304 1.951 (0.878, 4.334) 0.101
+Two 1.264 (0.728, 2.194) 0.406 1.831 (0.748, 4.482) 0.186 1.449 (0.67, 3.13) 0.346
+Three and above 1.592 (0.916, 2.764) 0.099 2.268 (0.931, 5.528) 0.072 1.425 (0.664, 3.059) 0.363
+Residence
+Rural 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Urban 0.97 (0.836, 1.127) 0.694 0.885 (0.718, 1.09) 0.251 0.912 (0.772, 1.077) 0.276
+Mode of residence
+Living alone 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Not living alone 1.059 (0.787, 1.425) 0.705 1.029 (0.693, 1.528) 0.888 0.972 (0.716, 1.318) 0.853
+Type of medical insurance
+Self-funded 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Insurance 0.572 (0.355, 0.922) 0.022 0.623 (0.327, 1.188) 0.151 1.089 (0.669, 1.773) 0.731
+Average household monthly income (1 yuan = 0.139 USD)
+< 2000 yuan 1.00 (reference) 1.00 (reference) 1.00 (reference)
+≥ 2000 yuan 0.628 (0.546, 0.723) <0.001 0.622 (0.51, 0.758) <0.001 0.99 (0.846, 1.159) 0.900
+Drinking
+Nondrinker 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Drinker 0.767 (0.632, 0.93) 0.007 0.948 (0.705, 1.276) 0.726 1.237 (0.957, 1.598) 0.104
+Smoking
+Nonsmoker 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Smoker 0.973 (0.814, 1.163) 0.764 1.136 (0.87, 1.484) 0.348 1.168 (0.931, 1.464) 0.179
+2328
+https://doi.org/10.2147/CIA.S549998
+C
+l i n
+i c
+a
+l
+I n
+t e
+r
+v
+e
+n t i o
+n s
+i n
+A
+g i n
+g
+2
+0
+2
+5
+: 2
+0
+Zhang
+et
+al
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Annual physical examination
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.101 (0.961, 1.263) 0.166 0.87 (0.716, 1.056) 0.159 0.79 (0.675, 0.923) 0.003
+Socialization
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 0.664 (0.573, 0.77) <0.001 0.682 (0.554, 0.84) <0.001 1.027 (0.87, 1.213) 0.754
+Exercise
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.806 (1.515, 2.152) <0.001 1.371 (1.087, 1.728) 0.008 0.759 (0.635, 0.907) 0.002
+Hypertension
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.278 (1.087, 1.502) 0.003 1.049 (0.839, 1.312) 0.673 0.821 (0.687, 0.981) 0.030
+Diabetes
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.043 (0.879, 1.237) 0.633 0.947 (0.742, 1.209) 0.662 0.908 (0.746, 1.106) 0.340
+Coronary heart disease
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.471 (1.216, 1.779) <0.001 1.222 (0.946, 1.579) 0.125 0.831 (0.683, 1.011) 0.065
+Cerebrovascular disease
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.199 (0.973, 1.477) 0.088 1.402 (1.068, 1.842) 0.015 1.17 (0.952, 1.437) 0.135
+COPD
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.266 (0.979, 1.637) 0.073 1.311 (0.94, 1.83) 0.111 1.036 (0.803, 1.336) 0.785
+Cataracts
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 0.969 (0.719, 1.305) 0.834 1.642 (1.137, 2.372) 0.008 1.696 (1.297, 2.216) <0.001
+Degenerative osteoarthropathy
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.154 (0.916, 1.454) 0.225 1.338 (0.994, 1.801) 0.055 1.16 (0.928, 1.449) 0.193
+Chronic bronchitis
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 0.718 (0.561, 0.918) 0.008 1.314 (0.961, 1.795) 0.087 1.83 (1.435, 2.334) <0.001
+Hyperlipidemia
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 0.704 (0.566, 0.876) 0.002 0.841 (0.607, 1.164) 0.296 1.194 (0.906, 1.573) 0.208
+Presence of multimorbidity
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.129 (0.934, 1.364) 0.211 1.588 (1.223, 2.062) 0.001 1.407 (1.143, 1.733) 0.001
+Notes: P<0.05: statistically significant. aThe reference category. Bold text indicates statistical significance. Non-normal continuous variables are described by the median and interquartile range, M (Q1, Q3): Age, BMI, BADL, IADL.
+Abbreviations: IC, Intrinsic capacity; BMI, Body mass index; IADL, Instrumental activities of daily living; BADL, Basic Activities of Daily Living; COPD, Chronic Obstructive Pulmonary Disease.
+Clinical
+Interventions
+in
+Aging
+2025:20
+https://doi.org/10.2147/CIA.S549998
+2
+3
+2
+9
+Zhang
+et
+al
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+Figure 2 The Spearman correlation between lifestyle and the domains of IC. (All other covariates have been adjusted).
+Notes: *P<0.01, **P<0.05.
+Abbreviations: IC, Intrinsic capacity.
+1.068–1.842) and cataracts (OR = 1.642, 95% CI: 1.137–2.372). Critically, older adults with multimorbidity were at
+significantly greater risk of belonging to Class 3 than Class 1 (OR = 1.588, 95% CI: 1.223–2.062).
+Finally, in the direct comparison between Class 2 and Class 3, Class 2 had lower levels of BMI (OR = 0.857, 95% CI:
+0.837–0.879), BADL (OR = 0.976, 95% CI: 0.972–0.98), and IADL (OR = 0.742, 95% CI: 0.724–0.761). Being married
+(OR = 0.789, 95% CI: 0.652–0.955), having annual physical examinations (OR = 0.79, 95% CI: 0.675–0.923), and
+exercising regularly (OR = 0.759, 95% CI: 0.635–0.907) were associated with a higher probability of being in Class 2
+relative to Class 3. Regarding chronic diseases, hypertension increased the likelihood of being in Class 2 (OR = 0.821,
+95% CI: 0.687–0.981), whereas cataracts (OR = 1.696, 95% CI: 1.297–2.216), chronic bronchitis (OR = 1.83, 95% CI:
+1.435–2.334), and the presence of multimorbidity (OR = 1.407, 95% CI: 1.143–1.733) posed a greater risk for Class 3
+membership.
+Figure 2 shows the Spearman correlation between lifestyle and the domains of IC, and Figure 3 shows the Spearman
+correlation between chronic diseases and the domains of IC.
+Discussion
+This study represents a pioneering effort to delineate the latent class structure of IC among older adults with chronic
+diseases, moving beyond the conventional dichotomous classification of IC impairment. By employing a multi-
+categorical LCA, we identified three distinct subgroups: a “Higher IC group” (23.2%), a “Cognitive-Locomotion
+Domain-Impaired Mid-IC group” (59.96%), and a “Locomotion-Impaired Predominantly Low-IC group” (16.84%).
+These subgroups reflect group heterogeneity in IC levelamong older adults with chronic diseases, and this group
+heterogeneity reflects multidimensional differences in physical, psychological, and social functioning among the older
+population.
+2330 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+Figure 3 The Spearman correlation between chronic diseases and the domains of IC. (All other covariates have been adjusted).
+Abbreviations: IC, Intrinsic capacity; COPD, Chronic Obstructive Pulmonary Disease.
+High Prevalence and Comparative Context of IC Impairment
+The prevalence of IC decline in older adults with chronic diseases in this study was 87.56%. Linlin et al18 found that the
+rate of IC decline in older adults over 80 years old was 86.9%, which is not much different from the results of the present
+study, and both of them belong to the high level, which may be that older adults and older adults with chronic diseases
+are the focus of IC decline. A study by Zhu et al19 on IC impairment in 237 hospitalized older adults yielded an IC
+decline rate of 69.6%, which is lower than the results of the present study, probably because of its small sample size and
+the fact that the information was collected in only one older adults hospital. Merchant et al20 reported an exceptionally
+high rate (96.1%) in a community-based sample selected for fall risk. This elevated figure likely reflects the strong,
+bidirectional relationship between IC decline and fall risk, compounded by their study’s limited sample size. The
+variability across these studies highlights the influence of sample characteristics and setting on IC prevalence estimates.
+Critically, our high prevalence rate underscores the urgent need to integrate IC assessments into the routine management
+of older adults with chronic conditions.
+Factors Associated with IC Latent Class Membership
+Our analysis identified numerous sociodemographic, lifestyle, and clinical factors associated with class membership.
+A nuanced interpretation of these findings is warranted.
+In the results of this study, older adults were slightly more likely to be in the “Higher IC group”. A study has shown
+that older adults have a greater risk of IC decline,19 which is somewhat different from the results of the present study. The
+reason for this may be that the mean ages of the “Higher IC group” and the “middle IC group with cognitive-locomotion
+impairments” are 68 and 71, and the difference in age distribution between the two groups was not obvious, with an OR
+value of 0.989. A comparison of the results of two studies on the normalization of IC in older adults aged 80 years or
+older has revealed a significant gap between the two,18 but this difference in results does not diminish the credibility of
+Clinical Interventions in Aging 2025:20 https://doi.org/10.2147/CIA.S549998 2 3 3 1
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+the studies; on the contrary, it further emphasizes the wide availability of the current definition of IC and the significant
+group heterogeneity it provokes.18
+A higher BMI emerged as a protective factor against IC impairment. This seemingly counterintuitive finding may be
+partly attributed to the assessment methodology for the nutritional domain within IC, where a higher BMI can contribute
+to a better score on tools like the MNA-SF. Furthermore, being underweight is a known risk factor for cognitive
+impairment,21 and older adults with a higher BMI may have better overall functional and psychological status.22,23
+However, this observation necessitates cautious interpretation, as a high BMI is also a risk factor for conditions like
+hyperlipidemia;24 thus, its relationship with IC is likely complex and non-linear.
+The results of the present study19 showed that older adults with high levels of IC had higher BADL and IADL scores,
+similar to the results of previous studies, and it was found that most of the decline in IC in older adults with chronic
+diseases was due to their impaired locomotion domains, and that the SPPB, a global measure of physical functioning
+used in locomotion domain assessment, was strongly correlated with the decline in BADL and the decline in IADL.25
+Consistent with existing literature,18 we found that men were generally less likely to experience IC impairment than
+women. This disparity may be driven by sociocultural factors, where historically lower educational attainment and
+economic status among women, combined with greater caregiver burdens and role stress, can negatively impact physical
+and mental health.26 This is evidenced by their higher incidence of cognitive disorders, depression, and functional
+disabilities.27–29
+Higher educational level was a strong protective factor for IC. This is plausibly mediated through greater health
+literacy, better cognitive reserve, enhanced self-management skills, and greater adaptability, such as engaging in mentally
+stimulating activities that can slow cognitive decline.30 Extensive research supports the protective effect of education on
+psychological and cognitive function in later life,31 as well as a lower risk of chronic diseases,32,33 ultimately optimizing
+IC levels.
+Marital status serves as a protective factor for IC in older adults. After the older adults have retired and separated
+from their children, the spouse can not only take care of most of the socialization needs, but also share some of the
+financial pressure, and the spouse of an older adult with a chronic disease is able to provide some day-to-day care for him
+or her.34,35 At the same time, it has been shown that older adults with 21–30 years of marriage are less likely to have
+multimorbidity than those with less than 10 years of marriage,36 thereby protecting older adults IC levels, consistent with
+our findings (multimorbidity aggravates IC impairment). Older adults with higher average household monthly income
+have relatively higher levels of IC.
+Older adults with higher income levels usually have sufficient funds to maintain healthy living conditions and access
+to excellent healthcare resources. Older adults with insurance will have a higher level of IC. In addition to being more
+likely to have insurance with a high level of education and economic status,37 these older adults will have a greater
+willingness to seek medical care and a greater awareness of chronic disease management.38
+In terms of lifestyle, older adults who still drink are more likely to be in the “Higher IC group” than the “Cognitive-
+locomotion domain-impaired mid-IC group”. Studies have shown that light or moderate drinking (less than 8 drinks per
+week for women and less than 15 drinks per week for men) contributes to improved cognitive performance in middle-
+aged and older adults,39 while moderate drinking is a protective factor against depression in older adults.40
+Older adults who underwent annual physical examinations had higher IC levels, underscoring the value of regular
+health monitoring for early detection and chronic disease management, which is linked to a slower decline in BADL.41
+Social engagement was a consistent protective factor, likely by enriching life, protecting cognitive function, improving
+sleep quality,42 and reducing negative emotions.43
+The effect of exercise on IC level was not statistically significant in our primary analysis, particularly for the “Mid-IC
+group.” The evidence on the cognitive benefits of physical activity in older adults remains mixed, with some intervention
+studies, including an 18-month trial, showing no significant cognitive improvement.44 The relationship is likely highly
+dependent on the type, intensity, and duration of exercise, warranting future research with more detailed exercise
+characterization.45,46
+2332 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+The Factors of Chronic Disease in Older Adults in Different Latent Classes
+The chronic disease profiles varied significantly across latent classes. Older adults with hypertension and coronary heart
+disease were more likely to belong to the “Mid-IC group.” These cardiovascular conditions are known to promote
+systemic inflammation,47 exacerbate cognitive impairment, and increase the risk of depression and Alzheimer’s
+dementia.48 Coronary heart disease can even lead to asymptomatic brain damage and β-amyloid deposition, which can
+lead to cognitive impairment.
+Older adults with cataracts are found in the “Locomotion-impaired predominantly low-IC group”, which shows that
+cataracts are very detrimental to the IC level of older adults. On the one hand, vision level, one of the domains of the IC,
+itself affects IC scores; on the other hand, several studies49,50 have shown that when older adults vision declines, it is
+accompanied by a decline in well-being, anxiety, and irritability, which can lead to an increased risk of depression in
+older adults.
+The distribution of chronic bronchitis was bipolar, concentrated in both the “High IC” and “Low IC” groups. This
+heterogeneity might be explained by confounding factors; for instance, an extroverted personality (a potential proxy for
+social engagement, a known IC protector51) may be a risk factor for chronic bronchitis. Conversely, when chronic
+bronchitis progresses to COPD,52 it can trigger chronic inflammation, accelerate senescence, and significantly increase
+mortality risk.53 This dual potential underscores the need for more research on the specific impact of chronic bronchitis
+on IC. There are fewer relevant studies exploring the relationship between chronic bronchitis and various domains of IC,
+and the results of this study are informative about the impact of chronic bronchitis on IC in older adults.
+As anticipated, multimorbidity was profoundly detrimental, with affected individuals predominantly located in the
+“Low-IC group.” The coexistence of multiple chronic diseases creates synergistic negative effects, accelerating physical
+and cognitive decline27,54 and increasing the risk of future depressive symptoms.55
+Clinical Implications
+This study reinforces the importance of education—not only formal schooling but also lifelong learning through
+initiatives such as “senior citizens” universities.”32 It also highlights gaps in health insurance utilization and underscores
+the need for expanded coverage and reimbursement policies.9,37
+The three latent classes identified in this study provide a potentially practical framework for IC care strategies for older
+adults, and precise typing could be used in the future to guide individualized interventions for older adults with chronic
+conditions. The “Higher IC group” can maintain existing health behaviors and strengthen chronic disease self-management
+education to prevent the decline of IC; the “Cognitive- locomotion domain-impaired mid-IC group” should formulate an
+individualized exercise rehabilitation program, combined with respiratory exercise to slow down the decline of cardior-
+espiratory function; the “Locomotion-impaired predominantly low-IC group” needs early screening for cognitive function.
+The results of this study support the inclusion of IC assessment in chronic disease management guidelines and the
+development of standardized assessment tools for IC subgroups. In addition, health education for older adults in the
+community needs to be strengthened to promote healthy lifestyles and reduce the risk of multimorbidity. In this study,
+older adults with chronic diseases suffered the most severe impairment in the area of locomotion, followed by cognition
+and sensory function, which should be given corresponding attention.
+Advantages and Limitations
+This study advances the field by moving beyond the prior dichotomous treatment of IC and employing, for the first time,
+a multi-categorical LCA to model IC in older adults with chronic diseases. The use of stacked plots provides an intuitive
+visualization of the distinct IC domain profiles across the identified subgroups, enhancing the interpretability of the
+complex latent structure. As the first study to specifically explore IC status and its heterogeneity in a chronic disease
+population aged 60 years and above, it lays a crucial foundation for developing targeted care and personalized
+intervention strategies. Furthermore, the distinct patterns of influencing factors associated with each latent class offer
+a valuable reference for clarifying the impact of certain controversial factors on older adults health. Collectively, these
+findings provide new perspectives on the needs and challenges faced by this growing demographic.
+Clinical Interventions in Aging 2025:20 https://doi.org/10.2147/CIA.S549998 2 3 3 3
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+However, there are some limitations in this study. First, the combinations of multimorbidity are complex and diverse,
+and the study did not explore the effects of different combinations of chronic diseases on IC and the mechanisms of
+chronic diseases on various domains of IC. Second, this study was conducted in Guizhou province of China, and the
+samples may exhibit geographic-specific characteristics, which could limit its generalizability. Therefore, future research
+could consider conducting multicenter IC assessment across the nationwide for further typing of the level of IC.
+Conclusion
+In conclusion, this study is the first to use IC level as a multi-categorical factor in LCA of older adults with chronic
+diseases. Three subgroups were identified and visualized with stacked plots: higher IC, cognitive–locomotion impaired
+mid-IC, and locomotion-impaired low-IC. Meanwhile, factors influencing latent classes of IC, including sociodemo-
+graphic, functional, and lifestyle factors, were identified, and the correlations among them were explored.
+Ethics Approval and Consent to Participate
+This study was reviewed by the Ethical Review Committee of the Affiliated Hospital of Zunyi Medical College
+(KLL2022-814). The study was conducted in accordance with the principles of the Declaration of Helsinki. All the
+participants provided signed informed consent at the time of participation.
+Acknowledgments
+We sincerely thank all those who participated in this study and all the volunteers and staff who worked on it.
+Author Contributions
+All authors made a significant contribution to the work reported, whether that is in the conception, study design,
+execution, acquisition of data, analysis and interpretation, or in all these areas; took part in drafting, revising or critically
+reviewing the article; gave final approval of the version to be published; have agreed on the journal to which the article
+has been submitted; and agree to be accountable for all aspects of the work.
+Funding
+This study was supported by the China National Key R&D Program (Grant No.2020YFC2008500); the Medical
+Research Union Fund for High-quality health development of Guizhou Province in 2024 (Grant
+No.2024GZYXKYJJXM0163); the Guizhou Province Elderly Wisdom Recreation Science and Technology Innovation
+Talent Team Building (Qiankehe Platform Talent-CXTD [2023]028).
+Disclosure
+The authors declare no competing interests in this work.
+References
+1. Bauer UE, Briss PA, Goodman RA, Bowman BA. Prevention of chronic disease in the 21st century: elimination of the leading preventable causes of
+premature death and disability in the USA. Lancet. 2014;384(9937):45–52. doi:10.1016/s0140-6736(14)60648-6
+2. Su B, Li D, Xie J, et al. Chronic disease in China: geographic and socioeconomic determinants among persons aged 60 and older. J Am Med Dir
+Assoc. 2023;24(2):206–212.e5. doi:10.1016/j.jamda.2022.10.002
+3. Foo C, Surendran S, Jimenez G, Ansah JP, Matchar DB, Koh GCH. Primary care networks and Starfield’s 4Cs: a case for enhanced chronic disease
+management. Int J Environ Res Public Health. 2021;18(6). doi:10.3390/ijerph18062926
+4. Zhou Y, Ma L. Intrinsic capacity in older adults: recent advances. Aging Dis. 2022;13(2):353–359. doi:10.14336/ad.2021.0818
+5. Sum G, Lau LK, Jabbar KA, et al. The World Health Organization (WHO) Integrated Care for Older People (ICOPE) Framework: a narrative review
+on its adoption worldwide and lessons learnt. Int J Environ Res Public Health. 2023;20(1).
+6. Takeda C, Guyonnet S, Sumi Y, Vellas B, Araujo de Carvalho I. Integrated care for older people and the implementation in the INSPIRE care cohort.
+J Prev Alzheimers Dis. 2020;7(2):70–74. doi:10.14283/jpad.2020.8
+7. Amuthavalli Thiyagarajan J, Mikton C, Harwood RH, et al. The UN decade of healthy ageing: strengthening measurement for monitoring health and
+wellbeing of older people. Age Ageing. 2022;51(7). doi:10.1093/ageing/afac147
+8. Kohler S, Bärnighausen T, Kazonda P, et al. Chronic conditions and multimorbidity among middle-aged and elderly peri-urban dwellers in dar es
+Salaam, Tanzania. Int J Public Health. 2024;69:1606387. doi:10.3389/ijph.2024.1606387
+2334 https://doi.org/10.2147/CIA.S549998 C l i n i c a l I n t e r v e n t i o n s i n A g i n g 2 0 2 5 : 2 0
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+9. Liu Q, Liu J, Sui S. Public medical insurance and healthcare utilization and expenditures of older with chronic diseases in rural China: evidence
+from NRCMS. Int J Environ Res Public Health. 2020;17(20). doi:10.3390/ijerph17207683
+10. Guo C, Liu Z, Fan H, et al. Associations of healthy lifestyle and three latent socioeconomic status patterns with physical multimorbidity among
+middle-aged and older adults in China. Prev Med. 2023;175:107693. doi:10.1016/j.ypmed.2023.107693
+11. López-Ortiz S, Lista S, Peñín-Grandes S, et al. Defining and assessing intrinsic capacity in older people: a systematic review and a proposed
+scoring system. Ageing Res Rev. 2022;79:101640. doi:10.1016/j.arr.2022.101640
+12. Rubenstein LZ, Harker JO, Salvà A, Guigoz Y, Vellas B. Screening for undernutrition in geriatric practice: developing the short-form
+mini-nutritional assessment (MNA-SF). J Gerontol a Biol Sci Med Sci. 2001;56(6):M366–72. doi:10.1093/gerona/56.6.m366
+13. Mui AC. Geriatric depression scale as a community screening instrument for elderly Chinese immigrants. Int Psychogeriatr. 1996;8(3):445–458.
+doi:10.1017/s1041610296002803
+14. Guralnik JM, Simonsick EM, Ferrucci L, et al. A short physical performance battery assessing lower extremity function: association with
+self-reported disability and prediction of mortality and nursing home admission. J Gerontol. 1994;49(2):M85–94. doi:10.1093/geronj/49.2.m85
+15. Katzman R, Zhang MY, Ouang Ya Q, et al. A Chinese version of the mini-mental state examination; impact of illiteracy in a Shanghai dementia
+survey. J Clin Epidemiol. 1988;41(10):971–978. doi:10.1016/0895-4356(88)90034-0
+16. Kenny Gibson W, Cronin H, Kenny RA, Setti A. Validation of the self-reported hearing questions in the irish longitudinal study on ageing against
+the whispered voice test. BMC Res Notes. 2014;7:361. doi:10.1186/1756-0500-7-361
+17. Rothman KJ. No adjustments are needed for multiple comparisons. Epidemiology. 1990;1(1):43–46.
+18. Ma L, Zheng E, Fang Y, et al. Intrinsic capacity loss rates and protective factors among individuals aged 80 years and older in Chinese nursing
+homes: a latent class analysis. Geriatric Nursing. 2024;60:42–51. doi:10.1016/J.GERINURSE.2024.08.019
+19. Zhu L, Shen X, Shi X, Ouyang X. Factors associated with intrinsic capacity impairment in hospitalized older adults: a latent class analysis. BMC
+Geriatr. 2024;24(1):494. doi:10.1186/s12877-024-05093-z
+20. Merchant RA, Chan YH, Aprahamian I, Morley JE. Patterns of participation restriction among older adults at risk of falls and relationship with
+intrinsic capacity: a latent cluster analysis. Front Med Lausanne. 2022;9:1023879. doi:10.3389/fmed.2022.1023879
+21. Fang L, Jialin F, Gabrielle T, et al. Association of body mass index and plant-based diet with cognitive impairment among older chinese adults:
+a prospective, nationwide cohort study. Nutrients. 2022;14(15). doi:10.3390/nu14153132
+22. Aziz MR, Kit WMW, Yi LJ, Mj E. Association of central obesity and high body mass index with function and cognition in older adults. Endocr
+Connections. 2021;10(8). doi:10.1530/EC-21-0223
+23. Qiao Z, Wang Z, Qiu J, Zhang J, Cao W. Analysis of the effect of BMI on depression and anxiety among older adults in China: the mediating role
+of ADL and IADL. Front Public Health. 2024;12:1387550. doi:10.3389/fpubh.2024.1387550
+24. Zhang LX, Hou SB, Zhao FF, et al. Development and validation of a hyperlipidemia risk prediction model for middle-aged and older adult Chinese
+using 2015 CHARLS data. Front Public Health. 2025;13:1420596. doi:10.3389/fpubh.2025.1420596
+25. Western MJ, Malkowski OS. Associations of the Short Physical Performance Battery (SPPB) with adverse health outcomes in older adults: a
+14-year follow-up from the English Longitudinal Study of Ageing (ELSA). Int J Environ Res Public Health. 2022;19(23). doi:10.3390/
+ijerph192316319
+26. Guo L, An L, Luo F, Yu B. Social isolation, loneliness and functional disability in Chinese older women and men: a longitudinal study. Age Ageing.
+2021;50(4):1222–1228. doi:10.1093/ageing/afaa271
+27. Zhang Y, Yuan X, Jiang Z, et al. The relationship between multimorbidity and cognitive function in older Chinese adults: based on propensity score
+matching. Front Public Health. 2024;12. doi:10.3389/fpubh.2024.1422000
+28. Subramaniapillai S, Almey A, Natasha Rajah M, Einstein G. Sex and gender differences in cognitive and brain reserve: implications for
+Alzheimer’s disease in women. Front Neuroendocrinol. 2021;60:100879. doi:10.1016/j.yfrne.2020.100879
+29. Chiu CJ, Li ML, Chou CY. Trends and biopsychosocial correlates of physical disabilities among older men and women in Taiwan: examination
+based on ADL, IADL, mobility, and frailty. BMC Geriatr. 2022;22(1):148. doi:10.1186/s12877-022-02838-6
+30. Li P, Zhang C, Gao S, et al. Association between daily internet use and incidence of chronic diseases among older adults: prospective cohort study.
+J Med Internet Res. 2023:25:e46298. doi:10.2196/46298
+31. Cano-López I, Aliño M, Duque A, et al. Educational level as a protective factor against the influence of depressive symptoms on cognition in older
+adults: implications for functional Independence during a 10-year follow-up. Int Psychogeriatr. 2021;33(8):813–825. doi:10.1017/
+s1041610221000272
+32. Felix C, Lopez-Flecher M, Vega M, et al. Self-reported prevalence of chronic non-communicable diseases concerning socioeconomic and
+educational factors: analysis of the PURE-Ecuador cohort. Glob Heart. 2025;20(1):29. doi:10.5334/gh.1416
+33. Lee YY, Chen CL, Lee IC, Lee IC, Chen NC. History of falls, dementia, lower education levels, mobility limitations, and aging are risk factors for
+falls among the community-dwelling elderly: a cohort study. Int J Environ Res Public Health. 2021;18(17). doi:10.3390/ijerph18179356
+34. An S, Ouyang W, Wang S, Yuan J, Zhen X. Marital transitions and frailty among middle-aged and older adults in China: the roles of social support.
+SSM Popul Health. 2023;24:101497. doi:10.1016/j.ssmph.2023.101497
+35. Ma W, Wu B, Gao X, Zhong R. Association between frailty and cognitive function in older Chinese people: a moderated mediation of social
+relationships and depressive symptoms. J Affect Disord. 2022;316:223–232. doi:10.1016/j.jad.2022.08.032
+36. Wang D, Li D, Mishra SR, et al. Association between marital relationship and multimorbidity in middle-aged adults: a longitudinal study across the
+US, UK, Europe, and China. Maturitas. 2022;155:32–39. doi:10.1016/j.maturitas.2021.09.011
+37. Wang X, Qin C. Medical insurance benefits and health inequality: evidence from rural China. Front Public Health. 2024;12:1363764. doi:10.3389/
+fpubh.2024.1363764
+38. Zeng Y, Wan Y, Yuan Z, Fang Y. Healthcare-seeking behavior among Chinese older adults: patterns and predictive factors. Int J Environ Res Public
+Health. 2021;18(6). doi:10.3390/ijerph18062969
+39. Zhang R, Shen L, Miles T, et al. Association of low to moderate alcohol drinking with cognitive functions from middle to older age among US
+adults. JAMA Network Open. 2020;3(6):e207922. doi:10.1001/jamanetworkopen.2020.7922
+40. Yan Y, Du Y, Li X, Ping W, Chang Y. Physical function, ADL, and depressive symptoms in Chinese elderly: evidence from the CHARLS. Front
+Public Health. 2023;11:1017689. doi:10.3389/fpubh.2023.1017689
+Clinical Interventions in Aging 2025:20 https://doi.org/10.2147/CIA.S549998 2 3 3 5
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))
+
+Zhang et al
+41. Luo J, Zhao D, Gao T, et al. Activities of daily living limitations and the use of physical examination among older adults with informal care in
+China: do gender and residence make differences? BMC Geriatr. 2024;24(1):87. doi:10.1186/s12877-024-04673-3
+42. Wang J, Wang W, Liu Y, et al. Relationship between cognitive function and sleep quality in middle-aged and older adults for minimizing disparities
+and achieving equity in health: evidence from multiple nationwide cohorts. Arch Gerontol Geriatrics. 2024;127. doi:10.1016/j.archger.2024.105585
+43. Stefania CBHATIB. The relationship between cognitive reserve and the spontaneous use of emotion regulation strategies in older adults: a
+cross-sectional study. Aging Clin Exp Res. 2023;35(7):1505–1512. doi:10.1007/S40520-023-02424-9
+44. Whitfield T, Demnitz-King H, Schlosser M, et al. Effects of a mindfulness-based versus a health self-management intervention on objective
+cognitive performance in older adults with subjective cognitive decline (SCD): a secondary analysis of the SCD-Well randomized controlled trial.
+Alzheimers Res Ther. 2022;14(1):125. doi:10.1186/s13195-022-01057-w
+45. Gao W, Lv M, Huang T. Effects of different types of exercise on hypertension in middle-aged and older adults: a network meta-analysis. Front
+Public Health. 2023;11:1194124. doi:10.3389/fpubh.2023.1194124
+46. Yu DJ, Yu AP, Leung CK, et al. Comparison of moderate and vigorous walking exercise on reducing depression in middle-aged and older adults:
+a pilot randomized controlled trial. Eur J Sport Sci. 2023;23(6):1018–1027. doi:10.1080/17461391.2022.2079424
+47. Tejada B, Joehanes R, Hwang SJ, et al. Systemic inflammation is associated with cardiometabolic risk factors and clinical outcomes. J Inflamm Res.
+2022;15:6891–6903. doi:10.2147/jir.S382620
+48. Yeung A, Kiss A, Gallagher D. Intensive control of hypertension and risk of Alzheimer’s dementia in older adults with depression. Int J Geriatr
+Psychiatry. 2020;35(8):888–896. doi:10.1002/gps.5309
+49. Wang S, Du Z, Lai C, et al. The association between cataract surgery and mental health in older adults: a review. Int J Surg. 2024;110
+(4):2300–2312. doi:10.1097/js9.0000000000001105
+50. Niu T, Cao S, Wang X, Xian X, Luo C, Ma J. Depressive symptoms and its influencing factors of older people with cataracts in China: a national
+cross-sectional survey. Front Public Health. 2025;13:1504275. doi:10.3389/fpubh.2025.1504275
+51. Kang W, Malvaso A. Can the big five personality traits predict ever chance and 7-year risk of clinically diagnosed chronic bronchitis in
+middle-aged and older adults? J Psychosom Res. 2023;172:111423. doi:10.1016/j.jpsychores.2023.111423
+52. Fan J, Fang L, Cong S, et al. Potential pre-COPD indicators in association with COPD development and COPD prediction models in Chinese:
+a prospective cohort study. Lancet Reg Health West Pac. 2024;44:100984. doi:10.1016/j.lanwpc.2023.100984
+53. Matera MG, Hanania NA, Maniscalco M, Cazzola M. Pharmacotherapies in older adults with COPD: challenges and opportunities. Drugs Aging.
+2023;40(7):605–619. doi:10.1007/s40266-023-01038-0
+54. Liang H, Jiang Z, Yang X, et al. The interaction between instrumental activities of daily living and dual sensory function on cognition among the
+elderly in China: a cross-sectional survey. Ibrain. 2023;9(3):281–289. doi:10.1002/ibra.12124
+55. Huang J, Xu T, Dai Y, Li Y, Tu R. Age-related differences in the number of chronic diseases in association with trajectories of depressive
+symptoms: a population-based cohort study. BMC Public Health. 2024;24(1):2496. doi:10.1186/s12889-024-19975-9
+Clinical Interventions in Aging
+Publish your work in this journal
+Clinical Interventions in Aging is an international, peer-reviewed journal focusing on evidence-based reports on the value or lack thereof of
+treatments intended to prevent or delay the onset of maladaptive correlates of aging in human beings. This journal is indexed on PubMed Central,
+MedLine, CAS, Scopus and the Elsevier Bibliographic databases. The manuscript management system is completely online and includes a very
+quick and fair peer-review system, which is all easy to use. Visit http://www.dovepress.com/testimonials.php to read real quotes from published
+authors.
+Submit your manuscript here: https://www.dovepress.com/clinical-interventions-in-aging-journal
+2336 Clinical Interventions in Aging 2025:20
+PPoowweerreedd bbyy TTCCPPDDFF ((wwwwww..ttccppddff..oorrgg))

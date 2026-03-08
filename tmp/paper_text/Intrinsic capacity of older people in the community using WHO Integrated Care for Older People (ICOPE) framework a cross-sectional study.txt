@@ -1,0 +1,731 @@
+Leung et al. BMC Geriatrics (2022) 22:304
+https://doi.org/10.1186/s12877-022-02980-1
+RESEARCH Open Access
+Intrinsic capacity of older people
+in the community using WHO Integrated
+Care for Older People (ICOPE) framework:
+a cross-sectional study
+Angela Y. M. Leung1,2,3 , Jing Jing Su1,2,3 , Elsa S. H. Lee4, Jeff T. S. Fung3 and Alex Molassiotis1,3*
+Abstract
+Background: The World Health Organization (WHO) published the Integrated Care for Older People (ICOPE) frame-
+work to guide assessing and promoting intrinsic capacity of older adults. This study, adopting the WHO ICOPE frame-
+work, assessed the intrinsic capacity impairment and investigated the relationship among intrinsic capacity, social
+engagement, and self-care capacity on performing activities of daily living. It also assessed the sensitivity of the initial
+brief screening and the detailed full assessment.
+Methods: This is a cross-sectional study conducted in 11 community centers in Hong Kong. Intrinsic capacity was
+assessed in two steps identical to WHO ICOPE handbook: using WHO ICOPE brief screening tool (step 1) and detailed
+full assessment (step 2) to assess the intrinsic capacity domains of locomotion, cognition, vitality, psychological well-
+being, and sensory capacity (hearing and vision). Structural equational modeling analysis was used to examine the
+relationship among intrinsic capacity, social engagement, and self-care capacity, and the mediating role of intrinsic
+capacity in the relationships.
+Results: A total of 304 older adults with a mean age 76.73 (SD 7.25) years participated in WHO ICOPE Step 1 brief
+=
+screening, and 221 participants (72.7%) showed intrinsic capacity impairment. After completing Step 2 full assess-
+ment, 202 participants (66.4%) had one or more impaired intrinsic capacity domains. The overall sensitivity and
+specificity of the screening tool were 95% and 57.6% respectively, whereas the sensitivity of each domain ranged
+from 74.7% to 100%. The percentage of impairment in locomotion (117, 39.8%), cognition (75, 25.5%), psychological
+well-being (34, 11.6%), vision (75, 24.7%), hearing capacity (82, 27.9%), and vitality (8, 2.7%). People in younger old
+age (β -0.29, p < 0.001), with more education (β 0.26, p < 0.001), and absence of hypertension (β -0.11, p < 0.05)
+= = =
+were more likely to have better intrinsic capacity. Intrinsic capacity was positively associated with self-care capacity in
+performing activities of daily living (β 0.21, p < 0.001) and social engagement (β 0.31, p < 0.001).
+= =
+Conclusions: The ICOPE screening tool is a sensitive instrument to detect intrinsic capacity impairment among
+community-dwelling older adults and it does not demand substantial workforce; its use is worthy to be supported.
+The intrinsic capacity impairment in community-dwelling older adults are prevalent, in particular, in locomotor and
+*Correspondence: alex.molasiotis@polyu.edu.hk
+3 School of Nursing, The Hong Kong Polytechnic University, Hong Kong
+SAR, China
+Full list of author information is available at the end of the article
+© The Author(s) 2022. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/. The Creative Commons Public Domain Dedication waiver (http:// creat ivec o
+mmons. org/ publi cdoma in/ zero/1. 0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+
+Leung et al. BMC Geriatrics (2022) 22:304 Page 2 of 12
+cognitive capacity. Actions should be taken to slow or prevent the impairment, support self-care and social engage-
+ment in old age.
+Keywords: ICOPE, Intrinsic capacity, Older adults, Healthy aging, Integrated care
+Background Previous studies [8, 9] provide important insights on
+The world population is aging rapidly and the popula- the role of intrinsic capacity for older adults; however,
+tion of older adults is projected to rise from one bil- more primary studies that adopt ICOPE within differ-
+lion to 2.1 billion from 2019 to 2050 [1]. The worldwide ent contexts and healthcare systems from screening, full
+average healthy life years at the age of 60 years ranged assessment, care planning, and referral are needed. Still,
+widely between 9.79 in Lesotho to 20.39 in Japan, there is less agreement on how the domains of intrinsic
+implying distinctively diversified health conditions for capacity should be screened and assessed, and inter-
+older adults [2]. Thus, the World Health Organization national validation studies are ongoing particularly as
+(WHO) has released the World Report on Ageing and Step 2 full assessment is often lacking. The prevalence of
+Health to reframe and re-orientate global action for intrinsic capacity impairment, to be evaluated by WHO
+healthy aging [3]. Step 2 full assessment, remains unclear although this
+The World Report took a capacity-based approach assessment is using reliable and validated instruments.
+to frame healthy aging as a process of maintaining Thus, this study aims to assess the level of intrinsic capac-
+and promoting intrinsic capacity instead of merely the ity among community-dwelling older adults and examine
+absence of illnesses. To better operationalize the intrin- its relationship with self-care capacity and social engage-
+sic capacity concept, a novel model of integrated care ment. More specifically, the study aimed to answer:
+for older adults (ICOPE) was published by WHO [4].
+Central to the ICOPE model is assessing and promot- a. What is the level of intrinsic capacity impairment in
+ing intrinsic capacity, namely the locomotion, cogni- community-dwelling Chinese older adults in Hong
+tion, psychological well-being, vitality, sensory (visual Kong?
+and hearing) capacity, and the social and physical envi- b. What is the sensitivity and specificity of WHO
+ronment an individual engages with to contribute to ICOPE Step 1 screening tool in detecting intrinsic
+healthy aging [5]. capacity impairment when using ICOPE Step 2 full
+Improving older adults’ intrinsic capacity has several assessment as gold standard?
+health implications. It considers capacity change as a c. What role does intrinsic capacity play in the relation-
+continuum through a life course and advocates pursu- ship with self-care capacity, social engagement and
+ing optimal functional conditions for all older adults with demographic factors?
+or without illnesses [6]. It also acknowledges the indi-
+viduality that people with the same illness condition can
+experience distinct functional consequences, or people
+Methods
+with multi-morbidities require an integrated approach to
+Study design and participants
+functional management [7]. Previous studies showed that
+This study used a cross-sectional design. A conveni-
+intrinsic capacity impairment affect self-care, increas-
+ence sample of community-dwelling older adults were
+ing dependence, hospitalization, and mortality among
+invited to join the study between April to September
+older adults [8, 9]. However, how intrinsic capacity is
+2021. Eligible participants were aged over 60 years, liv-
+connected with psychosocial well-being (such as social
+ing in their own homes, and required no or some support
+engagement or loneliness) is unclear. A recent discus-
+with self-care (feeding, bathing, dressing, toileting). Par-
+sion paper reported that lockdown and limited social
+ticipants with acute cardiovascular diseases, acute infec-
+interactions during the COVID-19 pandemic posed a
+tion, organ dysfunction, dementia, acute mental illness,
+greater risk to older adults to psychological distress [10].
+nearly total-dependent or total-dependent in self-care
+Research relating to psychosocial well-being in old age is
+and being unable to communicate in Cantonese were
+worthy to be supported. Existing studies affirmed biolog-
+excluded. The sample size required for Structural Equa-
+ical rather than chronological age on self-care independ-
+tion Modeling (SEM) depends on the number of factors
+ence; however, the evidence was insufficient beyond the
+and the number of indicators [11]. In this study, there
+inclusion of individual attributes, psychosocial aspects
+were three factors (or called latent variables) and sixteen
+(i.e., social engagement and loneliness) and intrinsic
+indicators (or called observed variables). Using the online
+capacity.
+Free Statistics Calculator version 4 [12] derived from the
+
+L eung et al. BMC Geriatrics (2022) 22:304 Page 3 of 12
+recommendations for lower bounds on sample size cal- on assessment and the rest of the time was spent on the
+culation in SEM [13]; and assuming the anticipated effect discussion of a brief individual care plan derived from
+size of 0.3, desired statistical power level of 0.95, and the assessment. The students who enrolled in the project
+probability level of 0.05 (type I error), the minimum sam- were rewarded with academic credits as part of their clin-
+ple size for this study was 184. ical placement duties for the community health course.
+The study was conducted in accordance with the Decla-
+ration of Helsinki, and ethical approval was granted from Measurements
+the Human Subjects Ethics Sub-committee of the Hong Participants’ demographic and health profiles were col-
+Kong Polytechnic University (HSEARS20210226005). lected, including age, gender (males and females), educa-
+Written informed consent was obtained from all partici- tion level, marital status, living conditions, smoking and
+pants prior to data collection. drinking behavior, and medical history. Participants were
+also assessed on whether they needed financial support
+Procedure and accommodation support. The participants’ medical
+A two-day workshop was arranged to 33 nursing student history was reviewed using the Charlson Comorbidi-
+volunteers to train them to conduct a comprehensive ties Index (CCI), which is the summation of the assigned
+assessment and brief care planning based on the ICOPE weights of 17 comorbid conditions (myocardial infarc-
+framework. Theoretical teaching, role play and lab simu- tion, congestive heart failure, peripheral vascular disease,
+lation were offered. In the last session of the workshop, cerebrovascular disease, dementia, chronic pulmonary
+these volunteers were evaluated individually on their disease, connective tissue disease, ulcer disease, mild
+knowledge and skills mastery. COVID-19 control meas- liver disease and diabetes, hemiplegia, moderate or
+ures, such as undergoing COVID-19 self-test within severe renal disease, diabetes with end organ damage,
+7 days before going to the community centres, social any malignancy, moderate or severe liver disease (e.g.,
+distancing, hand hygiene, wearing masks, and 14-day cirrhosis with ascites), metastatic solid tumor and AIDS)
+self-surveillance, were arranged to prevent any spread reported by the participants [14]. The CCI is selected
+of COVID-19 to older adults. Regular online meetings for its advantage of reflecting different combinations
+and emails were made between the project team and and severity of diseases [15]. However, as CCI contains
+the coordinators of the community centres. The centers’ no risk factors, we set up an item in the survey to check
+staff disseminated the study information through phone for the presence of hypertension, the most frequently
+calls and word of mouth in the community and arranged assessed risk factor in multi-morbidity [16]. The intrin-
+individual appointments with potential participants. The sic capacity was assessed in two steps, including an initial
+nursing students explained the study, collected written brief screening and a detailed full assessment.
+informed consent, and conducted the nine-item screen-
+ing, full assessment, and care planning sequentially with Step 1 screening for intrinsic capacity impairment
+the participants. After assessment, the students worked According to the WHO ICOPE guidelines [4], nine items
+collaboratively with the participants to develop personal were used in Step 1 brief screening tool to detect any
+goals and brief action plans based on the ICOPE hand- signs of impairment in six conditions associated with
+book and local support services. A goal-driven action intrinsic capacity: cognitive impairment, limited mobility,
+plan booklet was provided to participants as a reminder. malnutrition, visual impairment, hearing loss and depres-
+For example, participants with cognitive impairment sive symptoms. To minimize the participants’ assessment
+were provided with tips for promoting cognitive health burden, the same items (such as five-time chair-stand test
+(e.g. reading, exercise, social activities), those with low and whisper test) from the ICOPE screening and the sub-
+score in social engagement were assisted to work out sequent full assessment were conducted once. Those who
+brief action plans to engage in favorable activities (e.g., had signs of loss in any one of the conditions will proceed
+having afternoon tea with family every week). The stu- to Step 2 full assessment.
+dents referred those older adults who had intrinsic
+capacity impairment that required further diagnostic Step 2 full assessment
+assessment to the center staff for follow up and/or fur-
+ther referral as necessary. Cognition: Montreal Cognitive Assessment (MoCA) The
+To ensure data quality, briefing and debriefing sessions cognitive function was measured by the MoCA, which
+were held for each group of students with 2–3 mem- is translated and validated among Chinese older adults
+bers before and after their work in the community cen- [17]. The MoCA-Chinese version has adequate sensitiv-
+tres. It took 60 ~ 70 min for each older adult to finish the ity and specificity in differentiating individuals with mild
+whole procedure, among which 50 to 60 min was spent cognitive impairment ( 22 and < 26) from those with
+≥
+
+Leung et al. BMC Geriatrics (2022) 22:304 Page 4 of 12
+dementia (< 22, sensitivity: 93.2% and specificity: 71.7%) correctly repeated the whisper words and passed both
+and normal cognitive function ( 26, sensitivity: 92.4% the Weber and Rinne test were considered to have intact
+≥
+and specificity: 88.4%). One point was added if the person hearing capacity. Otherwise, further diagnostic assess-
+has a primary school education or less, and participants ment was needed.
+scoring below 22 required further diagnostic assessment.
+Visual capacity Visual capacity was measured by WHO
+Vitality: Mini Nutritional Assessment (MNA) The simple eye chart considering distance acuity worse than
+MNA is a 6-item scale which includes anthropometric 6/18 as moderate vision impairment that needs further
+assessment (weight, height, and weight loss), mobility, diagnostic assessment. The near vision was assessed by
+dietary intake and health condition, and it is validated in the WHO simple eye chart (near vision) [4]. When the
+Chinese populations [18]. The MNA score ranges from 0 participants’ near visual acuity was worse than N6 or
+to 14, with a score of 12 or higher indicating satisfactory M.08 with correction, impaired visual capacity was noted
+nutritional status; a score of eight to 11 indicating a risk and further diagnostic assessment was needed [4].
+of malnutrition; and a score below eight indicating mal-
+nutrition in need of further diagnostic assessment. Self‑care capacity Self-care was assessed by six items in
+relation to walking, toileting, dressing, showering, per-
+Locomotion Locomotion capacity was measured by the sonal appearance, and food preparation. A 3-point Lik-
+Short Physical Performance Battery (SPPB), including a ert scale (1 independent, 2 need some support, and
+= =
+hierarchical test of standing balance, a 4-m walk test, and 3 dependent) was used to determine the level of sup-
+=
+five repetitive chair stands [19]. It has a reliability ranging port needed, with a higher score indicating more promi-
+from 0.88 to 0.92 [20]. Participants’ scoring less than ten nent need of support.
+indicates limited mobility that requires further diagnostic
+assessment. Physical activity is measured by the 2-item Social engagement Social engagement was assessed by
+Mobile Phone Physical Activity Level Questionnaire one item asking the extent of pursuing leisure interests,
+(MobilePAL), assessing the activity during daytime and hobbies, work, volunteering, supporting family, edu-
+nighttime. The MobilePAL is a reliable and valid measure cational or spiritual activities that are important to the
+of physical activity that correlated moderately with meas- participant. A 3-point Likert scale was used to deter-
+urements made by accelerometers (r 0.45; p 0.01) mine the level of engagement (1 inactive, 2 less active,
+= = = =
+[21]. Participants who reported sitting and standing both 3 active), with a higher score indicating being more
+=
+during daytime and nighttime were categorized as having active.
+a sedentary lifestyle. Grip strength was measured using
+a hand-held dynamometer; older adults were asked to Loneliness Loneliness was measured by one item by
+squeeze the dynamometer with all of their strength three asking if older adults feel lonely using a 3-point Likert
+times with each hand. An average score was calculated scale (0 not lonely, 1 a bit lonely, 2 very lonely).
+= = =
+using the measurements from the dominant hand. The
+grip strength was adjusted by age and gender, using a cut-
+off score of the 2 5th percentile across different age groups
+and gender among community-dwelling older adults in Data analysis
+Hong Kong [22], and were categorized into normal or Descriptive statistics were used to summarize older peo-
+weak. ple’s intrinsic capacity and to identify which domains had
+impairment. Between-group differences were evaluated
+Psychological well‑being: Patient Health Questionnaire using the Chi-square test, independent t-test according to
+(PHQ‑9) The PHQ-9 is a well-validated tool for screen- the type and normality of the data. Each domain without
+ing depressive symptoms. PHQ-9 contains nine items on intrinsic capacity impairment was given one score. That
+a 4-point Likert scale (marked 0 to 3), with higher scores is, participants with MoCA less than 22; MNA less than
+indicating more severe depression. A score of 10 or above eight, SPPB less than ten, PHQ-9 above ten or report-
+or reported suicidal ideas are considered in need of fur- ing suicidal ideas, distant eye chart worse than 6/18 or a
+ther diagnostic assessment, and a score between 5 to 9 near visual test worse than N6 or M.08 with correction,
+indicates mild depression [23]. or failing in any of the hearing tests were scored zero.
+The intrinsic capacity score ranged from zero to six, with
+Hearing capacity In addition to the whisper test, the a higher score indicating better intrinsic capacity [24].
+Weber and Rinne test was conducted to detect conduc- Sensitivity and specificity of the ICOPE screening tool in
+tive or sensorineural hearing loss. The participants who relation to the full assessment was assessed through the
+
+L eung et al. BMC Geriatrics (2022) 22:304 Page 5 of 12
+area under the curve of the receiver operating character- capacity. The percentage of participants having impaired
+istic (ROC). locomotion, cognition, psychological well-being, vitality,
+Structural equation modelling was used to determine sensory capacity (visual) and sensory capacity (hearing
+which variables affect intrinsic capacity. Participants’ capacity) was 37.8%, 24.3%, 35.2%, 18.1%, 8.9% and 14.5%
+characteristics that showed a significant bivariate rela- respectively (Table 2).
+tionship with intrinsic capacity were entered into the
+structural equation modelling. Marital status and lone- Step 2 full assessment
+liness were entered to the model initially, but they were A total of 304 participants attended the full assess-
+excluded as they were not significantly related to intrinsic ment with an average intrinsic capacity score of 4.68
+capacity and the model fit was low. The bivariate associa- (SD 1.25), and 202 participants (66.4%) were catego-
+=
+tion was used as statistical criterion for variable selection rized as having one or more impaired intrinsic capacity
+of the structural equation modeling (SEM). Chronic ill- domains. The percentage of impairment in locomotion,
+nesses were theoretically connected with intrinsic capac- cognition, psychological well-being, vitality, sensory
+ity and therefore hypertension was added to the model. capacity (vision), and sensory capacity (hearing) was
+These two methods were used to ensure theoretical and 39.8% (n 117), 25.5% (n 75), 11.6% (n 34), 2.7%
+= = =
+statistical foundation of the model. Age, gender and edu- (n 8), 24.7% (n 75), and 27.9% (n 82), respectively.
+= = =
+cation were considered as the co-variates. We checked Of the participants, 86 (28.3%), 63 (20.7%), 32 (10.5%), 13
+their associations with intrinsic capacity using bivariate (4.3%), and 6 (2.0%) showed an impairment in one, two,
+analysis and the significant factors were put in the SEM. three, four, and five domains, respectively. A total of 50
+The model was considered as good fitting when having (17%) participants had both impairment in locomotion
+RMSEA < 0.07, Chi-squared p-value > 0.05; Chi-Square/ and cognition. Another 16.6% (n 49) of the participants
+=
+degree of freedom (CMIN/DF) < 3; goodness-of-fit (GFI), had mild cognitive impairment, were at risk of malnutri-
+comparative fit index (CFI), and Adjusted Goodness of tion, or had mild depression.
+Fit Index (AGFI) > 0.95 [25, 26]. SPSS (Chicago, IL, USA) Older participants showed lower intrinsic capacity on
+and SPSS Amos software version 26 were used to con- average, and the mean score ranged from 5.30 (SD 0.75)
+=
+duct the above analysis, with a p-value of < 0.05 consid- (at age 60 to 69) to 4.07 (SD 1.39) (at age 80 and older,
+=
+ered as statistically significant. p < 0.001) (Fig. 1A). There was no significant differ-
+ence in intrinsic capacity between males and females
+Results
+(Fig. 1B). The education level (p < 0.001) and marital sta-
+Demographic characteristics of the sample tus (p < 0.001) were both significantly associated with
+The study included 304 older adults and the percentage intrinsic capacity score (Fig. 1C, D), but not living sta-
+of participants aged 60 to 69 years, 70 to 79 years, and tus. Participants with weak grip strength (p < 0.001) had
+80 years or above were 17.1%, 44.4%, and 38.5%, respec- significantly lower intrinsic capacity, but the difference
+tively. Most of the participants were females, retired, was not significant in the physical activity level (Fig. 1E,
+had education below primary level, and co-resided with F). Participants who needed some support in self-care
+family. Less than half (42.2%) of the participants were in activities of daily living (p < 0.001), felt a bit or very
+married and an additional 44.1% were widowed. Major- lonely (p 0.003), or were less active in social engage-
+=
+ity of the participants (64.1%) reported no pre-defined ment (p < 0.001), had significantly lower intrinsic capacity
+comorbid conditions in CCI; however, about a quarter (Fig. 1G-I).
+had diabetes (n 83, 27.3%) and small number of par-
+=
+ticipants had cardiovascular illness (n 17, 5.6%), malig- Sensitivity and specificity of the WHO ICOPE screening tool
+=
+nant tumors (n 15, 4.9%), and liver and kidney diseases Table 3 shows the contingency table for the positive
+=
+(n 11, 3.6%). Hypertension was not included in CCI, it full assessment results and the screening results. The
+=
+was noted that 132 (43.4%) participants reported having sensitivity and specificity of the ICOPE screening tool
+hypertension. Eight participants (2.6%) had psychological to detect one or more intrinsic capacity impairment
+distress. Table 1 summarizes the sample characteristics were 95% and 57.6%. Furthermore, the sensitivity of all
+across participants with and without intrinsic capacity domains ranged from 74.7% in cognition to 100% in vital-
+impairment. ity and hearing. For the 19 older adults who showed no
+signs of cognitive impairment in the brief screening but
+Intrinsic capacity of the participants scored below 22 in MoCA, 11 were illiterate, 7 had pri-
+Step 1 WHO ICOPE screening mary school education, and all lost scores on visual and
+Using the ICOPE screening tool, 221 participants (72.7%) executive items of the MoCA. The specificity of the over-
+were found to have impairment in any domain in intrinsic all ICOPE screening tool was relatively low (57.6%) and
+
+Leung et al. BMC Geriatrics (2022) 22:304 Page 6 of 12
+Table 1 Characteristics of participants with or without intrinsic capacity impairment (n 304)
+=
+Variables Without intrinsic capacity With intrinsic capacity χ2 /t/z p-value
+impairment impairment
+Age 74.52 (6.41) 78.07 (7.29) 5.26 0.02
+Gender ##
+Male 17 (29.82%) 40 (70.18%)
+Female 75 (31.65%) 162 (68.35%) 0.07 0.87
+Education ##
+Illiterate 3 (5.77%) 49 (94.23%)
+Primary 45 (33.83%) 88 (66.17%)
+Secondary 15 (34.10%) 29 (65.90%)
+High school or above 29 (44.62%) 36 (55.38%) 21.7 < 0.001
+Employment ##
+Retried 89 (30.69%) 201 (69.31%)
+Full-time or part-time 3 (75.0%) 1 (25.0%) 3.60 0.09
+Marital status ##
+Married 48 (39.34%) 74 (60.66%)
+Single 7 (28.0%) 18 (72.0%)
+Divorced 5 (33.33%) 10 (66.67%)
+Widowed 32 (24.24%) 100 (75.76%) 6.89 0.08
+Living status ##
+Living alone 31 (26.72%) 85 (73.28%)
+With family 61 (34.27%) 117 (65.73%) 1.86 0.20
+Finance
+Manageable 86 (33.20%) 173 (66.80%)
+Need support 9 (25.0%) 27 (75.0%) 3.50 0.45
+Drinking ##
+Yes 5 (33.33%) 10 (66.67%)
+No 87 (31.18%) 192 (68.82%) 0.01 1.00
+Smoking ##
+No 92 (31.51%) 200 (68.49%) 1.20 0.53
+Body mass index # 22.91 (3.35) 24.13 (4.07) 2.54 0.11
+Charlson Comorbidity Index (CCI) # 0.55 (0.91) 0.49 (0.82) 0.58 0.45
+Hypertension ##
+Yes 33 (25.58%) 96 (74.42%)
+No 59 (35.76%) 106 (64.24%) 3.49 0.08
+Note. # t-test, ##chi-square test were used
+Table 2 Intrinsic capacity impairment in WHO ICOPE Step 1 screening (n 304) and Step 2 full assessment (n 296)
+= =
+Variables Step 1 screening Step 2 full
+assessment
+Intrinsic capacity impairment 72.7% (n 221) 66.4% (n 202)
+= =
+Domains of intrinsic capacity
+Locomotion 37.8% (n 115) 39.8% (n 117)
+= =
+Cognition 24.3% (n 74) 25.5% (n 75)
+= =
+Psychological well-being 35.2% (n 107) 11.6% (n 34)
+= =
+Vitality 18.1% (n 55) 2.7% (n 8)
+= =
+Sensory capacity (Vision) 8.9% (n 27) 24.7% (n 75)
+= =
+Sensory capacity (Hearing) 14.5% (n 44) 27.9% (n 82)
+= =
+
+L eung et al. BMC Geriatrics (2022) 22:304 Page 7 of 12
+Fig. 1 Comparison of intrinsic capacity (IC) scores among different groups. A age groups, (B) gender, (C) education, (D) marital status, (E) grip
+strength, (F) physical activity (G) self-care capacity, (H) loneliness and (I) social engagement
+specificity of individual domains (ranging from 74% to p < 0.05) were more likely to have better intrinsic capac-
+97.4%) of the ICOPE screening was good. ity (Fig. 2). The model also showed a significant posi-
+The ROC curve analysis was performed to investi- tive relationship between intrinsic capacity and self-care
+gate the performance of the ICOPE brief screening tool capacity in performing activities of daily living (β 0.21,
+=
+in relation to the dichotomized (one or more impaired p < 0.001). Another positive relationship between intrin-
+domains versus no impairment) full-assessment results. sic capacity and social engagement (β 0.31, p < 0.001)
+=
+Using a cutoff point of 5 (i.e. at least one domain with was noted. The relationship between self-care capacity
+intrinsic capacity impairment), the sensitivity and speci- and social engagement was not statistically significant.
+ficity of the ICOPE screening tool in identifying older Intrinsic capacity mediates the relationship between
+adults with the intrinsic capacity impairment were 90% education and self-care capacity. Such mediating role
+and 42%, respectively. The ROC area for the ICOPE also happened in the relationship between age and social
+screening tool was 0.853 (p < 0.001). engagement.
+Intrinsic capacity and its relationship with other study Discussion
+variables This study shows the first adaptation of the ICOPE model
+The structural equation modelling showed a good fitness, (including brief screening, full assessment, and care plan-
+with fit indices: RMSEA 0.00; CFI 1.00; GFI 1.00; ning) in a convenience sampling in Hong Kong and this
+= = =
+AGFI 0.98; Chi-square 1.32, degree of freedom 2, indicated the urgency of community-level support to
+= = =
+p 0.52. The final model showed people in younger old older adults for the high prevalence of intrinsic capacity
+=
+age (β -0.29, p < 0.001), with higher education (β 0.26, impairment. The sensitivity and specificity of the ICOPE
+= =
+p < 0.001), with absence of hypertension (β -0.11, step 1 screening tool suggested its ability to correctly
+=
+
+Leung et al. BMC Geriatrics (2022) 22:304 Page 8 of 12
+Table 3 Sensitivity and specificity of intrinsic capacity and its capacity domains was associated with dependency in
+five domains activities of daily living and decreased social engagement.
+Overall intrinsic Full assessment Consistent with previous studies that this study showed
+capacity a high prevalence of intrinsic capacity impairment among
+older adults. In France, one WHO collaborating center
+ICOPE screening - Total
++ has conducted a preliminary screening of intrinsic capac-
+192 39 231 Sensitivity 95.0%
++ = ity using a nine-item ICOPE screening tool. Results indi-
+- 10 53 63 Specificity 57.6%
+= cated that 699 (92.6%) of 755 older people had intrinsic
+Total 202 92 294
+capacity impairment in at least one domain that required
+Cognitive capacity
+full assessment [27]. Another study in China assessed
+ICOPE screening MoCA
+376 older adults using the same nine items, and 69.1%
+-
++ of older adults had impairment in at least one intrinsic
+56 18 74 Sensitivity 74.7%
++ = capacity domain [24]. A secondary analysis using China
+- 19 211 230 Specificity 92.1%
+= Health and Retirement Longitudinal Study (CHARLS)
+Total 75 229 304
+dataset showed a significant negative relationship
+Locomotion capacity
+between intrinsic capacity and self-care in activities of
+ICOPE screening SPPB
+daily living and instrumental activities of daily living [28].
+-
++ All these findings indicated the importance of the atten-
+102 13 115 Sensitivity 85%
++ = tion to intrinsic capacity in old age and the pressing need
+- 18 167 185 Specificity 92.8%
+= for care pathway establishment for further referral.
+Total 120 180 300
+It is encouraging that the step 1 ICOPE screening can
+Vitality capacity
+correctly identifying intrinsic capacity impairment,
+ICOPE screening MNA
+which permits assessors to be confident to recommend
+-
++ older adults to be referred and undergo full assessment
+8 47 55 Sensitivity 100%
++ = when the screening tests yield positive results. The
+- 0 249 249 Specificity 84.1%
+= nine-item ICOPE screening rendered it an ideal tool for
+Total 8 296 304
+manpower-saved assessment, implying wide applicabil-
+Psychological capacity
+ity for community-level intrinsic capacity assessment.
+ICOPE screening PHQ-9
+Literature also supported using the step 1 ICOPE screen-
+-
++ ing tool for intrinsic capacity assessment as it was corre-
+186 76 262 Sensitivity 98.4%
++ = lated with physical, mental and organ functions among
+- 3 31 34 Specificity 74.0%
+= older adults [24] as well as with physicians’ clinical judge-
+Total 189 107 296
+ment [29]. Considering the relatively lower sensitivity of
+Sensory capacity (Vision)
+the cognition screening items, adding visual and execu-
+ICOPE screening Distal & proximal visual test
+tive items may further enhance its sensitivity. Using
+-
++ a cutoff score of five means that one or more impaired
+25 46 71 Sensitivity 86.2%
++ = domains detected by the step 1 screening may imply one
+- 4 223 227 Specificity 82.9%
+= or more impaired intrinsic capacity domains evaluated
+Total 29 269 300
+by the full assessment. However, the cutoff score gener-
+Sensory capacity (Hearing)
+ated in this study is different from a previous study that
+ICOPE screening Whisper, Weber & Rinne test
+recommended using two or more domains with signs
+-
++ of impairment in relation to performance in activities
+44 38 82 Sensitivity 100%
++ = of daily living and instrumental activities of daily liv-
+- 0 222 222 Specificity 85.4%
+= ing [24]. Findings from the current study suggested that
+Total 44 260 304
+any domain with signs of intrinsic capacity impairment
+should arouse attention 1) to prevent deconditioning [4,
+5], and 2) considering the uniqueness of each domain for
+identify people with one or more impaired intrinsic older adults to resume self-care and maintain independ-
+capacity. Special attention should be paid to the older ence [28].
+adults in advanced age, with less education, or those hav- The findings affirmed literature’s emphasis on the nega-
+ing hypertension because they were more likely to have tive consequences of intrinsic capacity impairment on
+a greater number of impaired intrinsic capacity domains. self-care insufficiency among older adults, and added
+In addition, an increased number of impaired intrinsic empirical evidence of its impairment towards social
+
+L eung et al. BMC Geriatrics (2022) 22:304 Page 9 of 12
+Fig. 2 Model showing the relationships among intrinsic capacity, social engagement and self-care capacity
+engagement, which rendered intrinsic capacity as a standalone silos in influencing social engagement. Each
+biopsychosocial construct [30]. One study analyzed data domain closely interacts with others as a dynamically
+from the Health and Retirement Study (n 11,093) and interrelated environment that the reciprocal and syner-
+=
+demonstrated that cognition, vitality, vision, and hear- gistic effects of impairment in intrinsic capacity should
+ing impairment were associated with dependency on be evaluated in enhancing social engagement among
+activities of daily living [31]. Another longitudinal study older adults [36].
+reported that impairments in locomotion, cognitive, The findings of the structural equation model also sug-
+visual, hearing, and psychological capacity were associ- gest intrinsic capacity is a mediator in the relationship
+ated with an increased risk of mobility disability (i.e., between education and self-care capacity and the rela-
+difficulty/unable to climb ten steps or walk 1/2 mile) or tionship between age and social engagement. People with
+dependency on activities of daily living [32]. A systematic high education level do not necessarily possess good self-
+review identified domains of intrinsic capacity as protec- care capacity; however, through the possession of intrin-
+tive factors for independence in activities of daily living sic capacity, people with different education levels were
+among older adults [33]. Recent studies that operation- capable to perform self-care in old age. This finding is
+alized the intrinsic capacity construct with all domains important because interventions should be developed to
+consistently highlighted the contribution to the inde- build up older adults’ intrinsic capacity regardless of their
+pendence of activities of daily living through path analy- educational levels. Similarly, as intrinsic capacity was
+sis [24, 28]. found to be the mediator of the relationship between age
+Lower number of impaired intrinsic capacity domain and social engagement, we should develop programs to
+was positively related to social engagement, which is build up older adults’ intrinsic capacity (even though they
+crucial for older adults to live an active lifestyle and gain are at advanced age). A few interventions [37, 38] have
+health benefits [34]. Literature has individually exam- been developed to enhance intrinsic capacity in old age.
+ined the negative influence of impairment in every five Further investigation and development would be needed
+domains on social engagement; for example, hearing loss to show the efficacy of these interventions.
+might lead to social isolation, mobility problems may To prevent or slow down intrinsic capacity deteriora-
+prohibit social activities engagement (i.e., group dance) tion and its consequence on self-care insufficiency and
+[35]. However, findings from this study suggest that five social disengagement, it is crucial to assess intrinsic
+domains of intrinsic capacity should not be regarded as capacity holistically [39]. Step 1 screening tool, with its
+
+Leung et al. BMC Geriatrics (2022) 22:304 Page 10 of 12
+good sensitivity and easy administration, can be an ideal COVID-19 may also compromise sample representative-
+kick-start to capture intrinsic capacity conditions of older ness [40]. Other limitations may arise from the design of
+adults, and this can be carried out by the people who are this study in which assessors conducted the brief screen-
+not professionals but well-trained. Step 1 brief screening ing and full assessment for all the participants, which
+can be easily conducted by trained volunteers who may prolonged the duration of the assessment. The time
+mitigate the manpower shortage in aging services [29]. devoted to the discussion with the older adults about
+However, brief screening alone cannot specify the sup- the care plan was short. We could only provide a brief
+port older adults need and are entitled to. It is necessary care plan to the older adults in this study. Further stud-
+to provide a subsequent full assessment if the screening ies should focus on the development of person-centred
+shows the sign of impairment in any domain of intrinsic care detailed plans and goal setting sessions so that older
+capacity. Such assessment can determine whether older adults could express their concerns and the resources
+adults self-manage (or manage with guidance) their daily that possess to improve their health alongside evalua-
+lives at home or require further supports from profes- tions of the outcomes of such care planning.
+sionals in diagnosis and treatment.
+Conclusions
+Implications The high proportion of older adults with intrinsic capac-
+This study has several key practice and research implica- ity impairment and the significant contribution to inde-
+tions. A high proportion of community-dwelling older pendence in self-care and social disengagement urges the
+adults were living with actual or were at risk of intrinsic ICOPE intrinsic capacity assessment at the community
+capacity impairment, but no assessment has been car- level as a means to promote early detection of and inter-
+ried out regularly with them. There is a high demand for ventions on intrinsic capacity impairment. The ICOPE
+ICOPE trained personnel that 72.7% of older adults were screening can be a reliable tool to detect signs of intrin-
+detected with impairment in at least one intrinsic capac- sic capacity, which is promising for large-scale usage.
+ity domain, and two-thirds needed an in-depth assess- Subsequent comprehensive assessment should be con-
+ment. The WHO ICOPE brief screening tool allows for ducted among those with indications intrinsic capacity
+quick assessment that can be conducted by non-health- impairment to determine whether the person can man-
+care professionals such as trained volunteers to identify age them at home or need a referral to professional care.
+those in need of in-depth assessment and/or further A care pathway involving professionals and family mem-
+referral. Moreover, once the impairments are detected, bers is needed to offer diagnostic assessment and guide
+the health care system should provide intervention using self-management of intrinsic capacity impairment among
+an inter-disciplinary healthcare team to slow progression older adults.
+and prevent subsequent limitations on self-care capac-
+ity in performing activities of daily living. Integrating the
+Abbreviations
+ICOPE model at community level in Hong Kong can be WHO: World Health Organization; ICOPE: Integrated Care for Older People;
+challenging; thus, engaging stakeholders (policymakers, CCI: Charlson Comorbidities Index; MoCA: Montreal cognitive assessment;
+MNA: Mini Nutritional Assessment; SPPB: Short Physical Performance Battery;
+managers, and health care professionals) is crucial for
+MobilePAL: Mobile Phone Physical Activity Level Questionnaire; PHQ-9: Patient
+the success of the ICOPE care pathway establishment. Health Questionnaire; ROC: Receiver operating characteristic; GFI: Goodness-
+In addition, older adults and family members should be of-fit; CFI: Comparative fit index; AGFI: Adjusted Goodness of Fit Index.
+informed of these impairments with the education pro-
+Acknowledgements
+vided to enhance self-management skills and foster com- We wish to acknowledge the staff of Hong Kong Sheng Kung Hui Welfare
+mon recognition of the concept of healthy aging. Council Limited (HKSKH) District Elderly Community Centres (DECC) /
+Neighborhood Elderly Centres (NEC) for their kind support and assistance
+during participant recruitment and health assessment. Sincere thanks go to
+Limitations
+Ms. Twiggy Wong and Ms. Annie Dai for their kind support and assistance
+The study used a convenience sampling method which during the process. We would like to thank the invaluable contributions of the
+nursing students from the Hong Kong Polytechnic University, who helped in
+may impair the generalizability of the results. Although
+data collection. Without the support that we received from all volunteers and
+we are not using a random sampling, we have already participants, it would not have been possible to implement this project.
+tried the best to conduct a multi-site data collection (col-
+Authors’ contributions
+lecting data from 11 community centres out of 41 centres
+Study design: AYML and AM; Data collection: JJS, JF, EL; Data analysis: AYML,
+in Hong Kong). To some extent, this is the best sample JJS and AM; Manuscript writing: AYML, JJS, and AM. All authors read the manu-
+we can obtain in the region. It is challenging to recruit script for important intellectual context and approved the submission.
+a random sample during the COVID-19 pandemic. The
+Funding
+decreased willingness of older adults to participate in This project was funded by Angel S.P. Chan Lau Endowment in Health and
+a research study with face-to-face interactions during Longevity.
+
+L eung et al. BMC Geriatrics (2022) 22:304 Page 11 of 12
+Availability of data and materials 11. Wolf EJ, Harrington KM, Clark SL, Miller MW. Sample size requirements for
+The datasets used and/or analyzed during the current study are available from structural equation models: an evaluation of power, bias, and solution
+the corresponding author on reasonable request. propriety. Educ Psychol Meas. 2013;73:913–34.
+12. Soper DS. A priori sample size calculator for structural equation models
+[Software]. California: Free Statistics Calculators; 2018. http:// www. danie
+Declarations
+lsoper. com/ statc alc.
+13. Westland JC. Lower bounds on sample size in structural equation
+Ethics approval and consent to participate
+modeling. Electron Commer Res Appl. 2010;9:476–87. https:// doi. org/ 10.
+The ethical approval including participants’ approach and recruitment were
+1016/j. elerap. 2010. 07. 003.
+granted by the Human Subjects Ethics Sub-committee of The Hong Kong
+14. Charlson M, Szatrowski TP, Peterson J, Ggld J. Validation of a combined
+Polytechnic University, Hong Kong (reference number: HSEARS20210226005).
+comorbidity index. J Clin Epidemiol. 1994;47:1245–51 https:// ac- els-
+We confirm that all methods were performed in accordance with the Declara-
+cdn- com.e zpro xyhost. libra ry. tmc. edu/ 08954 35694 901295/ 1- s2.0- 08954
+tion of Helsinki and the relevant guidelines and regulations proved by the
+35694 901295- main. pdf?_ tid 25c45 462- f706- 11e7- 8b06- 00000 aacb3 62&
+Human Subjects Ethics Sub-committee by including an information sheet and =
+acdnat 15156 99323_ 11352 ed28c 152bb 84ace 41155 e052ff 6.
+consent to all participants. Written informed consent was obtained from all =
+15. Stirland LE, González-Saavedra L, Mullin DS, Ritchie CW, Muniz-Terrera G,
+participants prior to data collection. Participants have the right to withdraw
+Russ TC. Measuring multimorbidity beyond counting diseases: systematic
+at any time during the project, and there is no impact on the services they
+review of community and population studies and guide to index choice.
+receive in the Community Centres.
+BMJ. 2020;368:1–12.
+16. Willadsen TG, Bebe A, Køster-Rasmussen R, Jarbøl DE, Guassora AD,
+Consent for publication
+Waldorff FB, et al. The role of diseases, risk factors and symptoms in the
+Not applicable.
+definition of multimorbidity – a systematic review. Scand J Prim Health
+Care. 2016;34:112–21.
+Competing interests
+17. Yeung PY, Wong LL, Chan CC, Leung JLM, Yung CY. A validation study of
+The authors declared no competing interests.
+the Hong Kong version of Montreal Cognitive Assessment (HK-MoCA) in
+Chinese older adults in Hong Kong. Hong Kong Med J. 2014;20:504–10.
+Author details
+18. Lee J, Lam L, Woo J, Kwok T. Lower fluid and fruits / vegetable intake in
+1 World Health Organization Collaborating Centre (WHOCC) for Community
+questionable dementia among older Hong Kong Chinese. J Nutr Heal
+Health Services, School of Nursing, The Hong Kong Polytechnic University,
+Aging. 2010;14:45–9.
+Hong Kong SAR, China. 2 Centre for Gerontological Nursing, School of Nurs-
+19. Guralnik JM, Ferrucci L, Simonsick EM, Salive ME, Wallace RB. Lower-
+ing, The Hong Kong Polytechnic University, Hong Kong SAR, China. 3 School
+extremity function in persons over the age of 70 years as a predictor of
+of Nursing, The Hong Kong Polytechnic University, Hong Kong SAR, China.
+subsequent disability. N Engl J Med. 1995;332:556–62.
+4 Hong Kong Sheng Kung Hui Welfare Council Ltd., Hong Kong SAR, China.
+20. Gómez Montes JF, Curcio CL, Alvarado B, Zunzunegui MV, Guralnik J.
+Validity and reliability of the Short Physical Performance Battery (SPPB):
+Received: 11 November 2021 Accepted: 23 March 2022
+a pilot study on mobility in the Colombian Andes. Colomb Med.
+2013;44:165–71.
+21. Pfaeffli L, Maddison R, Jiang Y, Dalleck L, Löf M. Measuring physical activity
+in a cardiac rehabilitation population using a smartphone-based ques-
+tionnaire. J Med Internet Res. 2013;15:1–11.
+References 22. Chung PK, Zhao Y, Liu JD, Quach B. Functional fitness norms for
+1. World Health Organization. Ageing. Geneva: World Health Organiza- community-dwelling older adults in Hong Kong. Arch Gerontol Geriatr.
+tion; 2021. https:// www. who. int/ health- topics/ ageing# tab tab_1. 2016;65:54–62. https:// doi. org/ 10. 1016/j. archg er. 2016. 03. 006.
+=
+2. World Health Organization. Healthy life expectancy ( HALE ) at age 60 ( 23. Wang W, Bian Q, Zhao Y, Li X, Wang W, Du J, et al. Reliability and validity
+years ). Geneva: World Health Organization; 2021. https:// www. who. int/ of the Chinese version of the Patient Health Questionnaire (PHQ-9) in the
+data/ gho/ data/ indic ators/ indic ator- detai ls/ GHO/ ghoghe- hale- healt hy- general population. Gen Hosp Psychiatry. 2014;36:539–44.
+life- expec tancy- at- age- 60. 24. Ma L, Chhetri JK, Zhang Y, Liu P, Chen Y, Li Y, et al. Integrated care for older
+3. World Health Organization. World report on aging and health. Geneva: people screening tool for measuring intrinsic capacity: preliminary find-
+World Health Organization; 2015. https:// apps. who. int/ iris/ handle/ 10665/ ings from ICOPE Pilot in China. Front Med. 2020;7:1–10.
+186463. 25. Steiger JH. Understanding the limitations of global fit assessment in
+4. World Health Organization. Guidance on person-centred assessment and structural equation modeling. Pers Individ Dif. 2007;42:893–8.
+pathways in primary care. Handbook. Geneva: World Health Organization; 26. Lima S, Teixeira L, Esteves R, Ribeiro F, Pereira F, Teixeira A, et al. Spirituality
+2019;87. https:// apps. who. int/ iris/ bitst ream/ handle/ 10665/ 326843/ WHO- and quality of life in older adults: a path analysis model. BMC Geriatr.
+FWC- ALC- 19.1- eng. pdf? seque nce 17& isAll owed y. 2020;20:1–8.
+= =
+5. Banerjee A, Sadana R. Integrated care for older people (ICOPE): from 27. Tavassoli N, Piau A, Berbon C, Kerimel JDE, Lafont C, Barreto PDES, et al.
+guidelines to demonstating feasibility. J Frailty Aging. 2021;10:84–5. Framework Implementation of the INSPIRE ICOPE-CARE Program in Col-
+6. Sanchez-Rodriguez D, Annweiler C, Gillain S, Vellas B. Implementation laboration with the World Health Organization (WHO) in the Occitania
+of the Integrated Care of Older People (ICOPE) App in Primary Care: Region. J Frailty Aging. 2021;10(2):103–109.
+New Technologies in Geriatric Care During Quarantine of COVID-19 and 28. Beard JR, Si Y, Liu Z, Chenoweth L, Hanewald K. Intrinsic Capacity:
+Beyond. J Frailty Aging. 2021;10(2):139–140. Validation of a New WHO Concept for Healthy Ageing in a Longitudinal
+7. Briggs AM, Valentijn PP, Thiyagarajan JA, De CarvalhoI IA. Elements of Chinese Study. Journals Gerontol Ser A. 2022;77(1):94–100.
+integrated care approaches for older people: A review of reviews. BMJ 29. At J Dias A, Philp I Beard J, Patel V Prince M. Identifying common impair-
+Open. 2018;8(4):e021194. ments in frail and dependent older people: validation of the COPE assess-
+8. González-Bautista E, de SoutoBarreto P, Andrieu S, Rolland Y, Vellas B. ment for non-specialised health workers in low resource primary health
+Screening for intrinsic capacity impairments as markers of increased risk care settings Public health, nutrition and epidemiology. BMC Geriatr.
+of frailty and disability in the context of integrated care for older people: 2015;15:1–14.
+secondary analysis of MAPT. Maturitas. 2021;150:1–6. 30. George PP Lun P, Ong SP Lim WS. A rapid review of the measurement of
+9. Beard JR, Jotheeswaran AT, Cesari M, Araujo De Carvalho I. The structure intrinsic capacity in older adults. J Nutr Heal Aging. 2021;25:774–82.
+and predictive value of intrinsic capacity in a longitudinal study of age- 31. Cigolle CT, Langa KM, Kabeto MU, Tian Z, Blaum CS. Geriatric condi-
+ing. BMJ Open. 2019;9(11):e026119. tions and disability: the health and retirement study. Ann Intern Med.
+10. Nestola T, Orlandini L, Beard JR, Cesari M. COVID-19 and intrinsic Capacity. 2007;147:156–64.
+J Nutr Heal Aging. 2020;24:692–5.
+
+Leung et al. BMC Geriatrics (2022) 22:304 Page 12 of 12
+32. Chaudhry SL, McAvay G, Allore HG, Ning Y, Gill TM, Newman AB. Geriatric
+impairments and disability: The cardiovascular health study. J Am Geriatr
+Soc. 2010;58:1686–92.
+33. Van DerVorst A, Zijlstra GAR, DeWitte N, Duppen D, Stuck AE, Kempen
+GIJM, et al. Limitations in activities of daily living in community-dwelling
+people aged 75 and over: A systematic literature review of risk and
+protective factors. PLoS One. 2016;11:1–18.
+34. Luo M, Ding D, Bauman A, Negin J, Phongsavan P. Social engagement
+pattern, health behaviors and subjective well-being of older adults: an
+international perspective using WHO-SAGE survey data. BMC Public
+Health. 2020;20:1–10.
+35. Adams KB, Leibbrandt S, Moon H. A critical review of the literature
+on social and leisure activity and wellbeing in later life. Ageing Soc.
+2011;31:683–712.
+36. Cesari M, DeCarvalho IA, Thiyagarajan JA, Cooper C, Martin FC, Reginster
+JY, et al. Evidence for the domains supporting the construct of intrinsic
+capacity. Journals Gerontol - Ser A Biol Sci Med Sci. 2018;73:1653–60.
+37. Giudici KV, deSouto Barreto P, Beard J, Cantet C, Araujo de Carvalho I, Rol-
+land Y, et al. Effect of long-term omega-3 supplementation and a lifestyle
+multidomain intervention on intrinsic capacity among community-
+dwelling older adults: Secondary analysis of a randomized, placebo-
+controlled trial (MAPT study). Maturitas. 2020;141:39–45. https:// doi. org/
+10. 1016/j. matur itas. 2020. 06. 012.
+38. Alias SB, Cuevas-Lara C, Martínez-Velilla N, Zambom-Ferraresi F, Soto ME,
+Tavassoli N, et al. A multi-domain group-based intervention to promote
+physical activity, healthy nutrition and psychological wellbeing in older
+people with losses in intrinsic capacity: Amicope development study. Int
+J Environ Res Public Health. 2021;18:5979.
+39. Beard JR, Officer A, DeCarvalho IA, Sadana R, Pot AM, Michel JP, et al. The
+World report on ageing and health: A policy framework for healthy age-
+ing. Lancet. 2016;387:2145–54. https:// doi. org/ 10. 1016/ S0140- 6736(15)
+00516-4.
+40. Padala PR, Jendro AM, Gauss CH, Orr LC, Dean KT, Wilson KB, et al. Par-
+ticipant and caregiver perspectives on clinical research during Covid-19
+pandemic. J Am Geriatr Soc. 2020;68:E14-8.
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in pub-
+lished maps and institutional affiliations.
+RReeaaddyy ttoo ssuubbmmiitt yyoouurr rreesseeaarrcchh ?? CChhoooossee BBMMCC aanndd bbeenneeffiitt ffrroomm::
+• fast, convenient online submission
+• thorough peer review by experienced rese archers in your field
+• rapid publication on acceptance
+• support for research data, including large and complex data types
+• gold Open Access which fosters wider collaboration and increased citations
+• maximum visibility for your research: over 100M website views per year
+At BMC, research is always in progress.
+Learn more biomedcentral.com/submissions

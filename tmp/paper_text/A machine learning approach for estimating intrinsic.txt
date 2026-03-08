@@ -1,0 +1,814 @@
+The Gerontologist, 2025, 65(12), gnaf228
+https://doi.org/10.1093/geront/gnaf228
+Advance access publication 3 October 2025
+Special Issue: Artificial Intelligence and Aging: Research Article
+A machine learning approach for estimating intrinsic
+capacity age and its associations with multimorbidity
+and geroprotective agents
+Carlos Cruz-Montecinos, PhD, PT1,2, , Joaquín Calatayud, PhD3, , Lars L. Andersen PhD4, ,
+Rubén López-Bueno, PhD5, , Luis Peñailillo, PhD, PT6, , Rodrigo Torres-Castro, MSc, PT1, ,
+Fernando Diefenthaeler, PhD7, , Rodrigo Núñez-Cortés, PhD, PT1,*,
+1Department of Physical Therapy, Faculty of Medicine, University of Chile, Santiago, Chile
+2Section of Research, Innovation and Development in kinesiology, Kinesiology Unit, San José Hospital, Santiago, Chile
+3Department of Physiotherapy, Exercise Intervention for Health Research Group (EXINH-RG), University of Valencia, Valencia, Spain
+4National Research Centre for the Working Environment, Copenhagen, Denmark
+5Department of Health Sciences, Public University of Navarra, Pamplona, Spain
+6School of Physical Therapy, Faculty of Rehabilitation Sciences, Institute of Exercise and Rehabilitation Sciences, Universidad Andres Bello,
+Santiago, Chile
+7Biomechanics Laboratory, Center of Sports, Federal University of Santa Catarina, Florianópolis, Brazil
+*Address correspondence to: Rodrigo Núñez-Cortés, PhD, PT. E-mail: r_nunez@uchile.cl
+Decision Editor: George Demiris, PhD, FACMI
+Abstract
+Background and Objectives: Aging is associated with functional decline and multimorbidity, highlighting the need for holistic biomarkers to
+monitor healthy aging. The aim of this study was to validate intrinsic capacity age (IC-age) as a biomarker of aging and to examine its association
+with multimorbidity and geroprotective agents.
+Research Design and Methods: A cross-sectional study was conducted with data from 48,068 participants aged ≥60 years from the 9th wave
+of the Survey of Health, Ageing and Retirement in Europe (2021–2022). Random forest regression was used to train a model predicting IC-age
+based on biomarkers (cognitive, psychological, sensory, vitality, locomotion) and demographic factors.
+Results: IC-age showed a prediction error of 5.3 years (r = 0.55). Biomarkers for vitality (handgrip strength), cognitive (verbal fluency and memory),
+and sensory (hearing aid use) domains were important contributors. General linear models assessed associations with multimorbidity, physical
+activity, and smoking. Intrinsic capacity age was significantly higher in individuals with multimorbidity and smokers compared with healthy indi-
+viduals. Physical activity exhibited a protective effect on IC-age, with vigorous activity showing a particularly pronounced benefit in women.
+Discussion and Implications: This model demonstrates that IC domains can estimate biological age and distinguish individuals based on their
+comorbidities. It also underscores the role of physical activity as a key geroprotective factor, with vigorous physical activity in females with comor-
+bidities showing the most pronounced protective effect on IC-age. These results validate the concept of IC-age as a comprehensive measure of
+aging and highlight its potential to inform personalized interventions and public health strategies.
+Keywords: Biomarkers, Aging, Machine learning, Physical fitness, Healthy lifestyle
+The world’s population of older adults is expected to grow the physical and mental capacities that an individual can draw
+substantially, presenting significant global challenges (Beard on” at any point in time (World Health Organization, 2015).
+et al., 2016; World Health Organization, 2015). Aging, as a The WHO developed this term as a holistic metric to assess and
+process of accumulating life consequences such as molecular monitor overall functional health in aging populations. By
+and cellular damage, leads to functional decline, chronic dis- emphasizing IC, the WHO shifts the focus from disease-centered
+eases, and ultimately mortality (Moqri et al., 2023). This cre- models to a broader understanding of health, encouraging tar-
+ates a pressing need for many countries to promote healthy geted interventions to promote healthy aging (Bautmans et al.,
+aging and address its health, social, and economic impacts. 2022; Cesari et al., 2018), defined as “the process of developing
+Aging, as a progressive process, is characterized by declining and maintaining the functional ability that enables wellbeing
+vitality, sensory capacity, cognitive function, and locomotion, in older age” (Cesari et al., 2018). Advances in aging research
+which together constitute an individual’s “intrinsic capacity” have highlighted the role of geroprotectors—including lifestyle
+(Bautmans et al., 2022). Intrinsic capacity (IC) is defined by the factors (e.g., physical activity, sleep health, and healthy eating)
+World Health Organization (WHO) as “the composite of all and pharmacological interventions (e.g., metformin)—in
+Received: March 6 2025; Accepted: June 27 2025
+© The Author(s) 2025. Published by Oxford University Press on behalf of the Gerontological Society of America. All rights reserved. For commercial re-use,
+please contact reprints@oup.com for reprints and translation rights for reprints. All other permissions can be obtained through our RightsLink service via
+the Permissions link on the article page on our site—for further information please contact journals.permissions@oup.com.
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+2 Cruz-Montecinos et al.
+maintaining homeostasis, delaying functional decline, and pro- geographical area, and municipalities or postal codes within
+moting longer, healthier lives (Beyene et al., 2024; Moskalev et these strata serve as the primary sampling units. Data are col-
+al., 2017; Trendelenburg et al., 2019). Among geroprotectors, lected every 2 years through computer-assisted, face-to-face,
+exercise is the most accessible and cost-effective in impacting in-home interviews using ex ante harmonized questionnaires.
+healthy aging (Elliehausen et al., 2023). New respondents are added to each wave to compensate for
+Given the importance of interventions to promote healthy attrition. The target population for SHARE is all individuals
+aging, studies have focused on determining biological age, aged 50 and over at the time of sample collection who are
+defined by age-related molecular and cellular changes, as a permanent residents of the respective SHARE country. Indi-
+metric for developing health policies for longevity (Diebel & viduals who are incarcerated, hospitalized, out of the country,
+Rockwood, 2021; Moqri et al., 2023, 2024). In contrast, do not speak the language(s) of the country, or have moved to
+chronological age refers to the time since birth. This distinction an unknown address during the entire survey period are
+provides valuable insights into functional decline and temporal excluded from the baseline or follow-up samples. Partners liv-
+progression throughout life (Moqri et al., 2023). Biomarkers ing in the same household as the target population are inter-
+of aging for predicting biological age has primarily focused on viewed, regardless of age. Written informed consent was
+genetic markers, such as telomere length (Diebel & Rockwood, obtained from all those willing to participate. Ethical approval
+2021; Galkin et al., 2020; Moqri et al., 2024). However, func- for the collection of the data used in this study was granted by
+tional performance markers could offer a more practical and the SHARE project. This study was reported according to the
+accessible means of assessing biological aging (Bohannon, Strengthening the Reporting of Observational Studies in Epi-
+2019; López-Bueno et al., 2022; McGrath et al., 2018). Mod- demiology statement (von Elm et al., 2014). This dataset was
+eling approaches, such as Random Forest algorithms, have selected because it includes variables related to cognition, loco-
+shown promise in estimating biological age, achieving margins motion, vitality, sensory, and psychological factors, which may
+of error of 3–6 years compared to chronological age based on potentially represent IC-age, see below.
+diverse biomarkers, including blood profiles and genetic data
+(R. Chen et al., 2023; Galkin et al., 2020; Mamoshina et al., Biomarkers employed in the development of the
+2018). Despite their accuracy, their complexity and cost limit IC-age model
+feasibility for routine clinical use. Thus, there is an urgent need
+Data were collected for different biomarkers reflecting the five
+for cost-effective, holistic methods to estimate biological age.
+domains of IC (cognition, locomotion, vitality, sensory, and
+Considering the importance of determining a holistic aging
+psychological) proposed by previous studies (Beard et al., 2016,
+metric, this study proposes an integrative model to estimate
+2022). These domains were used to develop a predictive model
+“intrinsic capacity age (IC-age)” based on a composite metric
+of IC-age (see below), defined as the estimated age derived from
+that consolidates the five functional domains of IC (i.e., cog-
+functional biomarkers that best approximate chronological
+nition, locomotion, vitality, sensory, and psychological) (World
+aging. Based on these domains and the available variables in
+Health Organization, 2015) into a single, novel biomarker.
+the 9th regular wave of SHARE, four variables were selected
+IC-age may have the potential to serve as a comprehensive
+for cognitive capacity, two for psychological capacity, three
+measure of aging, offering insights into personalized interven-
+for sensory capacity, two for vitality, and one for locomotor
+tions and public health strategies. Unlike traditional biological
+capacity. This uneven distribution resulted from the varying
+age, which is typically estimated using molecular or cellular
+availability of variables across the five domains in the dataset.
+biomarkers, IC-age is proposed as a clinically relevant func-
+(1) For the cognitive domain, four cognitive measures were
+tional biomarker of aging. The aim of this study is to validate
+used: verbal fluency, immediate recall, delayed recall, and cal-
+IC-age as a biomarker of aging by comparing its prediction
+culation (i.e., arithmetic), based on the Modified Telephone
+error between healthy individuals and those with multimor-
+Interview for Cognitive Status (Knopman et al., 2010). For
+bidity. Additionally, we examine the association between
+verbal fluency, respondents were asked to name as many words
+IC-age and specific chronic conditions, as well as the potential
+as possible from the semantic category “animals” in 60 s. The
+protective influence of geroprotective factors such as physical final score was the total number of correctly named words.
+activity. We hypothesize that IC-age will differ between healthy
+Immediate and delayed recall was assessed with the 10-word
+individuals and subjects with multimorbidity, with geroprotec-
+recall test, which consists of listening to a list of ten words and
+tor agents influencing this differentiation. This holistic approach
+being asked to retrieve the list immediately after encoding
+could advance our understanding of IC biomarkers in aging, (immediate recall) and another list after a delay (delayed recall).
+inform global policies, and support interventions to promote
+The different lists were randomly assigned to respondents. The
+healthy aging.
+total score for these two tests ranged from 0 to 10 points,
+corresponding to the number of words the respondent was able
+Method to recall correctly. Finally, numeracy was assessed as the par-
+ticipant’s mathematical performance on a subtraction task. The
+Design and participants
+participant was first asked, “One hundred minus seven equals
+A cross-sectional analysis was conducted using data from the what?” and then asked to subtract seven from the previous
+9th wave of the Survey of Health, Ageing and Retirement in result four more times. The resulting score, which represented
+Europe (SHARE), a representative survey of individuals aged the number of correct answers, ranged from 0 to 5; (2) The
+50 years and older in 27 European countries. The 9th regular psychological domain was assessed using the depression sub-
+wave of SHARE was conducted between October 2021 and scale of the EURO-D instrument: “In the last month, have you
+September 2022 (Börsch-Supan et al., 2013). SHARE uses a been sad or depressed?” (Response: yes/no) (Prince et al.,
+multistage stratified sampling design (Wave 9, n.d.). Participat- 1999). The total EURO-D score was also included as a bio-
+ing countries are divided into different strata based on their marker; (3) The vitality domain included measurement of
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+The Gerontologist, 2025, Vol. 65, No. 12 3
+handgrip strength and the difference between the maximum recorded as 0. Additionally, individuals from a specific country
+values of the left and right hands, using a hand-held dynamom- (e.g., Israel) were excluded. The total sample analyzed included
+eter (Smedley, S Dynamometer, TTM, Tokyo, 0–100 kg). Each 48,068 participants. Predictor variables included all intrinsic
+hand was measured twice under the guidance of trained inter- biomarkers and demographic factors (e.g., sex, geographic
+viewers. Participants held the upper arm perpendicular to the region), while the response variable was chronological age. The
+trunk, with the elbow in 90° flexion and the wrist in neutral dataset was randomly divided into training (80%) and testing
+position while standing or sitting. Trained interviewers pro- (20%) sets using a hold-out cross-validation strategy with a
+vided standardized instructions to press the dynamometer with fixed random seed for reproducibility.
+maximal effort for 2 s. The handgrip strength value was defined We performed Bayesian Optimization over 30 iterations to
+as the maximum value of either hand for the present analyses; tune the following hyperparameters: (1) the minimum number
+(4) For the sensory domain, participants self-reported their level of samples per leaf node, evaluated within the range [5, 100],
+of eyesight distance and eyesight reading using a Likert-type (2) the maximum number of splits per decision tree was eval-
+scale, with response options: (1) excellent, (2) very good, (3) uated within the range [20, 200], (3) the total number of trees
+good, (4) fair, and (5) poor. Also, participants were categorized in the forest evaluated within the range [100, 2000]. The final
+according to whether they had a hearing aid or not; (5) In the objective function minimized the training set’s Mean Absolute
+locomotion domain, participants reported having or not having Error (MAE) across 10-fold cross-validation. The optimal
+difficulty walking across a room. Participants who selected the hyperparameters identified for the Random Forest model were
+options “refused” or “don’t know” were excluded from this a minimum leaf size of 100, a maximum number of splits of
+study. Sex was included as an adjustment variable in the model 200, and 1925 trees. A broader range of hyperparameters (i.e.,
+due to its established association with IC. Evidence from a large [5, 200] for leaf size, [20, 300] for splits, and [100, 3000] for
+multicounty cohort using the 5th regular wave of SHARE data the number of trees) was also explored in subsequent analyses,
+revealed significant sex differences in IC and its subdomains, showing no significant improvement in error reduction (0.2%),
+with men showing higher scores than women in all domains confirming the stability of the initially selected parameters. The
+except cognition (M. Chen et al., 2025). Finally, although Geo- final model incorporates the optimal hyperparameters, and its
+graphic Region is not part of the formal IC domains, it was performance was evaluated on the test set, reporting metrics
+included in the model as an adjustment variable to account for such as MAE and Pearson correlation between the predicted
+regional disparities in healthcare access, lifestyle factors, and IC-age and actual chronological age. The final model demon-
+social determinants that may indirectly influence IC (M. Chen strated a moderate positive association between chronological
+et al., 2025). This aligns with the conceptual framework of IC, age and predicted IC-age, with a correlation coefficient of
+which also considers the combination of relevant environmen- r = 0.55 and a MAE of 5.3 years (Figure 1). This accuracy is
+tal characteristics and their interaction with the individual comparable to other studies on biological age prediction, which
+(Beard et al., 2016). report MAE values ranging between 3.5 and 7.7 years across
+various modalities such as brain age, retinal age, and
+Model training of IC-age and optimization blood-based biomarkers (R. Chen et al., 2023). The top five
+To predict the IC-age, we trained a Random Forest regression contributing variables were handgrip strength, verbal fluency,
+model using the MATLAB software 2023b using the fitrensem- memory, use of hearing aids, and geographic region, highlight-
+ble function. The dataset was filtered to include individuals ing the importance of vitality, cognitive, and sensory health as
+aged 60–99 years, excluding those with incomplete or missing predictors of IC-age, as well as the interaction between indi-
+responses, as well as those with handgrip strength values viduals and their environments.
+Figure 1. (A) Relationship between chronological age and estimated IC-age. (B) The importance variables of model prediction of IC-age.
+Note. Bars represent the predictor variable importance of the model. MAE = mean absolute error; R = right; L = left; EURO-D = European depression scale;
+IC-age = intrinsic capacity age.
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+4 Cruz-Montecinos et al.
+The final Random Forest model was also compared to other Comorbidities and IC-age
+tree-based algorithms, specifically Decision Trees and Boosted The number of diseases significantly influenced the IC-age. The
+Trees, using 10-fold cross-validation. We evaluated predictive general linear model adjusted by geographic region revealed a
+performance based on MAE and Pearson correlation. To test significant main effect of age group [F = 3034.1, p < .001],
+statistical differences, we employed repeated-measures ANOVA indicating substantial differences in the n (3, u 1 m 59) ber of diseases across
+with post hoc Bonferroni pairwise comparisons across folds. Ran- age categories. Additionally, the number of diseases showed a
+dom Forest showed superior accuracy and robustness compared significant main effect [F = 51.6, p < .001]. A significant inter-
+to the other models (see online supplementary material Figure S1). action between the age ( g 4, r 1 o 59 u ) p and the number of diseases was
+also observed [F = 2.09, p < .001]. Sex did not reach statis-
+(12, 159)
+Chronic diseases tical interaction with factors [F =1.65; p = .071]. The post
+(12, 159)
+Past or current chronic diseases were self-reported by partici- hoc comparison revealed significant differences between healthy
+pants using the following question: “Has a doctor ever told you individuals and those with one or more comorbidities across all
+that you had/have any of the diseases on this card? This means age groups up to 90 years old, where the differences were no
+that a doctor has told you that you have this condition and that longer consistently significant (Figure 2). For p-values of post hoc
+you are either currently being treated for it or bothered by it.” comparison, see online supplementary material Table S1.
+The card in question had the following options “Heart attack,
+including myocardial infarction or coronary thrombosis, or any
+Geroprotectors, lifestyles, and IC-age
+other heart problem, including congestive heart failure,” “High
+blood pressure or hypertension,” “High blood cholesterol,” Regarding the impact of geroprotectors, significant effects were
+“Stroke or cerebrovascular disease,” “Diabetes or high blood observed for the frequency of vigorous physical activities
+sugar,” “Chronic lung disease, such as chronic bronchitis or [F ) = 638.5, p < .001], along with a significant interaction
+(3, 159
+emphysema,” “Cancer or malignant tumor, including leukemia between the number of comorbidities and the frequency of
+or lymphoma, Parkinson’s disease,” “Hip fracture,” “Alzhei- vigorous physical activities [F = 2.53, p = .002]. Addition-
+(12, 159)
+mer’s disease, dementia, organic brain syndrome, senility or ally, a significant three-way interaction was found between sex
+other serious memory impairment,” “Rheumatoid arthritis,” with the frequency of vigorous physical activities and the num-
+“Osteoarthritis or other rheumatism,” and “Other condition ber of comorbidities [F = 1.91, p = .029]. The post hoc
+(12, 159)
+not specified.” Participants who selected the options “refused” analysis revealed that the frequency of vigorous physical activ-
+or “don’t know” were excluded from this study. ities had a protective effect, reflected in a lower IC-age, partic-
+ularly in females (Figure 3). For three-way interaction
+visualization and p-values of post hoc comparison, see online
+Statistical analysis
+supplementary material Figure S2 and Tables S2 and S3. Nota-
+The resulting model was retained for subsequent statistical anal- bly, among individuals with more than four comorbidities,
+yses across different age subgroups, comorbidity categories, and males showed no significant differences in IC-age between those
+levels of physical activity, as well as other geroprotective factors who engaged in vigorous physical activity hardly ever and those
+such as sleep quality and dietary habits (e.g., fruit and vegetable who did so more than once a week, whereas females exhibited
+consumption), and unhealthier lifestyle behaviors such as smok- such differences. These findings suggest that females may be
+ing. Comorbidities were divided into five categories: healthy, more sensitive to the impact of not engaging in vigorous phys-
+one disease, two diseases, three diseases, and more than four ical activity on IC-age in the presence of comorbidities.
+diseases. Physical activity frequency was categorized separately Regarding moderate physical activity significant effects were
+for vigorous and moderate activities into four groups (i.e., more observed for the frequency of physical activities [F = 861.0,
+than once a week, once a week, one to three times a month, p < .001], along with a significant interaction betwee (3 n , 1 t 5 h 9) e number
+and hardly ever or never). Sleep trouble was categorized as of comorbidities and the frequency of physical activities [F
+Yes/No, frequency of fruit and vegetable intake as Every day, = 2.03, p = .018]. Non-significant three-way interaction was f ( o 12 u , 1 n 5 d 9)
+3–6 times a week, twice a week, once a week, or less than once between sex with the frequency of moderate physical activities
+a week, and smoking status as Yes/No. and the number of comorbidities [F = 1.52, p = .107]. Post
+A general linear model was applied to analyze the IC-age, hoc analyses revealed that individuals (1 e 2, n 1 g 59 a ) ging in moderate phys-
+specifically: (1) The difference between healthy individuals and ical activity more than once a week had significantly lower IC-age
+subjects with varying numbers of diseases, based on four age across all comorbidity levels (Figure 4). For p-values of post hoc
+categories (60–69; 70–79; 80–89; +90), adjusted for sex and comparison, see online supplementary material Table S4.
+geographic region (as defined by the United Nations). (2) The Smoking habits have a negative impact on the IC-age among
+relationship between geroprotectors and the number of dis- the number of comorbidities. Significant effects were observed
+eases, adjusted for sex and geographic region. A post hoc anal- for the number of comorbidities [F = 614.5, p < .001] and
+ysis with Bonferroni correction was performed for multiple smoking status [F = 338.3, p < .0 (4 0 , 1 79 ] ) . Additionally, a signif-
+comparisons. Data were reported as mean and 95% CI. A icant interaction b (1, e 7 t 9 w ) een smoking status and the number of
+p-value threshold of .05 was considered statistically comorbidities was found [F = 11.7, p < .001]. A
+significant. non-significant three-way intera (4 c , ti 7 o 9) n was observed between
+sex, smoking status, and the number of comorbidities [F =
+(4, 79)
+2.4, p = .050]. The post hoc analysis revealed that smoking was
+Results
+associated with a significantly negative effect of age compared
+A total of 48,068 participants were included. Participants had to non-smoking across all levels of comorbidities (Figure 5).
+a mean age of 71.6 (SD = 7.7) years and 55.6% were female. For p-values of post hoc comparison, see online supplementary
+The characterized data are shown in Table 1. material Table S5.
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+The Gerontologist, 2025, Vol. 65, No. 12 5
+Table 1. Characteristics of participants (n = 48,068). Overall, these findings highlight the positive role of physical
+activity as a geroprotective agent in preserving the IC-age. In
+Characteristics n (%) Mean (SD)
+contrast, smoking habits were associated with a negative
+Age (y) 71.6 (7.7) impact on IC-age, independent of sex.
+Sex
+Male 21,344 (44.4%)
+Female 26,724 (55.6%) Discussion
+Geographic Region This study aimed to validate the IC-age as a novel biomarker
+Eastern Europe 9,271 (19.3%)
+of aging and examine its association with multimorbidity and
+Northern Europe 10,212 (21.2%)
+geroprotector agents. Based on an integrative model including
+Southern Europe 14,217 (29.6%)
+48,068 older adults, the main findings were: (1) biomarkers
+Western Europe 14,368 (29.9%)
+reflecting the five domains of IC can predict biological age with
+Ever smoked daily
+an acceptable error of 5.3 years, whereas among the biomark-
+No 28,480 (59.2%)
+ers, vitality (i.e., handgrip strength) showed the greatest impor-
+Yes 19,588 (40.8%)
+tance, followed by cognitive and sensory domains. (2) The most
+Fruit and vegetable consumption
+Every day 36,133 (75.2%) important geroprotective factor was the frequency of engaging
+3–6 times a week 8,981 (18.7%) in physical activity, which plays a significant role, particularly
+Twice a week 1,970 (4.1%) among females with comorbidities who do not engage in vig-
+Once a week 593 (1.2%) orous physical activity; and (3) smoking habits negatively
+Less than once a week 391 (0.8%) impacted IC-age. These results support our hypothesis that
+Moderate physical activity IC-age differs between healthy individuals and those with mul-
+Hardly ever, or never 5,695 (11.8%) timorbidity, with geroprotective agents influencing this differ-
+One to three times a month 3,378 (7.0%) entiation. They provide a comprehensive perspective on the
+Once a week 6,536 (13.6%) lifespan trajectory of IC-age and highlight the critical role of
+More than once a week 32,459 (67.5%)
+lifestyle and geroprotective factors in shaping it.
+Vigorous physical activity
+Hardly ever, or never 21,126 (44.0%)
+One to three times a month 5,507 (11.5%) Impact of multimorbidity and geroprotective
+Once a week 6,809 (14.2%) factors on IC-age
+More than once a week 14,626 (30.4%)
+The IC-age was significantly influenced by the presence of mor-
+Sleep problems
+bidity. Healthy individuals exhibited a lower IC-age compared
+Yes 16,487 (34.3%)
+to those with one or more comorbidities across all age groups
+No 31,581 (65.7%)
+up to 90 years old, beyond which the differences diminished.
+Number of diseases
+0 13,760 (29.0%) Regarding the individuals with a single disease, Alzheimer’s
+1 16,757 (35.3%) disease, followed by hip fracture and Parkinson’s disease, had
+2 10,911 (23.0%) the greatest impact on IC-age (see online supplementary mate-
+3 4,544 (9.6%) rial Figure S3). Previous studies have shown that IC is influ-
+4+ 1,555 (3.3%) enced by various factors, including demographic characteristics,
+Intrinsic capacity biomarkers socioeconomic status, lifestyle habits, and disease conditions
+C ognitive capacity: Verbal fluency 20.6 (7.7) (Beyene et al., 2024; Wei et al., 2024). Key factors associated
+(number of words) with IC older adults include sex, marital status, occupational
+C ognitive capacity: Immediate 5.3 (1.7)
+status, education, income/wealth, chronic diseases, smoking,
+recall (0-10) alcohol consumption, and physical activity (Wei et al., 2024).
+C ognitive capacity: Delayed 3.8 (2.1)
+In our study, the frequency of both moderate and vigorous recall (0-10)
+physical activity emerged as the most influential geroprotective
+Cognitive capacity: Numeracy (0-5) 4.2 (1.4)
+factor. Notably, our data indicated that engaging in vigorous
+P sychological capacity: EURO-D 2.33 (2.2)
+Score (0-12) physical activity, even as infrequently as once to three times
+S ensory capacity: Eyesight dis- 2.57 (1.0) per month, was better than not engaging at all, highlighting its
+tance (1–5) potential benefits for healthy aging. This underscores the
+S ensory capacity: Eyesight read- 2.64 (1.0) importance of promoting vigorous physical activity, even at
+ing (1–5) low frequencies, as a valuable intervention for healthy aging.
+Sensory capacity: Hearing aid (yes) 4,636 (9.6%)
+Previous studies have reported that higher levels of physical
+Vitality: Handgrip strength (kg) 31.6 (11.0)
+activity are associated with better IC, and that it tends to
+V itality: Handgrip strength asym- 3.9 (3.3)
+decline more rapidly in inactive individuals compared to those
+metry (kg)
+who are physically active (Raffin et al., 2025). Our results align
+L ocomotion: Difficulty walking in a 681 (1.4%)
+room (yes) with the existing literature and emphasize the particular impor-
+tance of the frequency of vigorous physical activity in preserv-
+Note. n = number; SD = standard deviation; y = years; kg = kilograms;
+ing IC-age (Beyene et al., 2024; Wei et al., 2024). Physical
+EURO-D = European depression scale.
+exercise may promote healthy aging by maintaining insulin
+sensitivity and functional skeletal muscle mass, reducing fat
+Notably, no significant interaction was found between the mass, and alleviating adipose tissue inflammation (Cartee
+number of diseases and sleep problems [F = 1.67, p = .153], et al., 2016). Remarkably, vigorous physical activity has been
+(4, 159)
+or fruit and vegetable consumption [F = 1.45, p = .110]. positively associated with cardiorespiratory fitness, while
+(16, 159)
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+6 Cruz-Montecinos et al.
+moderate physical activity has shown beneficial associations activities should be endorsed in clinical and public health activ-
+with body fat (Drenowatz et al., 2016). A previous study from ity guidelines to maximize the population benefits of physical
+the UK Biobank cohort reported that 15–20 min of vigorous activity on IC-age (Gebel et al., 2015). Based on our results,
+activity per week, even when accumulated in short bouts, was the vitality and cognition domains were the most influential in
+associated with reduced mortality and lower incidence of car- estimating IC-age. Hence, future studies should investigate
+diovascular disease and cancer (Ahmadi et al., 2022). These whether different strength training programs, alone or com-
+findings hold significant public health and clinical relevance, bined with cognitive interventions (Zhu et al., 2016), may help
+mainly since lack of time is the most common barrier to regular reverse or reduce IC-age.
+physical activity, including age, sex, ethnicity, and health con- Dietary habits have been identified as a protective factor for
+ditions (Cerin et al., 2010). Therefore, moderate and vigorous IC in older adults. Although our study found a trend toward
+significance regarding the number of diseases (comorbidities),
+it did not reach statistical significance. Dietary habits are also
+related to obesity, which is negatively associated with IC (Cesari
+et al., 2022; Lin et al., 2023; Yeung et al., 2022). Similarly, sleep
+problems have been reported to affect healthy aging negatively
+(Chang et al., 2023), but in our study, they did not reach sta-
+tistical significance. However, the nature of the dataset limited
+our ability to explore dietary and sleep habits in depth. As both
+factors require more detailed assessment through specific instru-
+ments, these results should be interpreted with caution.
+Regarding the negative lifestyle behaviors, in our study,
+smoking showed a significant negative impact on IC. Smoking
+is recognized as an aging accelerator that reduces life span and
+disease-free life (Bernhard et al., 2007). Our results are aligned
+with previous studies that have also reported the negative
+impact of smoking on IC (Muneera et al., 2022). In general,
+smokers (including asymptomatic ones) exhibit weaker and
+less fatigue-resistant muscles compared to nonsmokers, with
+cigarette smoke directly contributing to skeletal muscle dys-
+function (i.e., decreased muscle mass and endurance) (Degens
+et al., 2015). These effects are further aggravated by the phys-
+Figure 2. Intrinsic capacity age across age groups stratified by the ical inactivity commonly observed among smokers. Smoking
+number of diseases. habits should be considered a critical negative lifestyle behav-
+Note. Lines represent group means, and error bars indicate the 95% CI.
+ior that impacts the IC-age, independent of the number of
+Groups include healthy individuals and those with 1, 2, 3, or 4+ diseases.
+IC-age = intrinsic capacity age. diseases.
+Figure 3. Intrinsic capacity age stratified by the number of diseases and frequency of vigorous physical activity. (A) Females, (B) males, and the
+(C) total sample.
+Note. Lines represent group means, and error bars indicate the 95% CI. Vigorous physical activity frequency is categorized as more than once a week, once a
+week, one to three times a month, and hardly ever or never. IC-age = intrinsic capacity age.
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+The Gerontologist, 2025, Vol. 65, No. 12 7
+and caregiving responsibilities for family members) that impact
+functionality and healthy aging (Aliberti et al., 2022; Huang
+et al., 2024). More studies are needed to understand the mech-
+anisms that involve differences between males and females in IC.
+Clinical and public health value of IC-age
+Longitudinal studies have associated IC with frailty, social frailty,
+chronic diseases, fracture, and falls (Pan et al., 2024; Zhao
+et al., 2024), proposed it potential predictive value for adverse
+health outcomes (Zhao et al., 2024). The integrative model
+developed in this study represents a novel approach to predict-
+ing IC-age based on five domains of IC. The observed associ-
+ations between IC-age, multimorbidity, physical activity, and
+lifestyle behaviors underscore its potential as a robust tool for
+understanding and monitoring intrinsic capacity in older
+adults. This model offers a new perspective for geroscience and
+public health by leveraging accessible biomarkers such as hand-
+grip strength, cognitive performance, and sensory health, mak-
+ing it suitable for routine clinical assessments without the need
+for invasive procedures or high-cost technologies.
+Although achieving a prediction error of 5.3 years of IC-age,
+this accuracy is comparable to other biological age estimation
+models using genetic biomarkers, such as telomere length,
+which have reported prediction errors ranging from 3 to 6 years
+(R. Chen et al., 2023; Galkin et al., 2020; Mamoshina et al.,
+Figure 4. Intrinsic capacity age stratified by the number of diseases and
+frequency of moderate physical activity. 2018). Moreover, this level of accuracy aligns with findings
+Note. Lines represent group means, and error bars indicate the 95% CI. Moderate from broader biological age prediction studies, which report
+physical activity frequency is categorized as more than once a week, once a week,
+MAE values ranging between 3.5 and 7.7 years across different
+one to three times a month, and hardly ever or never. IC-age = intrinsic capacity age.
+biomarkers, including brain age, retinal age, and blood-based
+biomarkers (R. Chen et al., 2023). Given the potential public
+health relevance of IC-age, future research could incorporate
+epigenetic data (e.g., telomer length) alongside IC domains to
+improve the accuracy (Diebel & Rockwood, 2021; Galkin
+et al., 2020; Moqri et al., 2024). However, it is important to
+note that telomere length decreases with chronological age in
+a non-linear manner (Ye et al., 2023). For example, based on
+systematic review and meta-analysis the correlation between
+telomere length and age has been reported to be stronger in
+children (r = −0.41) than in adults (r = −0.15), suggesting that
+chronological age becomes a less dominant factor in explaining
+telomere attrition as individuals grow older (Ye et al., 2023).
+The main strength of our study is the large dataset, compris-
+ing 48,068 participants from 27 European countries, which
+ensures robust and representative findings. Including biomark-
+ers from all five intrinsic capacity domains provides a compre-
+hensive and holistic perspective on aging. Furthermore, the
+Figure 5. Intrinsic capacity age stratified by the number of diseases and analysis included validation of the model by testing interactions
+smoking status. among sex, comorbidities, geroprotectors agents, and lifestyle
+Note. Lines represent group means, and error bars indicate the 95% CI. IC-age =
+factors, offering nuanced insights into the trajectories of IC-age.
+intrinsic capacity age.
+Despite the consistent group differences and interaction effects
+observed—supporting the validity of the IC-age model—
+Another relevant point is the interaction between females longitudinal studies are still necessary to confirm its clinical
+and males with the number of diseases and the frequency of applicability and public health relevance, particularly in rela-
+engaging in vigorous physical activity. Females showed a more tion to the meaning and implications of the prediction error.
+significant impact from the absence of vigorous physical activ- Additionally, longitudinal designs should be employed to assess
+ity. This difference may be explained by previous studies show- how changes in IC-age correspond to shifts in both biological
+ing that women generally have lower IC than men, particularly and chronological age.
+in vitality, psychological, and locomotor domains (Aliberti In summary, IC-age represents a novel, cost-effective, and
+et al., 2022; M. Chen et al., 2025; Huang et al., 2024). These clinically applicable relevant functional biomarker of aging,
+differences are thought to be attributed to physiological factors with promising implications for early risk stratification, per-
+(e.g., muscle mass, strength, and endurance influenced by hor- sonalized interventions, and the development of geroprotective
+monal factors) and social contexts (e.g., socioeconomic status strategies tailored to aging populations.
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+8 Cruz-Montecinos et al.
+Limitations Cruz-Montecinos and Rodrigo Núñez-Cortés performed the
+Our study has several limitations to be considered when inter- data analysis. Carlos Cruz-Montecinos and Rodrigo
+preting the findings. First, cross-sectional design limits the ability Núñez-Cortés drafted the manuscript. Carlos Cruz-Montecinos,
+to establish causal relationships between IC, geroprotective Joaquín Calatayud, Lars Louis Andersen, Rubén López-Bueno,
+agents, and aging outcomes. Second, the nature of self-reported Rodrigo Torres-Castro, Luis Peñailillo, Fernando Diefenthaeler,
+data introduces potential bias, particularly in chronic diseases and Rodrigo Núñez-Cortés made substantial contributions to
+and lifestyle habits. Such data are susceptible to recall and report- the interpretation of data, critically revised the manuscript, and
+ing inaccuracies, potentially affecting the IC-age and its associa- approved the final version for publication.
+tions. Additionally, the lack of detailed measures for dietary
+habits and sleep quality restricts exploring their impact on
+Ethics approval and consent to participate
+IC-age. Third, the variables selected to estimate IC-age were
+based on their availability within the SHARE dataset; therefore, Ethical approval for the collection of the data used in this study
+the uneven distribution may not be fully representative of all and consent to participate was obtained by the Survey of
+domains. For example, the locomotion domain was limited to a Health, Ageing and Retirement in Europe [SHARE] Project
+single indicator—difficulty navigating within a room—and only (10.1093/IJE/DYT088).
+a small number of individuals in the sample reported this condi-
+tion. Other studies have utilized walking speed and chair stand
+References
+test domain of locomotion (George et al., 2021). As a result, this
+aspect was not fully represented in our study and should be Ahmadi, M. N., Clare, P. J., Katzmarzyk, P. T., Del Pozo Cruz, B., Lee,
+considered when interpreting the results. Lastly, conclusions for I. M., & Stamatakis, E. (2022). Vigorous physical activity, incident
+individuals over 90 years old are less robust due to smaller sample heart disease, and cancer: How little is enough? European Heart Jour-
+sizes and reduced differences observed in this age group. nal, 43, 4801–4814. https://doi.org/10.1093/eurheartj/ehac572
+Aliberti, M. J. R., Bertola, L., Szlejf, C., Oliveira, D., Piovezan, R. D.,
+Cesari, M., de Andrade, F. B., Lima-Costa, M. F., Perracini, M. R.,
+Conclusion Ferri, C. P., & Suemoto, C. K. (2022). Validating intrinsic capacity
+to measure healthy aging in an upper middle-income country: Find-
+This model demonstrates that IC domains can estimate biological
+ings from the ELSI-Brazil. Lancet Regional Health. Americas, 12,
+age and distinguish individuals based on their comorbidities. It
+100284. https://doi.org/10.1016/j.lana.2022.100284
+also underscores the role of physical activity as a key geroprotec- Bautmans, I., Knoop, V., Amuthavalli Thiyagarajan, J., Maier, A. B.,
+tive factor, with vigorous physical activity in females with comor- Beard, J. R., Freiberger, E., Belsky, D., Aubertin-Leheudre, M., Mik-
+bidities showing the most pronounced protective effect on IC-age. ton, C., Cesari, M., Sumi, Y., Diaz, T., & Banerjee, A., & WHO
+These results validate the concept of IC-age as a comprehensive Working Group on Vitality Capacity. (2022). WHO working defini-
+measure of aging and highlight its potential to inform personal- tion of vitality capacity for healthy longevity monitoring. The Lancet.
+ized interventions and public health strategies. Future research Healthy Longevity, 3, e789–e796. https://doi.org/10.1016/S2666-
+7568(22)00200-8
+should focus on external validation of IC-age in non-European
+Beard, J. R., Officer, A., de Carvalho, I. A., Sadana, R., Pot, A. M.,
+populations and assessment of its predictive value for clinical and
+Michel, J.-P., Lloyd-Sherlock, P., Epping-Jordan, J. E., Peeters, G. M.
+public health outcomes through longitudinal follow-up studies.
+E. E. G., Mahanani, W. R., Thiyagarajan, J. A., & Chatterji, S.
+(2016). The World report on ageing and health: A policy framework
+Supplementary material for healthy ageing. Lancet (London, England), 387, 2145–2154.
+https://doi.org/10.1016/S0140-6736(15)00516-4
+Supplementary data are available at The Gerontologist online. Beard, J. R., Si, Y., Liu, Z., Chenoweth, L., & Hanewald, K. (2022).
+Intrinsic capacity: Validation of a new WHO concept for healthy
+aging in a Longitudinal Chinese Study. The Journals of Gerontology.
+Funding
+Series A, Biological Sciences and Medical Sciences, 77, 94–100.
+None declared. https://doi.org/10.1093/gerona/glab226
+Bernhard, D., Moser, C., Backovic, A., & Wick, G. (2007). Cigarette
+smoke—an aging accelerator? Experimental Gerontology, 42,
+Conflict of interest 160–165. https://doi.org/10.1016/j.exger.2006.09.016
+Beyene, M. B., Visvanathan, R., & Amare, A. T. (2024). Intrinsic capacity
+None declared. and its biological basis: A scoping review. The Journal of Frailty &
+Aging, 13, 193–202. https://doi.org/10.14283/jfa.2024.30
+Bohannon, R. W. (2019). Grip strength: An indispensable biomarker for
+Data availability
+older adults. Clinical Interventions in Aging, 14, 1681–1691. https://
+This study uses data from the Survey of Health, Ageing and doi.org/10.2147/CIA.S194543
+Retirement in Europe (SHARE) project (10.1093/ije/dyt088). Börsch-Supan, A., Brandt, M., Hunkler, C., Kneip, T., Korbmacher, J.,
+SHARE data are available to registered researchers via https:// Malter, F., Schaan, B., Stuck, S., & Zuber, S., & SHARE Central
+share-eric.eu/data. Analytic code is available upon reasonable Coordination Team. (2013). Data resource profile: The Survey of
+Health, Ageing and Retirement in Europe (SHARE). International
+request. The study was not pre-registered.
+Journal of Epidemiology, 42, 992–1001. https://doi.org/10.1093/
+ije/dyt088
+Authors contribution Cartee, G. D., Hepple, R. T., Bamman, M. M., & Zierath, J. R. (2016).
+Exercise promotes healthy aging of skeletal muscle. Cell Metabolism,
+Carlos Cruz-Montecinos and Rodrigo Núñez-Cortés contrib-
+23, 1034–1047. https://doi.org/10.1016/j.cmet.2016.05.007
+uted to the conception and design of the study. Carlos Cerin, E., Leslie, E., Sugiyama, T., & Owen, N. (2010). Perceived barriers
+Cruz-Montecinos conducted the model, and Carlos to leisure-time physical activity in adults: An ecological perspective.
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+The Gerontologist, 2025, Vol. 65, No. 12 9
+Journal of Physical Activity & Health, 7, 451–459. https://doi. normal cognition, mild cognitive impairment, or dementia. Neuroep-
+org/10.1123/jpah.7.4.451 idemiology, 34, 34–42. https://doi.org/10.1159/000255464
+Cesari, M., Araujo de Carvalho, I., Amuthavalli Thiyagarajan, J., Coo- Lin, S., Huang, M., Yang, L., Chen, S., Huang, X., Zheng, J., Yuan, Y.,
+per, C., Martin, F. C., Reginster, J.-Y., Vellas, B., & Beard, J. R. Li, N., Huang, F., & Zhu, P. (2023). Dietary diversity and overweight
+(2018). Evidence for the domains supporting the construct of intrinsic are associated with high intrinsic capacity among Chinese urban older
+capacity. The Journals of Gerontology. Series A, Biological Sciences adults (2020-2021). Experimental Gerontology, 177, 112194.
+and Medical Sciences, 73, 1653–1660. https://doi.org/10.1093/ https://doi.org/10.1016/j.exger.2023.112194
+gerona/gly011 López-Bueno, R., Andersen, L. L., Calatayud, J., Casaña, J., Grabovac,
+Cesari, M., Sadana, R., Sumi, Y., Amuthavalli Thiyagarajan, J., & Baner- I., Oberndorfer, M., & Del Pozo Cruz, B. (2022). Associations of
+jee, A. (2022). What is intrinsic capacity and why should nutrition handgrip strength with all-cause and cancer mortality in older adults:
+be included in the vitality domain? [Review of What Is Intrinsic A prospective cohort study in 28 countries. Age and Ageing, 51,
+Capacity and Why Should Nutrition Be Included in the Vitality afac117. https://doi.org/10.1093/ageing/afac117
+Domain.?]. The Journals of Gerontology. Series A, Biological Sci- Mamoshina, P., Kochetov, K., Putin, E., Cortese, F., Aliper, A., Lee, W.-S.,
+ences and Medical Sciences, 77, 91–93. https://doi.org/10.1093/ Ahn, S.-M., Uhn, L., Skjodt, N., Kovalchuk, O., Scheibye-Knudsen,
+gerona/glab318 M., & Zhavoronkov, A. (2018). Population specific biomarkers of
+Chang, Y.-H., Chen, Y.-C., Ku, L.-J. E., Chou, Y.-T., Chen, H.-Y., Su, human aging: A big data study using South Korean, Canadian, and
+H.-C., Liu, C.-H., Wu, Y.-L., Cheng, H.-J., Yang, Y.-C., & Li, C.-Y. Eastern European patient populations. The Journals of Gerontology.
+(2023). Association between sleep health and intrinsic capacity Series A, Biological Sciences and Medical Sciences, 73, 1482–1490.
+among older adults in Taiwan. Sleep Medicine, 109, 98–103. https:// https://doi.org/10.1093/gerona/gly005
+doi.org/10.1016/j.sleep.2023.06.016 McGrath, R. P., Kraemer, W. J., Snih, S. A., & Peterson, M. D. (2018).
+Chen, M., Hanewald, K., Si, Y., Gu, Y., & Beard, J. R. (2025). Intrinsic Handgrip strength and health in aging adults. Sports Medicine (Auck-
+capacity across 15 countries in the Survey of health, aging, and Retire- land, N.Z.), 48, 1993–2000. https://doi.org/10.1007/s40279-018-
+ment in Europe. JAMA Network Open, 8, e259792. https://doi. 0952-y
+org/10.1001/jamanetworkopen.2025.9792 Moqri, M., Herzog, C., Poganik, J. R., Justice, J., Belsky, D. W.,
+Chen, R., Wang, Y., Zhang, S., Bulloch, G., Zhang, J., Liao, H., Shang, Higgins-Chen, A., Moskalev, A., Fuellen, G., Cohen, A. A., Baut-
+X., Clark, M., Peng, Q., Ge, Z., Cheng, C.-Y., Gao, Y., He, M., & mans, I., Widschwendter, M., Ding, J., Fleming, A., Mannick, J., Han,
+Zhu, Z. (2023). Biomarkers of ageing: Current state‐of‐art, chal- J.-D. J., Zhavoronkov, A., Barzilai, N., Kaeberlein, M., Cummings,
+lenges, and opportunities. MedComm—Future Medicine, 2, e50. S., Gladyshev, V. N., Biomarkers of Aging Consortium. (2023). Bio-
+https://doi.org/10.1002/mef2.50 markers of aging for the identification and evaluation of longevity
+Degens, H., Gayan-Ramirez, G., & van Hees, H. W. H. (2015). interventions. Cell, 186, 3758–3775. https://doi.org/10.1016/j.cell.
+Smoking-induced skeletal muscle dysfunction: From evidence to 2023.08.003
+mechanisms. American Journal of Respiratory and Critical Care Moqri, M., Herzog, C., Poganik, J. R., Ying, K., Justice, J. N., Belsky,
+Medicine, 191, 620–625. https://doi.org/10.1164/rccm.201410- D. W., Higgins-Chen, A. T., Chen, B. H., Cohen, A. A., Fuellen, G.,
+1830PP Hägg, S., Marioni, R. E., Widschwendter, M., Fortney, K., Fedichev,
+Diebel, L. W. M., & Rockwood, K. (2021). Determination of biological P. O., Zhavoronkov, A., Barzilai, N., Lasky-Su, J., Kiel, D. P., Fer-
+age: Geriatric assessment vs biological biomarkers. Current Oncology rucci, L. (2024). Validation of biomarkers of aging. Nature Medicine,
+Reports, 23, 104. https://doi.org/10.1007/s11912-021-01097-9 30, 360–372. https://doi.org/10.1038/s41591-023-02784-9
+Drenowatz, C., Prasad, V. K., Hand, G. A., Shook, R. P., & Blair, S. N. Moskalev, A., Chernyagina, E., Kudryavtseva, A., & Shaposhnikov, M.
+(2016). Effects of moderate and vigorous physical activity on fitness (2017). Geroprotectors: A unified concept and screening approaches.
+and body composition. Journal of Behavioral Medicine, 39, 624–632. Aging and Disease, 8, 354–363. https://doi.org/10.14336/AD.2016.
+https://doi.org/10.1007/s10865-016-9740-z 1022
+Elliehausen, C. J., Anderson, R. M., Diffee, G. M., Rhoads, T. W., Lam- Muneera, K., Muhammad, T., & Althaf, S. (2022). Socio-demographic
+ming, D. W., Hornberger, T. A., & Konopka, A. R. (2023). Geropro- and lifestyle factors associated with intrinsic capacity among older
+tector drugs and exercise: Friends or foes on healthy longevity? BMC adults: Evidence from India. BMC Geriatrics, 22, 851. https://doi.
+Biology, 21, 287. https://doi.org/10.1186/s12915-023-01779-9 org/10.1186/s12877-022-03558-7
+Galkin, F., Mamoshina, P., Aliper, A., de Magalhães, J. P., Gladyshev, V. Pan, Y., Li, X., Zhang, L., Li, Y., Tang, Z., & Ma, L. (2024). Declined
+N., & Zhavoronkov, A. (2020). Biohorology and biomarkers of intrinsic capacity predicts long-term mortality in Chinese older adults:
+aging: Current state-of-the-art, challenges and opportunities. Ageing Beijing Longitudinal Study of Aging. Maturitas, 188, 108082. https://
+Research Reviews, 60, 101050. https://doi.org/10.1016/j.arr.2020. doi.org/10.1016/j.maturitas.2024.108082
+101050 Prince, M. J., Reischies, F., Beekman, A. T., Fuhrer, R., Jonker, C., Kivela,
+Gebel, K., Ding, D., Chey, T., Stamatakis, E., Brown, W. J., & Bauman, S. L., Lawlor, B. A., Lobo, A., Magnusson, H., Fichter, M., van Oyen,
+A. E. (2015). Effect of moderate to vigorous physical activity on H., Roelands, M., Skoog, I., Turrina, C., & Copeland, J. R. (1999).
+all-cause mortality in middle-aged and older Australians. JAMA Inter- Development of the EURO-D scale—a European, Union initiative to
+nal Medicine, 175, 970–977. https://doi.org/10.1001/jamainternmed. compare symptoms of depression in 14 European centres. The British
+2015.0541 Journal of Psychiatry, 174, 330–338. https://doi.org/10.1192/
+George, P. P., Lun, P., Ong, S. P., & Lim, W. S. (2021). A rapid review bjp.174.4.330
+of the measurement of intrinsic capacity in older adults. The Journal Raffin, J., Fourteau, M., Virecoulon Giudici, K., Rolland, Y., Vellas, B.,
+of Nutrition, Health & Aging, 25, 774–782. https://doi.org/10.1007/ & de Souto Barreto, P, MAPT/DSA Group. (2025). Cross-sectional
+s12603-021-1622-6 and longitudinal associations between physical activity and intrinsic
+Huang, M.-T., Chang, Y.-H., Li, C.-Y., Elizabeth Ku, L.-J., Chou, Y.-T., capacity in healthy older adults from the MAPT study. Archives of
+Hou, W.-H., Chen, H.-Y., Su, H.-C., Wu, Y.-L., Liu, C.-H., Yang, Gerontology and Geriatrics, 130, 105724. https://doi.org/10.1016/j.
+Y.-C., & Chen, P.-C. (2024). The role of socioeconomic factors in archger.2024.105724
+sex differences in intrinsic capacity among older adults: A Trendelenburg, A. U., Scheuren, A. C., Potter, P., Müller, R., & Bellan-
+cross-sectional study in Taiwan. Preventive Medicine Reports, 47, tuono, I. (2019). Geroprotectors: A role in the treatment of frailty.
+102897. https://doi.org/10.1016/j.pmedr.2024.102897 Mechanisms of Ageing and Development, 180, 11–20. https://doi.
+Knopman, D. S., Roberts, R. O., Geda, Y. E., Pankratz, V. S., Christian- org/10.1016/j.mad.2019.03.002
+son, T. J. H., Petersen, R. C., & Rocca, W. A. (2010). Validation of von Elm, E., Altman, D. G., Egger, M., Pocock, S. J., Gøtzsche, P. C., &
+the telephone interview for cognitive status-modified in subjects with Vandenbroucke, J. P., STROBE Initiative. (2014). The Strengthening
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026
+
+10 Cruz-Montecinos et al.
+the Reporting of Observational Studies in Epidemiology (STROBE) meta-analysis of 414 study samples including 743,019 individuals.
+statement: Guidelines for reporting observational studies. Interna- Ageing Research Reviews, 90, 102031. https://doi.org/10.1016/j.
+tional Journal of Surgery (London, England), 12, 1495–1499. https:// arr.2023.102031
+doi.org/10.1016/j.ijsu.2014.07.013 Yeung, S. S. Y., Sin, D., Yu, R., Leung, J., & Woo, J. (2022). Dietary
+Wave 9. (n.d). Retrieved April 5, 2024, from https://share-eric.eu/data/ patterns and intrinsic capacity in community-dwelling older adults:
+data-documentation/waves-overview/wave-9
+A cross-sectional study. The Journal of Nutrition, Health & Aging,
+Wei, X., Chen, Y., Qin, J., Yang, Y., Yang, T., Yan, F., Zhang, Z., Han,
+26, 174–182. https://doi.org/10.1007/s12603-022-1742-7
+L., & Ma, Y. (2024). Factors associated with the intrinsic capacity
+Zhao, Y., Jiang, Y., Tang, P., Wang, X., Guo, Y., & Tang, L. (2024).
+in older adults: A scoping review. Journal of Clinical Nursing, 33,
+Adverse health effects of declined intrinsic capacity in middle-aged
+1739–1750. https://doi.org/10.1111/jocn.17017
+and older adults: A systematic review and meta-analysis. Age and
+World Health Organization. (2015). World report on ageing and health.
+World Health Organization. https://books.google.com/books/about/ Ageing, 53, afae162. https://doi.org/10.1093/ageing/afae162
+World_Report_on_Ageing_and_Health.html? hl=&id=n180DgAAQBAJ Zhu, X., Yin, S., Lang, M., He, R., & Li, J. (2016). The more the better?
+Ye, Q., Apsley, A. T., Etzel, L., Hastings, W. J., Kozlosky, J. T., Walker, A meta-analysis on effects of combined cognitive and physical inter-
+C., Wolf, S. E., & Shalev, I. (2023). Telomere length and chronolog- vention on cognition in healthy older adults. Ageing Research
+ical age across the human lifespan: A systematic review and Reviews, 31, 67–79. https://doi.org/10.1016/j.arr.2016.07.003
+Downloaded
+from
+https://academic.oup.com/gerontologist/article/65/12/gnaf228/8272763
+by
+University
+of
+Electronic
+Science
+and
+Technology
+of
+China,
+Zheng
+Lu
+on
+04
+March
+2026

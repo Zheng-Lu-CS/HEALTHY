@@ -1,0 +1,712 @@
+Zhu et al. BMC Geriatrics (2024) 24:494 BMC Geriatrics
+https://doi.org/10.1186/s12877-024-05093-z
+RESEARCH Open Access
+Factors associated with intrinsic capacity
+impairment in hospitalized older adults:
+a latent class analysis
+Lingzhi Zhu1, Xiaoxing Shen2, Xiaolan Shi2 and Xiaojun Ouyang2*
+Abstract
+Background Intrinsic capacity (IC) is proposed by the World Health Organization (WHO) to promote healthy aging.
+Although some studies have examined the factors influencing IC, few studies have comprehensively confirmed
+lifestyle factors on IC, especially IC impairment patterns. The present study aimed to identify the patterns of IC
+impairment and explore the lifestyle and other factors associated with different patterns of IC impairment.
+Methods This cross-sectional study was conducted in a Chinese geriatric hospital. IC was evaluated in five domains
+according to the recommendations of WHO: cognition, locomotion, vitality, sensory and psychological domains. The
+sociodemographic and health-related characteristics of participants were assessed.The health promoting lifestyle was
+evaluated using the Health-Promoting Lifestyle Profile-II scale, including nutrition, health responsibility, interpersonal
+relationships, physical activity, spiritual growth and stress management. We applied latent class analysis to identify IC
+impairment patterns and compared basic activities of daily living, instrumental activities of daily living, frailty, quality
+of life and falls among different IC impairment patterns. Multinomial logistic regression analysis was conducted to
+identify factors influencing the IC impairment patterns.
+Results Among 237 participants included, the latent class analysis identified three patterns of IC impairment: 44.7%
+high IC (Class 1), 31.2% intermediate IC mainly locomotor impairment (Class 2) and 24.1% low IC mainly cognitive
+impairment (Class 3). Older adults in class 1 had the best function ability and quality of life, while class 3 had the
+highest levels of disability and frailty, the poorest quality of life and a higher prevalence of falls. Compared with class
+1, older adults with advanced age (OR = 22.046, 95%CI:1.735-280.149), osteoporosis (OR = 3.377, 95%CI:1.161–9.825),
+and lower scores in physical activity (OR = 0.842, 95%CI:0.749–0.945), stress management (OR = 0.762, 95%CI:0.585–
+0.993) and social support (OR = 0.897, 95%CI:0.833–0.965) were more likely to belong to the class 2. Simultaneously,
+compared with class 1, older adults with advanced age (OR = 104.435, 95%CI:6.038-1806.410), stroke (OR = 3.877,
+95%CI:1.172–12.823) and lower scores in physical activity (OR = 0.784, 95%CI:0.667–0.922) and social support
+(OR = 0.909, 95%CI:0.828–0.998) were more likely to be class 3. In addition, compared with class 2, older adults with a
+lower score in nutrition (OR = 0.764, 95%CI:0.615–0.950) were more likely to belong to the class 3.
+Conclusions This study provides evidence that there are heterogeneous IC impairment patterns in older adults and
+identifies various associated factors in each pattern, including age, stroke, osteoporosis, social support and lifestyle
+*Correspondence:
+Xiaojun Ouyang
+xiaojun_ouyang@aliyun.com
+Full list of author information is available at the end of the article
+© The Author(s) 2024. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The
+Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available
+in this article, unless otherwise stated in a credit line to the data.
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 2 of 13
+behaviors such as nutrition, physical activity and stress management. It informs stakeholders on which modifiable
+factors should be targeted through public health policy or early intervention to promote IC and healthy aging in older
+adults.
+Keywords Intrinsic capacity, Latent class analysis, Lifestyle, Older adults
+Background
+expectancy and physical function [17, 18]. Although
+The world’s population is rapidly aging. According to data some studies have investigated the association between
+from World Population Prospects 2022, the proportion a single element of lifestyle, such as physical activity and
+of people aged 65 or older reached 9.7% in 2022, increas- smoking, with IC, the Health-Promoting Lifestyle Profile
+ing to 16.4% in 2050 [1]. Aging related physiological and II (HPLP-II) provides multi-dimensional assessments of
+pathological changes increase the risk of multimorbid- the lifestyle that promotes health. The health promoting
+ity, falls and disability, which challenges the healthcare lifestyle is a multidimensional pattern of self-organized
+system and society [2]. As a response to population actions and perceptions that contribute to maintaining or
+aging and reducing care dependency, the World Health improving individual health, self-realization, and happi-
+Organization (WHO) advocates transitioning from a ness. It includes six dimensions: self-actualization, health
+disease-centered model to a model centered on positive responsibility, exercise, nutrition, interpersonal support
+functioning for healthy aging, emphasizing the main- and stress management [19]. Few studies have investi-
+tenance of functional ability and prevention of capacity gated the association between the health promoting life-
+loss. Intrinsic capacity (IC) is the composite of an indi- style and IC [9, 20]. However, lifestyles are modifiable
+vidual’s physical and mental capacities, including vitality, factors, and adopting strategies focused on promoting a
+locomotion, cognition, psychology and sensory domains, healthy lifestyle could be the most cost-effective way to
+which interact with environmental factors determining maintain function among older adults, particularly in
+the functional ability of that person [3]. countries with limited resources.
+The multidimensional structure of IC has been vali- Although previous studies investigated factors influ-
+dated [4, 5], which can predict many adverse outcomes encing the number or degree of impaired IC domains
+such as falls, quality of life decline, frailty, disability, and [8–10], the IC measurements in these studies were
+death in older adults [6]. However, the mechanism lead- inconsistent with the WHO recommendations. Most
+ing to IC impairment is unclear due to its complexity and importantly, there is a lack of standard operation of the
+the result of numerous factors. Si et al. identified that IC score [21]. However, latent class analysis (LCA) may
+people with favourable early-life factors were more likely be a good way to solve this problem, which looks at IC
+to have higher intrinsic capacity in later life [7]. Three impairment from the perspective of “clusters” rather than
+cross-sectional studies of large populations have shown “numbers”. It can identify different patterns of IC impair-
+that sociodemographic factors (e.g., age, sex, work status, ment in older adults and ensure IC integrity. LCA, an
+marital state, education level, region, place of residence, unsupervised technique, is based on peoples’ different
+and income), chronic diseases (chronic obstructive pul- scoring patterns across variables, which could identify
+monary disease, osteoarthritis and chronic neurologic subgroups of individuals with shared characteristics [22].
+illness) and lifestyles (physical activity, smoking) may Therefore, the aim of this study is to identify the pat-
+cause IC decline [8–10]. Lifestyle intervention, including terns of IC impairment and explore the lifestyle and other
+nutrition, physical activity, well-being, stress manage- factors associated with different patterns of IC impair-
+ment, and sleep, has the potential to prevent functional ment in older hospitalized patients.
+decline, frailty, and sarcopenia to optimize the trajec-
+Methods
+tory of aging [11]. WHO also reported that 53% of deaths
+were due to adverse lifestyle behaviors [12]. Individuals Study design and participants
+who maintain a healthy lifestyle, such as refraining from From December 2022 to August 2023, a cross-sectional
+smoking and heavy drinking, engaging in physical activ- study was conducted at the Geriatric Hospital of Nanjing
+ity and daily intake of fruits and vegetables, have been Medical University in China. Medical inpatients admit-
+observed to be associated with better health outcomes, ted to the Department of Geriatrics aged ≥ 60 years and
+including healthy aging [13], longer life expectancy [14], willing to participate in our study. The exclusion criteria
+increase in life-years lived in good health [15] and cog- were as follows: (1) acute conditions (e.g., acute coronary
+nitive health [16]. Furthermore, these associations exist syndrome, acute heart failure, acute cerebrovascular dis-
+even among individuals 75 years and older, highlight- ease, acute exacerbation of chronic obstructive pulmo-
+ing the need to advocate for favourable lifestyle behav- nary disease); (2)inability to complete assessment due
+iors even among the oldest population to enhance life to deafness, blindness and severe cognitive impairment
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 3 of 13
+diagnosed by a neurologist. Prior to the study, all partici- stairs on your own and without using aids?), ambula-
+pants provided the study protocol and granted informed tion (Do you have difficulty walking 500 m on your own
+consent. Participants underwent assessments in a stable and without using aids?), illness (Do you have more than
+period of the disease. The questionnaires were assessed 5 of the following diseases: hypertension, diabetes, can-
+by a well-trained nurse who qualified in comprehensive cer, chronic lung disease, heart attack, congestive heart
+geriatric assessment (CGA) using a face-to-face interview failure, angina, asthma, arthritis, stroke, and kidney dis-
+technique. For patients with severe hearing impairment, ease?), and loss of weight (Do you lose weight > 5% over
+white boards were used to communicate with them. a past year?). Each criterion answered “yes” was given a
+The objective information of 6 participants with severe score of “1”, otherwise “0”. Frail scale scores ranged from 0
+hearing impairments was collected from their caregiv- to 5, with higher scores indicating higher frailty [31]. Dis-
+ers. Finally, 10 participants who did not complete IC or ability was assessed using basic activities of daily living
+Health-promoting lifestyle profile-II assessment were (BADL) and instrumental activities of daily living (IADL).
+excluded, and 237 participants were recruited, which is BADL was assessed using the Barthel Index and ranges
+more than 10 times the number of variables and meets from 0 to 100, which includes grooming, bathing, toilet-
+the requirement for regression analysis [23]. This study ing, bowel control, bladder control, feeding, dressing,
+was approved by the Ethics Committee of the Geriatric stair climbing, chair transfer and ambulation [32]. Higher
+Hospital of Nanjing Medical University (Ethic number: scores indicate more independence. IADL ranges from 0
+2022,042), which was performed in accordance with the to 8, including the ability to use a phone, shopping, meal
+guidelines outlined in the Declaration of Helsinki. preparation, housekeeping, laundry, the model of trans-
+portation, taking prescribed medications, and the abil-
+Intrinsic capacity ity to handle finances [33]. Higher scores indicate better
+The assessment of IC was based on the WHO Inte- instrumental living performance. To assess the quality
+grated Care for Older People (ICOPE) guideline [24]. IC of life (QOL), we used the three-level EuroQol-5D scale
+included cognitive impairment (the Chinese version of (EQ-5D-3 L), including two components: a descrip-
+the Mini-Mental State Examination score ≤ 17 for illiter- tive system and a visual analogue scale (VAS) [34]. The
+ate individuals, ≤ 20 for people with primary school edu- descriptive system includes five dimensions (mobility,
+cation, and ≤ 24 for people with middle school or higher self-care, usual activities, pain/discomfort, and anxiety/
+education) [25], vitality impairment (the Short-Form depression) with three problem levels (none, moder-
+Mini Nutritional Assessment score ≤ 11) [26], locomotion ate, or extreme) and the EQ-5D index was derived based
+impairment (the Short Physical Performance Battery test on the Chinese set of EQ-5D-3 L values ranging from
+score ≤ 9) [27], psychological impairment (the 15-item − 0.149 to 1 [35]. A higher score indicates better QOL.
+Geriatric Depression Scale score ≥ 8) [28], and sensory Self-reported health status was recorded according to
+impairment (answer of “yes” to the question “Do you the score of the visual analogue scale (EQ-VAS), ranging
+have experienced vision or hearing decline affecting daily from 0 (“the worst health you can imagine”) to 100 (“the
+life?”) [29]. An impairment in any of the five domains of best health you can imagine”). The falls were evaluated
+IC was considered as IC impairment [8]. using the following question: “Have you fallen in the last
+1 year ?”
+Health promoting lifestyle
+All participants completed the Chinese version of the Sociodemographic and health-related characteristics
+Health-Promoting Lifestyle Profile-II (HPLP-IIR) [30], Sociodemographic characteristics included age (60–74
+revised by Cao et al., and it was a widely used instrument years, 75–89 years, ≥ 90years), gender, educational level
+to evaluate the health behaviors and lifestyles of older (< 9 years, 9–12 years or > 12 years), monthly personal
+adults. HPLP-IIR is a 40-item questionnaire comprising income (< 5000 ¥, ≥ 5000 ¥), living alone (yes or no) and
+six dimensions: nutrition, health responsibility, interper- social support. The Social Support Rate Scale (SSRS)
+sonal relationships, physical activity, spiritual growth and was used to assess social support, including 10 items
+stress management. Each item is measured using a four- and three dimensions: objective social support, subjec-
+point Likert scale (1 = never, 2 = sometimes, 3 = often, and tive social support, and the utilization of social support,
+4 = routinely). Higher scores indicate greater adherence to with higher scores indicating better social support [36].
+healthy life behaviors. Health-related characteristics included current smoking
+(yes or no), sleeping hours, polypharmacy (yes or no),
+Frailty, disability, quality of life and falls Charlson Comorbidity Index (CCI), and chronic diseases.
+The FRAIL scale was used to assess frailty based on five Regular intake of five or more medications was consid-
+criteria: fatigue (Do you feel tired most of the time?), ered polypharmacy [37]. Polypharmacy, CCI and chronic
+resistance (Do you have difficulty climbing 10 steps of diseases (history of stroke/hypertension/diabetes/
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 4 of 13
+coronary heart disease/chronic obstructive pulmonary 3-class model was selected to define IC impairment pat-
+disease (COPD)/osteoporosis/cancer) were obtained terns in this study.
+from medical records. Three classes of IC impairment are depicted in Fig. 1.
+We found that older adults in class 1 had mild impair-
+Statistical analysis ment in IC domains, so it could be defined as “high IC”
+Statistical data processing was performed using Mplus (n = 106, 44.7%). All older adults in class 2 had impaired
+(version 8) and SPSS (version 25). Latent class analysis locomotion, which could be defined as “intermediate IC
+was performed with Mplus to identify the latent classes mainly locomotor impairment” (n = 74, 31.2%). All older
+of IC impairment. We reported model fit indices for adults in class 3 had cognitive impairment and severe
+each model, such as the value of the Akaike Information impairment in other IC domains, thus it was defined as
+Criterion (AIC), Bayesian Information Criterion (BIC), “low IC mainly cognitive impairment” (n = 57, 24.1%).
+Sample-size Adjusted BIC (SABIC), Entropy, and Lo-
+Mendell-Rubin (LMR) [38]. Lower AIC, BIC and SABIC Comparison of BADL, IADL, frailty, QOL, and falls among
+values and higher entropy indicate better model fit. The three classes
+entropy value above 0.8 is considered acceptable, indicat- The characteristics of BADL, IADL, frailty, QOL (EQ-5D
+ing the accuracy of classification is greater than 90%. If index and EQ-VAS), and falls among the three classes
+the P values of LMR < 0.05, it means the k class model is were further compared in Fig. 2 (details in Supplemen-
+better than the k-1 class model. In addition to model fit tary Material S1). We found that scores of BADL, IADL
+indices, the simplicity and interpretability of the model and EQ-5D index were highest in class 1 and lowest in
+as well as clinical insights should also be taken into class 3, while frailty scores were reversed (P < 0.001).
+consideration. Class 1 had a higher score of EQ-VAS than other classes
+Descriptive statistics and further analysis were per- (P < 0.001). The prevalence of falls was higher in the class
+formed with SPSS. Continuous variables with normal 3 than in the class 1 (P = 0.002).
+distribution were expressed as means ± standard devia-
+tions, and non-normal distribution was expressed as Factors associated with the classes of IC impairment
+median and interquartile range. Categorical variables The comparisons of the characteristics between the
+were reported as frequencies and percentages. After the three classes of IC impairment are presented in Table 3
+appropriate number of latent classes was determined, the and statistically significant differences were found in age,
+characteristics between different classes were compared living alone, nutrition, health responsibility, interper-
+using the Kruskal-Wallis test, one-way analysis of vari- sonal relationships, physical activity, spiritual growth,
+ance, or the chi-square test. Subsequently, variables with stress management, polypharmacy, CCI, stroke, COPD,
+a P-value < 0.05 in univariate analysis were selected for osteoporosis, and SSRS (P < 0.05). These variables were
+multivariate multinomial logistic regression to explore further included in multinomial logistic regression
+the factors influencing different classes. A P‐value of analysis as independent variables, with three classes
+< 0.05 was considered statistically significant. of IC impairment as dependent variables. Table 4 pres-
+ents the results of the multinomial logistic regres-
+Results sion analysis. Older adults with advanced age (age ≥ 90
+Sample characteristics years) (OR = 22.046, 95%CI:1.735-280.149), osteoporo-
+A total of 237 participants (mean age 80.59 ± 8.85 sis (OR = 3.377, 95%CI:1.161–9.825), and lower scores
+years[range, 60-101years]) were included in this study in physical activity (OR = 0.842, 95%CI:0.749–0.945),
+and 63.3% were male. The prevalence of IC impairment stress management (OR = 0.762, 95%CI:0.585–0.993)
+was 69.6% and impairment in cognition, locomotion, psy- and SSRS (OR = 0.897, 95%CI:0.833–0.965) were more
+chological, vitality, and sensory domains was 27%, 52.7%, likely to belong to the class 2 than the class 1. Simulta-
+3%, 25.3% and 39.7%, respectively. The characteristics of neously, compared with class 1, advanced age (age ≥ 90
+participants are presented in Table 1. years) (OR = 104.435, 95%CI:6.038-1806.410), stroke
+(OR = 3.877, 95%CI:1.172–12.823) and lower scores
+Latent profiles of IC impairment in physical activity (OR = 0.784, 95%CI:0.667–0.922)
+The fit indices from the 1- to 4-class models are presented and SSRS (OR = 0.909, 95%CI:0.828–0.998) were more
+in Table 2. The 2-class model performed better on model likely to be class 3. In addition, compared with class 2,
+fit indices, because it had the lowest AIC/BIC/aBIC val- older adults with a lower score in nutrition (OR = 0.764,
+ues and had a significant of LMR results. Although the 95%CI:0.615–0.950) were more likely to belong to class 3.
+3-class model was not statistically better than the 2-class
+model, it had the highest entropy value and was more
+clinically meaningful and interpretable. Finally, the
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 5 of 13
+Table 1 Baseline characteristics of the sample (N = 237)
+Variables Mean ± SD or M (P25, P75) N (%)
+Age (years)
+60–74 61 (25.7%)
+75–89 132 (55.7%)
+≥ 90 44 (18.6%)
+Gender
+Male 150 (63.3%)
+Female 87 (36.7%)
+Education level (years)
+< 9 53 (22.4%)
+9–12 67 (28.3%)
+> 12 117 (49.4%)
+Monthly personal income
+< 5000 ¥ (approximately 700 US$) 50 (21.1%)
+≥ 5000 ¥ (approximately 700 US$) 187 (78.9%)
+Living alone
+No 204 (86.1%)
+Yes 33 (13.9%)
+Current smoking
+No 212 (89.5%)
+Yes 25 (10.5%)
+Sleeping hours 6 (5, 7)
+Health-promoting lifestyle profile-II
+Nutrition 21 (19, 22)
+Health responsibility 21 (18, 25)
+Interpersonal relationships 13 (10, 16)
+Physical activity 14 (10, 18)
+Spiritual growth 9 (6.5, 11)
+Stress management 14 (13,14)
+Polypharmacy
+No 84 (35.4%)
+Yes 153 (64.6%)
+CCI 1 (0, 2)
+Stroke
+No 150 (63.3%)
+Yes 87 (36.7%)
+Hypertension
+No 50 (21.1%)
+Yes 187 (78.9%)
+Diabetes
+No 146 (61.6%)
+Yes 91 (38.4%)
+Coronary heart disease
+No 157 (66.2%)
+Yes 80 (33.8%)
+COPD
+No 226 (95.4%)
+Yes 11 (4.6%)
+Osteoporosis
+No 185 (78.1%)
+Yes 52 (21.9%)
+Cancer
+No 222 (93.7%)
+Yes 15 (6.3%)
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 6 of 13
+T able 1 (continued)
+Variables Mean ± SD or M (P25, P75) N (%)
+SSRS 36.23 ± 7.421
+Impaired IC domains
+Cognitive impairment 64 (27%)
+Locomotion impairment 125 (52.7%)
+Psychological impairment 7 (3.0%)
+Vitality impairment 60 (25.3%)
+Sensory impairment 94 (39.7%)
+Number of impaired IC domains
+0 72 (30.4%)
+1 58 (24.5%)
+2 51 (21.5%)
+3 36 (15.2%)
+4 18 (7.6%)
+5 2 (0.8%)
+CCI Charlson Comorbidity Index, COPD chronic obstructive pulmonary disease, SSRS Social support rate scale, IC intrinsic capacity, M median, SD standard deviation
+Table 2 Fit indices of latent class analysis of the IC impairment
+Model AIC BIC SABIC Entropy LMR(P) Classification probability
+1 1263.954 1281.294 1265.446 1
+2 1177.443 1215.592 1180.726 0.621 < 0.001 0.43882/ 0.56118
+3 1184.945 1243.902 1190.018 0.835 0.3925 0.31224/0.24051/0.44726
+4 1192.634 1272.400 1199.498 0.705 0.1041 0.01266/0.49789/0.40506/0.08439
+AIC Akaike information criterion, BIC Bayesian information criterion, SABIC Sample-size Adjusted BIC, LMR Lo-Mendell-Rubin
+Fig. 1 Latent profiles of IC impairment for 3-class model. Blue line indicates the latent profile of Class 1 “high IC”. Orange line indicates the latent profile of
+Class 2 “intermediate IC mainly locomotor impairment”. Grey line indicates the latent profile of Class 3 “low IC mainly cognitive impairment”
+Discussion
+44.7% high IC (Class 1), 31.2% intermediate IC mainly
+Few studies explored patterns of IC impairment, and this locomotor impairment (Class 2) and 24.1% low IC mainly
+study identified three common IC impairment classes cognitive impairment (Class 3). Older adults in class 3
+in hospitalized older patients using latent class analysis: had the highest levels of disability and frailty, the poorest
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 7 of 13
+Fig. 2 Comparison of BADL, IADL, frailty, QOL, and falls among three classes. BADL basic activities of daily living, IADL instrumental activities of daily living,
+EQ-5D EuroQoL-5D, VAS visual analogue scale
+quality of life and a higher prevalence of falls. Class 2 cognitive impairment”, and “high deterioration with
+intermediate between class 1 and 3. This is the first study cognitive impairment” [42]. Interestingly, we found that
+to explore associated factors of IC impairment patterns, impairment in the psychological, vitality and sensory
+particularly multi-dimensional healthy lifestyle factors. domains tend to ‘move in block’, implying there are some
+Age, physical activity, stress management, stroke, osteo- correlations between these three domains. But cognition
+porosis, nutrition and social support were factors influ- impairment and locomotion impairment tend to form
+encing IC impairment. Interventions should be designed independent categories, which is in line with the findings
+according to these factors to target this three common IC of Gonzalez-Bautista et al [42]. The locomotion impair-
+impairment patterns. ment may be earlier and faster than other capacities and
+The prevalence of IC impairment in this study was the classes characterized by cognitive impairment repre-
+common (69.6%) and comparable to 73.7% as reported by sent the transition to mortality [40, 42].
+a systematic review in Chinese older adults [39]. To date, Our results revealed the significant associations of
+some data-driven studies [40–43](using LCA/cluster the classes with disability, frailty, quality of life and falls,
+analysis) have been performed. Although the number or which validate the clinical relevance of the these patterns.
+characters of the IC impairment patterns vary between Underlying of intrinsic capacity lie physiological reserves,
+these studies because of different designs or methods, and a decline in intrinsic capacity progressively leads
+there is increasing evidence for three IC impairment pat- to frailty and ultimately to dependency [44]. Previous
+terns. We identified three patterns of IC impairment: studies have demonstrated that older adults with lower
+high IC, intermediate IC mainly locomotor impairment intrinsic capacity have a higher risk of frailty, disability,
+and low IC mainly cognitive impairment, which are simi- poor quality of life and falls [40, 41, 45]. Therefore, it is
+lar to the public-health framework proposed by WHO. crucial to take measures to prevent or reverse IC impair-
+Although the WHO divided older adults into three sub- ment and thus reduce adverse health outcomes.
+groups: high and stable capacity, declining capacity and Increased age was found to be a risk factor for more
+significant loss of capacity, the criteria for division are serious IC impairment. Our finding supports previ-
+unclear due to the lack of standard operation of the IC ous studies revealing a similar association between IC
+score [2]. Our study provides a new insight to understand and age. Prince et al. observed that multiple IC domains
+the public-health framework for health aging. Yu et al. impairments were more common in older age groups and
+also identified three IC impairment patterns, including all domains of IC decreased significantly with age except
+“relatively healthy”, “sharp declines in sensory domain” psychology [46]. Interestingly, we found that 7% of older
+and “declines in locomotion, psychological, cognition adults in class 3 aged 60 to 74 years, revealing the hetero-
+and vitality domains” [41]. But Gonzalez-Bautista et al. geneous trajectory of aging, which highlights that IC may
+explored the natural history of intrinsic capacity impair- be a better indicator to capture the overall health of older
+ment over a period of 4–5 years and identified four people than age.
+latent statuses as follows: “high IC”, “low deterioration Our study indicated that reduced physical activity
+with impaired locomotion”, “high deterioration without (PA) was independently associated with more severe IC
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 8 of 13
+Table 3 Participants characteristics of IC impairment among three classes
+Variables Class 1 Class 2 Class 3 H/χ2/F P
+(n = 106) (n = 74) (n = 57)
+Age, years, n (%) 89.485 < 0.001
+60–74 47 (44.3%) 10 (13.5%) 4 (7.0%)
+75–89 58 (54.7%) 52 (70.3%) 22 (38.6%)
+≥ 90 1 (1.0%) 12 (16.2%) 31 (54.4%)
+Gender, n (%) 0.105 0.949
+Male 67 (63.2%) 46 (62.2%) 37 (64.9%)
+Female 39 (36.8%) 28 (37.8%) 20 (35.1%)
+Education level, years, n (%) 7.527 0.111
+< 9 20 (18.9%) 17 (23.0%) 16 (28.1%)
+9–12 24 (22.6%) 23 (31.1%) 20 (35.1%)
+> 12 62 (58.5%) 34 (45.9%) 21 (36.8%)
+Monthly personal income, n (%) 0.138 0.933
+< 5000 ¥ (approximately 700 US$) 22 (20.8%) 15 (20.3%) 13 (22.8%)
+≥ 5000 ¥ (approximately 700 US$) 84 (79.2%) 59 (79.7%) 44 (77.2%)
+Living alone, n (%) 6.171 0.046
+No 93 (87.7%) 58 (78.4%) 53 (93.0%)
+Yes 13 (12.3%) 16 (21.6%) 4 (7.0%)
+Current smoking, n (%) 2.487 0.288
+No 92 (86.8%) 66 (89.2%) 54 (94.7%)
+Yes 14 (13.2%) 8 (10.8%) 3 (5.3%)
+Sleeping hours, M (P25, P75) 6 (4.5, 6.5) 6 (5, 7) 6 (4.5, 8) 2.818 0.244
+Nutrition, M (P25, P75) 21 (19.75, 23) 21 (20, 22) 19 (17, 21) 28.938 < 0.001
+Health responsibility, M (P25, P75) 23 (19.75, 27) 21 (18.75, 23.25) 18 (15, 20) 43.533 < 0.001
+Interpersonal relationships, M (P25, P75) 15 (12, 18) 13 (10, 15) 10 (8, 13) 51.030 < 0.001
+Physical activity, M (P25, P75) 17 (15, 20.25) 12.5 (10, 16) 9 (8, 13) 86.365 < 0.001
+Spiritual growth, M (P25, P75) 10 (8, 13) 8 (6.75, 10) 6 (5, 9.5) 40.902 < 0.001
+Stress management, M (P25, P75) 14 (13,15) 14 (13,14) 14 (12,14) 11.086 0.004
+Polypharmacy, n (%) 8.175 0.017
+No 48 (45.3%) 21 (28.4%) 15 (26.3%)
+Yes 58 (54.7%) 53 (71.6%) 42 (73.7%)
+CCI, M (P25, P75) 1 (0, 2) 1 (0, 3) 1 (1, 2) 12.099 0.002
+Stroke, n (%) 12.449 0.002
+No 79 (74.5%) 44 (59.5%) 27 (47.4%)
+Yes 27 (25.5%) 30 (40.5%) 30 (52.6%)
+Hypertension, n (%) 0.218 0.897
+No 21 (19.8%) 16 (21.6%) 13 (22.8%)
+Yes 85 (80.2%) 58 (78.4%) 44 (77.2%)
+Diabetes, n (%) 0.210 0.900
+No 65 (61.3%) 47 (63.5%) 34 (59.6%)
+Yes 41 (38.7%) 27 (36.5%) 23 (40.4%)
+Coronary heart disease, n (%) 1.759 0.415
+No 75 (70.8%) 46 (62.2%) 36 (63.2%)
+Yes 31 (29.2%) 28 (37.8%) 21 (36.8%)
+COPD, n (%) 8.889 0.007
+No 105 (99.1%) 66 (89.2%) 55 (96.5%)
+Yes 1 (0.9%) 8 (10.8%) 2 (3.5%)
+Osteoporosis, n (%) 8.967 0.011
+No 92 (86.8%) 51 (68.9%) 42 (73.7%)
+Yes 14 (13.2%) 23 (31.1%) 15 (26.3%)
+Cancer, n (%) 2.539 0.319
+No 102 (96.2%) 67 (90.5%) 53 (93%)
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 9 of 13
+T able 3 (continued)
+Variables Class 1 Class 2 Class 3 H/χ2/F P
+(n = 106) (n = 74) (n = 57)
+Yes 4 (3.8%) 7 (9.5%) 4 (7.0%)
+SSRS, Mean ± SD 40.08 ± 6.635 33.4 ± 7.023 32.86 ± 6.242 24.039 < 0.001
+CCI Charlson Comorbidity Index, COPD chronic obstructive pulmonary disease, SSRS Social support rate scale, M median, SD standard deviation
+Table 4 Multinomial logistic regression analysis for IC impairment among three classes
+Variables Class 2 vs. class 1 a Class 3 vs. class 1 a Class 3 vs. class 2 a
+OR 95%CI OR 95%CI OR 95%CI
+Age, years
+60–74 1.00 (reference) 1.00 (reference) 1.00 (reference)
+75–89 2.082 0.754–5.747 2.564 0.519–12.654 1.231 0.243–6.230
+≥ 90 22.046 1.735-280.149 104.435 6.038-1806.410 4.737 0.797–28.170
+Living alone
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 0.418 0.126–1.382 0.236 0.047–1.187 0.563 0.141–2.249
+Nutrition 1.126 0.917–1.382 0.860 0.676–1.094 0.764 0.615–0.950
+Health responsibility 0.973 0.883–1.072 0.904 0.792–1.032 0.929 0.828–1.043
+Interpersonal relationships 0.964 0.836–1.113 0.900 0.750–1.081 0.933 0.797–1.093
+Physical activity 0.842 0.749–0.945 0.784 0.667–0.922 0.932 0.803–1.081
+Spiritual growth 0.914 0.772–1.082 0.959 0.767–1.199 1.049 0.864–1.273
+Stress management 0.762 0.585–0.993 0.733 0.519–1.034 0.961 0.713–1.297
+Polypharmacy
+No 0.611 0.250–1.493 0.411 0.125–1.352 0.673 0.236–1.917
+Yes 1.00 (reference) 1.00 (reference) 1.00 (reference)
+CCI 1.147 0.752–1.750 0.911 0.520–1.597 0.794 0.495–1.273
+Stroke
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 1.555 0.602–4.015 3.877 1.172–12.823 2.493 0.903–6.882
+COPD
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 6.502 0.532–79.440 2.011 0.094–43.068 0.309 0.039–2.441
+Osteoporosis
+No 1.00 (reference) 1.00 (reference) 1.00 (reference)
+Yes 3.377 1.161–9.825 2.561 0.672–9.753 0.758 0.269–2.136
+SSRS 0.897 0.833–0.965 0.909 0.828–0.998 1.014 0.939–1.095
+a Reference group, OR odds ratio, 95% CI 95% confidence interval, CCI Charlson Comorbidity Index, COPD chronic obstructive pulmonary disease, SSRS Social
+support rate scale
+impairment. A previous study reported that less exercise resistance training) per week according to the WHO’s PA
+(exercising for < 3 h/week) was related to IC decline [10]. guideline [52].
+In contrast, older adults engaging in moderate physi- As for chronic diseases, older adults with osteoporosis
+cal activity, vigorous physical and yoga-related activity were more likely to belong to class 2 which is primarily
+were positively associated with high IC [9]. The benefits impaired in locomotion and sensory. Osteoporosis and
+of PA have been proven in numerous empirical stud- fracture always appear together. Vertebral body fracture,
+ies, including improving physical and mental capacities the most common type of osteoporosis fracture, lim-
+(e.g.,cognitive function, mobility, anxiety and depression) its the mobility of the individual due to back pain when
+[47–49] and preventing and managing many chronic postural changes, resulting in a sedentary and inactive
+diseases (e.g.,hypertension, diabetes, COPD, cancer, lifestyle that consequently accelerates disability [53]. In
+osteoporosis, sarcopenia) [50, 51].Older adults are rec- addition, the association between osteoporosis and hear-
+ommended to engage in 150 min of moderate- or 75 min ing loss also has plausible physiological mechanisms.
+of vigorous-intensity aerobic activity and two or more Osteoporosis leads to demineralization of the temporal
+days of muscle-strengthening activity (e.g., strength/ bone, including the cochlea capsule and the conductive
+system, which contributes to hearing loss [54]. However,
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 10 of 13
+older adults with the history of stroke were more likely to status. Older adults with severe tooth loss and mastica-
+belong to the low IC mainly cognitive impairment group. tory impairment tend to limit the consumption of various
+The relationship between stroke and cognition is evident. types of food, particularly fruits and vegetables, increase
+A Chinese cohort study revealed that incident stroke the consumption of sugary and easy-to-chew foods and
+was associated with acute declines in global cognition, decrease the intake of fiber and vitamins [67]. However,
+episodic memory, visuospatial abilities, and accelerated accumulating evidence suggests that high consumption
+declines in calculation, attention, and orientation abilities of fruits, vegetables, and whole grains and low consump-
+[55]. Post-stroke depression, vascular cognitive impair- tion of sugars and saturated fats are able to prevent cog-
+ment, post-stroke fatigue, and mobility impairments are nitive decline through antioxidant and anti-inflammatory
+common consequences of stroke and these conditions actions and other mechanisms [68]. There is a food guide
+can overlap occurrence [56, 57], leading to multidimen- pyramid for older adults, which emphasizes fluid intake,
+sional impairment of IC. physical activity, fruits, vegetables, whole grains, animal
+A lower stress management score was a predictor proteins, fats, calcium and vitamins [69].
+of the intermediate IC mainly locomotor impairment We found lower levels of social support were associated
+group. Older adults in this group are under great stress, with more severe IC impairment. Social support can buf-
+since they are in a transition period between health and fer the harmful impacts of stress on physical and mental
+disability. In this period, they are experiencing func- health to maintain individuals’ well-being [70]. Previ-
+tional decline which challenges their ability to maintain ous studies revealed that social networks have broader
+independence and social activities. Individuals without impacts on many health outcomes, such as physical, cog-
+good stress management capabilities lack confidence in nitive, psychological, and overall health [71]and higher
+dealing with problems and challenges [58] and they tend levels of social isolation were positively correlated with
+to have negative self-perceptions and attitudes toward lower intrinsic capacity [72]. Given the considerable
+aging leading to reduced activity engagement in health social relationship of older adults may change over time
+behaviors and driving a downward spiral of function- due to the relocation of children, relatives, or friends; and
+ing and well-being [59]. Older adults are encouraged to death or function limited among social networks [73].
+adopt problem-focused (using medication, healthy diet Providing social support in time to address the unmet
+and exercise, visiting to the doctor) and emotion-focused care needs of older adults and keep them active is war-
+(reframing, mindfulness) coping approaches to relieve ranted [74]. Social support includes formal support pro-
+stress [60]. Inadequate family and peer support is one of vided by government, institutions and communities and
+the main causes of poor stress management reported by informal social support provided by family members, rel-
+Chinese older people [61]. Therefore, family members atives, neighbors and friends [75]. Family members need
+and friends are encouraged to provide emotional and to encourage older adults to develop healthy lifestyles and
+instrumental support for older adults, such as having provide long-term support including financial support,
+someone to confide in, helping with chores and providing daily care, and spiritual comfort. The community should
+information, advice and feedback. provide visiting nursing services and voluntary social ser-
+A lower score in nutrition, adhering to the more vices for home-based older adults covering psychologi-
+unhealthy dietary pattern, was associated with belonging cal counseling, disease monitoring, health maintenance,
+to low IC mainly cognitive impairment. In line with our social intercourse, and regular visits and communication
+finding, the association between dietary patterns and IC [76]. In addition to providing enough medical or pension
+has recently been established. A research found that the insurance, the government should issue policies and ini-
+“fruits and vegetables” dietary pattern and “protein-rich” tiatives to promote further integrated care services coor-
+dietary pattern are positively associated with IC changes, dinating interdisciplinary teams and informal caregivers
+whereas following the “sugar and fat” dietary pattern is to provide person-centered care for older adults [77].
+associated with decreased IC in a Japanese population- Lastly, from the perspective of the public-health frame-
+based cohort [62]. Dietary patterns might potentially work [2], this study may shed light on the fact that older
+affect IC through nutrition, because a better quality of adults with high IC decline to intermediate IC mainly
+diet is associated with a lower risk of malnutrition [63]. locomotor impairment stage due to aging, reduced physi-
+In fact, nutritional status is a candidate attribute of vital- cal activity, poor stress management, osteoporosis and
+ity capacity, which is a core physiological determinant of lack of social support. And older adults with intermedi-
+IC and the impairment of vitality may lead to a hierar- ate IC mainly locomotor impairment stage decline to low
+chical cascade of impairments in other IC domains [64]. IC mainly cognitive impairment stage due to decreased
+Aging associated physiological changes, such as teeth nutrition intake. Although careful caution is needed and
+loss and masticatory dysfunction [65] and decreased these factors should be reconfirmed through longitudinal
+sense of taste or smell [66], negatively impact nutritional studies, our study provides ideas for the development of
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 11 of 13
+LMR Lo-Mendell-Rubin
+intervention strategies targeting different patterns of IC PA Physical activity
+impairment to reverse or delay the decline in intrinsic
+capacity.
+Supplementary Information
+Strength and limitation The online version contains supplementary material available at https://doi.
+org/10.1186/s12877-024-05093-z.
+The major strength of this study is that this is the first
+study using a data-driven approach to explore the asso- Supplementary Material 1
+ciated factors of IC impairment patterns. In addition,
+only a few studies investigated the association between
+Acknowledgements
+lifestyle behaviors and IC. Moreover, the measurement The authors are deeply grateful to the Liubao Gu and Yongzhen Mo for their
+of IC in this study was conducted in accordance with guidance in study design and data analysis.
+the approach recommended by the WHO. However,
+Author contributions
+this study has several limitations. First, the causal rela- LZ Zhu was responsible for the study design, data collection, data analysis and
+tionships between IC impairment patterns and their manuscript writing. XX Shen and XL Shi collected data and contributed to
+review of the manuscript. XJ Ouyan supervised the study and participated in
+predictors cannot be established due to the cross-sec-
+study design, data collection, data analysis and manuscript writing. All authors
+tional nature. Secondly, the sensory domain was evalu- revised the manuscript and approved the final manuscript.
+ated using self-reported indicators, which may exist
+Funding
+with reporting biases. Thirdly, considering the validity
+This work was supported by Smart Healthcare Industrial School, Nanjing
+of the assessment, we excluded participants who were Medical University (grant number 2023-95) and Jiangsu Commission of Health
+deaf, blind, and had severe cognitive impairment, which (grant number H2019038, LSD2022001).
+reduced the prevalence of impaired IC. However, this is
+Data availability
+a common situation in studies involving IC. In addition, The data analyzed in this study are not publicly available but available from
+in order to reduce nonresponsive bias, some objective the corresponding author upon reasonable request.
+information in ADL, IADL, and Frail scales was collected
+Declarations
+from primary caregivers of participants with severe
+hearing impairment, but it may lead to information bias
+Ethics approval and consent to participate
+although the proportion was no more than 3%. Lastly, a This study was approved by the Ethics Committee of the Geriatric Hospital of
+single hospital setting and small sample size may limit Nanjing Medical University (Ethic number: 2022042). All participants provided
+study protocol and granted informed consent. This study was performed in
+the generalizability of the findings to other populations.
+accordance with the guidelines outlined in the Declaration of Helsinki.
+Therefore, further longitudinal, and multi-center studies
+with a larger sample size are needed. Consent for publication
+Not applicable.
+Conclusion
+Competing interests
+In summary, three distinct IC impairment patterns The authors declare no competing interests.
+were identified: high IC, intermediate IC mainly loco-
+Author details
+motor impairment and low IC mainly cognitive impair- 1School of Nursing, Nanjing Medical University, Nanjing, China
+ment. Our study also identified factors associated with 2Department of Geriatrics, Geriatric Hospital of Nanjing Medical
+University, Nanjing, China
+IC, including age, physical activity, stress management,
+stroke, osteoporosis, nutrition and social support, which
+Received: 17 January 2024 / Accepted: 17 May 2024
+provides insights into how to make health-promotion
+strategies targeted for different IC impairment patterns
+to delay IC decline.
+References
+Abbreviations
+1. United Nations. World Population Prospects 2022: Summary of Results.
+WHO World Health Organization
+United Nations. 2022. https://www.un.org/development/desa/pd/zh/
+IC Intrinsic capacity
+content/World-Population-Prospects-2022.
+ICOPE Integrated Care for Older People
+2. World Health Organization. World report on ageing and health.
+LCA latent class analysis
+Geneva: World Health Organization; 2015. https://apps.who.int/iris/
+HPLP-IIR Health-promoting lifestyle profile-II
+handle/10665/186463.
+BADL Basic activities of daily living
+3. Cesari M, Araujo D C I,Amuthavalli TJ, Cooper C, Martin F C,Reginster JY, et al.
+IADL Instrumental activities of daily living
+Evidence for the domains supporting the construct of intrinsic Capacity. J
+QOL Quality of life
+Gerontol Biol Sci Med Sci. 2018;73(12):1653–60.
+EQ-5D-3 L Three-level EuroQol-5D scale
+4. Beard JR, Jotheeswaran AT, Cesari M, Araujo DCI. The structure and predic-
+CCI Charlson Comorbidity Index
+tive value of intrinsic capacity in a longitudinal study of ageing. BMJ Open.
+COPD chronic obstructive pulmonary disease
+2019;9(11):e26119.
+AIC Akaike Information Criterion
+BIC Bayesian Information Criterion
+SABIC Sample-size Adjusted BIC
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 12 of 13
+5. Beard JR, Si Y, Liu Z, Chenoweth L, Hanewald K. Intrinsic capacity: validation 28. Zhao J, Chhetri JK, Chang Y, Zheng Z, Ma L, Chan P. Intrinsic capacity vs. mul-
+of a New WHO Concept for healthy aging in a longitudinal Chinese Study. J timorbidity: a function-centered Construct predicts disability better than a
+Gerontol Biol Sci Med Sci. 2022;77(1):94–100. Disease-Based Approach in a Community-Dwelling older Population Cohort.
+6. Yang Y, Ma G, Wei S, Wei X, Yan B, Yuan Y, et al. Adverse outcomes of Front Med (Lausanne). 2021;8:753295.
+intrinsic capacity in older adults: a scoping review. Arch Gerontol Geriatr. 29. Lu F, Li J, Liu X, Liu S, Sun X, Wang X. Diagnostic performance analysis of
+2024;120:105335. the Integrated Care for older people (ICOPE) screening tool for identifying
+7. Si Y, Hanewald K, Chen S, Li B, Bateman H, Beard JR. Life-course inequalities decline in intrinsic capacity. BMC Geriatr. 2023;23(1):509.
+in intrinsic capacity and healthy ageing, China. Bull World Health Organ. 30. Cao W, Guo Y, Ping W, Zheng J. Development and psychometric tests
+2023;101(5):307–16. of a Chinese version of the HPLP- II Scales. Chin J Disease Control Prev.
+8. Rarajam RA, Waris M, Saini M, Thakral M, Hegde K, Bhagwasia M, et al. Preva- 2016;20(3):286–9.
+lence and Factors Associated with impairment in intrinsic capacity among 31. Morley JE, Malmstrom TK, Miller DK. A simple frailty questionnaire (FRAIL)
+Community-Dwelling older adults: an observational study from South India. predicts outcomes in middle aged African Americans. J Nutr Health Aging.
+Curr Gerontol Geriatr Res. 2023;2023:4386415. 2012;16(7):601–8.
+9. Muneera K, Muhammad T, Althaf S. Socio-demographic and lifestyle factors 32. Mahoney FI, Barthel DW. Functional evaluation: the barthel index. Md State
+associated with intrinsic capacity among older adults: evidence from India. Med J. 1965;14:61–5.
+BMC Geriatr. 2022;22(1):851. 33. Lawton MP, Brody EM. Assessment of older people: self-maintaining and
+10. Ma L, Chhetri JK, Zhang L, Sun F, Li Y, Tang Z. Cross-sectional study examining instrumental activities of daily living. Gerontologist. 1969;9(3):179–86.
+the status of intrinsic capacity decline in community-dwelling older adults in 34. Brooks R. EuroQol: the current state of play. Health Policy. 1996;37(1):53–72.
+China: prevalence, associated factors and implications for clinical care. BMJ 35. Liu GG, Wu H, Li M, Gao C, Luo N. Chinese time trade-off values for EQ-5D
+Open. 2021;11(1):e43062. health states. Value Health. 2014;17(5):597–604.
+11. Friedman SM. Lifestyle (Medicine) and healthy Aging. Clin Geriatr Med. 36. Xiao SY. The theoretical basis and research application of Social Support rat-
+2020;36(4):645–53. ing Scale. J Clin Psychiat. 1994;4(2):98–100.
+12. Zheng X, Xue Y, Dong F, Shi L, Xiao S, Zhang J, et al. The association between 37. Gnjidic D, Hilmer SN, Blyth FM, Naganathan V, Waite L, Seibel MJ, et al. Poly-
+health-promoting-lifestyles, and socioeconomic, family relationships, social pharmacy cutoff and outcomes: five or more medicines were used to identify
+support, health-related quality of life among older adults in China: a cross community-dwelling older men at risk of different adverse outcomes. J Clin
+sectional study. Health Qual Life Outcomes. 2022;20(1):64. Epidemiol. 2012;65(9):989–95.
+13. Daskalopoulou C, Koukounari A, Ayuso-Mateos JL, Prince M, Prina AM. Asso- 38. Aflaki K, Vigod S, Ray JG, Part II. A step-by-step guide to latent class analysis. J
+ciations of Lifestyle Behaviour and Healthy Ageing in five latin American and Clin Epidemiol. 2023;159:348–51.
+the Caribbean Countries-A 10/66 Population-based cohort Study. Nutrients. 39. Liu Y, Du Q, Jiang Y. Detection rate of decreased intrinsic capacity of
+2018;10(11):1593. older adults: a systematic review and meta-analysis. Aging Clin Exp Res.
+14. Chudasama YV, Khunti K, Gillies CL, Dhalwani NN, Davies MJ, Yates T, et al. 2023;35(10):2009–17.
+Healthy lifestyle and life expectancy in people with multimorbidity in the UK 40. Wu W, Sun L, Li H, Zhang J, Shen J, Li J, et al. Approaching person-centered
+Biobank: a longitudinal cohort study. PLoS Med. 2020;17(9):e1003332. clinical practice: a cluster analysis of older inpatients utilizing the measure-
+15. Stenholm S, Head J, Kivimäki M, Kawachi I, Aalto V, Zins M, et al. Smoking, ments of intrinsic capacity. Front Public Health. 2022;10:1045421.
+physical inactivity and obesity as predictors of healthy and disease-free life 41. Yu J, Si H, Jin Y, Qiao X, Ji L, Bian Y, et al. Patterns of intrinsic capacity among
+expectancy between ages 50 and 75: a multicohort study. Int J Epidemiol. community-dwelling older adults: identification by latent class analysis and
+2016;45(4):1260–70. association with one-year adverse outcomes. Geriatr Nurs. 2022;45:223–9.
+16. Clare L, Wu YT, Teale JC, Macleod C, Matthews F, Brayne C, et al. Potentially 42. Gonzalez-Bautista E, Llibre-Guerra JJ, Sosa AL, Acosta I, Andrieu S, Acosta D, et
+modifiable lifestyle factors, cognitive reserve, and cognitive function in later al. Exploring the natural history of intrinsic capacity impairments: longitudinal
+life: a cross-sectional study. PLoS Med. 2017;14(3):e1002259. patterns in the 10/66 study. Age Ageing. 2023;52(7):afad137.
+17. Robinson SM, Jameson KA, Syddall HE, Dennison EM, Cooper C, Aihie SA. 43. Chew J, Lim JP, Yew S, Yeo A, Ismail NH, Ding YY, et al. Disentangling the rela-
+Clustering of lifestyle risk factors and poor physical function in older adults: tionship between Frailty and intrinsic capacity in Healthy Community-Dwell-
+the Hertfordshire cohort study. J Am Geriatr Soc. 2013;61(10):1684–91. ing older adults: a cluster Analysis. J Nutr Health Aging. 2021;25(9):1112–8.
+18. Rizzuto D, Orsini N, Qiu C, Wang HX, Fratiglioni L. Lifestyle, social factors, and 44. Kemoun P, Ader I, Planat-Benard V, Dray C, Fazilleau N, Monsarrat P, et
+survival after age 75: population based study. BMJ. 2012;345:e5568. al. A gerophysiology perspective on healthy ageing. Ageing Res Rev.
+19. Walker SN, Sechrist KR, Pender NJ. The Health-promoting Lifestyle Profile: 2022;73:101537.
+development and psychometric characteristics. Nurs Res. 1987;36(2):76–81. 45. Tay L, Tay EL, Mah SM, Latib A, Koh C, Ng YS. Association of intrinsic capacity
+20. Wei X, Chen Y, Qin J, Yang Y, Yang T, Yan F et al. Factors associated with the with Frailty, Physical Fitness and Adverse Health Outcomes in Community-
+intrinsic capacity in older adults: a scoping review. J Clin Nurs 2024. Dwelling older Adults. J Frailty Aging. 2023;12(1):7–15.
+21. López-Ortiz S, Lista S, Peñín-Grandes S, Pinto-Fraga J, Valenzuela PL, Nisticò R, 46. Prince MJ, Acosta D, Guerra M, Huang Y, Jacob KS, Jimenez-Velazquez IZ, et al.
+et al. Defining and assessing intrinsic capacity in older people: a systematic Intrinsic capacity and its associations with incident dependence and mortal-
+review and a proposed scoring system. Ageing Res Rev. 2022;79:101640. ity in 10/66 Dementia Research Group studies in Latin America, India, and
+22. Kongsted A, Nielsen AM. Latent class analysis in health research. J Physiother. China: a population-based cohort study. PLoS Med. 2021;18(9):e1003097.
+2017;63(1):55–8. 47. Biazus-Sehn LF, Schuch FB, Firth J, Stigger FS. Effects of physical exercise on
+23. Zimmer F, Draxler C, Debelak R. Power Analysis for the Wald, LR, score, and cognitive function of older adults with mild cognitive impairment: a system-
+gradient tests in a marginal Maximum Likelihood Framework: applications in atic review and meta-analysis. Arch Gerontol Geriatr. 2020;89:104048.
+IRT. Psychometrika. 2023;88(4):1249–98. 48. Pahor M, Guralnik JM, Ambrosius WT, Blair S, Bonds DE, Church TS, et al.
+24. World Health Organization. Integrated Care for older people: guidelines on Effect of structured physical activity on prevention of major mobility
+Community-Level interventions to manage declines in intrinsic capac- disability in older adults: the LIFE study randomized clinical trial. JAMA.
+ity. Geneva: World Health Organization; 2017. https://apps.who.int/iris/ 2014;311(23):2387–96.
+handle/10665/258981. 49. Singh B, Olds T, Curtis R, Dumuid D, Virgara R, Watson A, et al. Effectiveness of
+25. Zhang MY, Katzman R, Salmon D, Jin H, Cai GJ, Wang ZY, et al. The prevalence physical activity interventions for improving depression, anxiety and distress:
+of dementia and Alzheimer’s disease in Shanghai, China: impact of age, an overview of systematic reviews. Br J Sports Med. 2023;57(18):1203–9.
+gender, and education. Ann Neurol. 1990;27(4):428–37. 50. Eckstrom E, Neukam S, Kalin L, Wright J. Physical activity and healthy Aging.
+26. Rubenstein LZ, Harker JO, Salvà A, Guigoz Y, Vellas B. Screening for under- Clin Geriatr Med. 2020;36(4):671–83.
+nutrition in geriatric practice: developing the short-form mini-nutritional 51. Pedersen BK, Saltin B. Exercise as medicine - evidence for prescribing
+assessment (MNA-SF). J Gerontol Biol Sci Med Sci. 2001;56(6):M366–72. exercise as therapy in 26 different chronic diseases. Scand J Med Sci Sports.
+27. Guralnik JM, Simonsick EM, Ferrucci L, Glynn RJ, Berkman LF, Blazer DG, et al. 2015;25(Suppl 3):1–72.
+A short physical performance battery assessing lower extremity function: 52. Bull FC, Al-Ansari SS, Biddle S, Borodulin K, Buman MP, Cardon G, et al. World
+association with self-reported disability and prediction of mortality and nurs- Health Organization 2020 guidelines on physical activity and sedentary
+ing home admission. J Gerontol. 1994;49(2):M85–94. behaviour. Br J Sports Med. 2020;54(24):1451–62.
+
+Zhu et al. BMC Geriatrics (2024) 24:494 Page 13 of 13
+53. Suzuki N, Ogikubo O, Hansson T. The prognosis for pain, disability, activities 67. Kossioni AE. The Association of Poor Oral Health Parameters with malnutrition
+of daily living and quality of life after an acute osteoporotic vertebral body in older adults: a review considering the potential implications for cognitive
+fracture: its relation to fracture level, type of fracture and grade of fracture Impairment. Nutrients. 2018;10(11):1709.
+deformation. Eur Spine J. 2009;18(1):77–88. 68. Melzer TM, Manosso LM, Yau SY, Gil-Mohapel J, Brocardo PS. In pursuit
+54. Upala S, Rattanawong P, Vutthikraivit W, Sanguankeo A. Significant associa- of healthy aging: effects of Nutrition on Brain Function. Int J Mol Sci.
+tion between osteoporosis and hearing loss: a systematic review and meta- 2021;22(9):5026.
+analysis. Braz J Otorhinolaryngol. 2017;83(6):646–52. 69. Lichtenstein AH, Rasmussen H, Yu WW, Epstein SR, Russell RM. Modified
+55. Hua J, Dong J, Chen GC, Shen Y. Trends in cognitive function before and after MyPyramid for older Adults. J Nutr. 2008;138(1):5–11.
+stroke in China. BMC Med. 2023;21(1):204. 70. Thoits PA. Mechanisms linking social ties and support to physical and mental
+56. Rimmele DL, Thomalla G. [Long-term consequences of stroke]. health. J Health Soc Behav. 2011;52(2):145–61.
+Bundesgesundheitsblatt Gesundheitsforschung Gesundheitsschutz. 71. Li T, Zhang Y. Social network types and the health of older adults: exploring
+2022;65(4):498–502. reciprocal associations. Soc Sci Med. 2015;130:59–68.
+57. Lanctôt KL, Lindsay MP, Smith EE, Sahlas DJ, Foley N, Gubitz G et al. Canadian 72. Su H, Xu L, Yu H, Zhou Y, Li Y. Social isolation and intrinsic capacity among left-
+Stroke Best Practice Recommendations: Mood, Cognition and Fatigue follow- behind older adults in rural China: the chain mediating effect of perceived
+ing Stroke, 6th edition update 2019. Int J Stroke. 2020;15(6):668–688. stress and health-promoting behavior. Front Public Health. 2023;11:1155999.
+58. Teraoka S, Hayashida N, Shinkawa T, Taira Y, Nagai-Sekitani Y, Irie S, et al. Good 73. Cudjoe T, Roth DL, Szanton SL, Wolff JL, Boyd CM, Thorpe RJ. The epidemiol-
+stress management capability is associated with lower body mass index and ogy of social isolation: National Health and Aging trends Study. J Gerontol B
+restful sleep in the elderly. Tohoku J Exp Med. 2013;229(1):5–10. Psychol Sci Soc Sci. 2020;75(1):107–13.
+59. Whitehead BR. Investigating the function spiral in later life: aging attitudes, 74. Dent E, Morley JE, Cruz-Jentoft AJ, Woodhouse L, Rodríguez-Mañas L, Fried
+physical activity, and gait. J Health Psychol. 2019;24(14):1955–64. LP, et al. Physical Frailty: ICFSR International Clinical Practice guidelines for
+60. Whitehead BR, Blaxton JM. Daily associations among aging perceptions, Identification and Management. J Nutr Health Aging. 2019;23(9):771–87.
+perceived health, and perceived stress in older adults. Aging Ment Health. 75. Lu S, Wu Y, Mao Z, Liang X. Association of Formal and Informal Social Support
+2021;25(12):2255–64. with Health-Related Quality of Life among Chinese Rural Elders. Int J Environ
+61. Kwong EW, Kwan AY. Participation in health-promoting behaviour: Res Public Health. 2020;17(4):1351.
+influences on community-dwelling older Chinese people. J Adv Nurs. 76. Huang L, Wu H, Zhang F, Zhao H, Chen Y, Feng M, et al. Factors associated
+2007;57(5):522–34. with the perceived need for assistance from voluntary services in home-
+62. Huang CH, Okada K, Matsushita E, Uno C, Satake S, Martins BA, et al. Dietary based older adults in Chinese urban areas: a cross-sectional study. BMC
+patterns and intrinsic capacity among community-dwelling older adults: a Geriatr. 2023;23(1):624.
+3-year prospective cohort study. Eur J Nutr. 2021;60(6):3303–13. 77. Cesari M, Sumi Y, Han ZA, Perracini M, Jang H, Briggs A, et al. Banerjee A.
+63. Yeung S, Chan R, Lee J, Woo J. Certain dietary patterns are associated with Implementing care for healthy ageing. BMJ Glob Health. 2022;7(2):e007778.
+GLIM criteria among Chinese community-dwelling older adults: a cross-
+sectional analysis. J Nutr Sci. 2021;10:e69.
+64. Bautmans I, Knoop V, Amuthavalli TJ, Maier AB, Beard JR, Freiberger E, et al.
+Publisher’s Note
+WHO working definition of vitality capacity for healthy longevity monitoring.
+Lancet Healthy Longev. 2022;3(11):e789–96. Springer Nature remains neutral with regard to jurisdictional claims in
+65. Nakamura T, Zou K, Shibuya Y, Michikawa M. Oral dysfunctions and cognitive published maps and institutional affiliations.
+impairment/dementia. J Neurosci Res. 2021;99(2):518–28.
+66. Yen PK. Nutrition and sensory loss. Geriatr Nurs. 2004;25(2):118–9.
