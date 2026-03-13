@@ -1,0 +1,6 @@
+﻿method,clusterer,k,selection_score
+PCA,kmeans,3,0.3609728963862043
+GroupMaskedFT,kmeans,3,0.43465081105494857
+DualTowerTable,kmeans,4,0.3400786848536316
+DualTowerAvg,kmeans,4,0.3500365036229852
+DualTowerConcatPCA,kmeans,4,0.34353214808537913
