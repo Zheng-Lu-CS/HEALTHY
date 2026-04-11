@@ -66,7 +66,6 @@ IC_CONFIG = {
     "grip_female_low": 18,
 }
 
-
 def ensure_dirs() -> None:
     FIG_DIR.mkdir(exist_ok=True)
     CONFIG_DIR.mkdir(exist_ok=True)

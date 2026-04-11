@@ -848,6 +848,15 @@ def write_reports(text_encoder_name: str, best_by_method: Dict[str, Dict[str, ob
 
 
 def main() -> None:
+    """
+    流程是先读取数据进行IC评分然后构建医学文本并进行BETR编码，
+    然后构造分组矩阵，并训练FT和PCA并进行dual对比并进行聚类
+    在对每一个聚类情况进行寻找最优和可视化分析
+
+    此处的输出是：几个embedding+聚类结果+评估图标和报告
+    训练了两个模型，
+    聚类不是在原始特征上进行而是在embedding向量上
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("--run", action="store_true")
     args = parser.parse_args()
@@ -859,28 +868,28 @@ def main() -> None:
     configure_plot_style()
     seed_everything()
 
-    raw_df, mappings = load_raw()
-    ic_df = compute_continuous_ic(raw_df)
+    raw_df, mappings = load_raw()#读原始数据
+    ic_df = compute_continuous_ic(raw_df)#计算连续化IC得分
     ic_df.to_csv(OUTPUT_DIR / "IC_continuous_scores.csv", index=False, encoding="utf-8-sig")
-    text_cards = build_medical_text(raw_df, mappings, ic_df)
+    text_cards = build_medical_text(raw_df, mappings, ic_df)#构造医学文本
     text_df = build_professional_text(raw_df, text_cards, ic_df)
-    text_raw, text_encoder_name = encode_text(text_df["medical_text_cn"].tolist())
+    text_raw, text_encoder_name = encode_text(text_df["medical_text_cn"].tolist())#编码医学文本为BERT向量
 
     core_df, numeric_cols, categorical_cols = preprocess_core_features(raw_df, mappings, ic_df)
-    design, groups, binary_mask = build_design_matrix(core_df, numeric_cols, categorical_cols)
+    design, groups, binary_mask = build_design_matrix(core_df, numeric_cols, categorical_cols)#构建设计矩阵、并按租切分特征
     x = design.values.astype(np.float32)
-    np.save(OUTPUT_DIR / "pca_embedding_128.npy", PCA(n_components=D_MODEL, random_state=RANDOM_SEED).fit_transform(x))
+    np.save(OUTPUT_DIR / "pca_embedding_128.npy", PCA(n_components=D_MODEL, random_state=RANDOM_SEED).fit_transform(x))#PCAembedding
 
-    table_emb, table_hist, table_model = train_group_masked_model(x, groups, binary_mask)
-    dual_embs, dual_hist = train_dual_tower_model(x, text_raw, groups, binary_mask, table_model)
+    table_emb, table_hist, table_model = train_group_masked_model(x, groups, binary_mask)#训练FTTransformer
+    dual_embs, dual_hist = train_dual_tower_model(x, text_raw, groups, binary_mask, table_model)#训练文本-表格双塔
     plot_history(table_hist, dual_hist)
 
     embeddings = {"PCA": np.load(OUTPUT_DIR / "pca_embedding_128.npy"), "GroupMaskedFT": table_emb, **dual_embs}
-    eval_df, best_by_method = evaluate_embeddings(embeddings, raw_df, ic_df)
+    eval_df, best_by_method = evaluate_embeddings(embeddings, raw_df, ic_df)#用不同的聚类器和k值进行评估
     plot_method_comparison(eval_df, best_by_method)
 
-    method_tables = {method: profile_best_method(method, bundle, raw_df, ic_df) for method, bundle in best_by_method.items()}
-    write_reports(text_encoder_name, best_by_method, method_tables, list(groups.keys()))
+    method_tables = {method: profile_best_method(method, bundle, raw_df, ic_df) for method, bundle in best_by_method.items()}#对每个最佳方法做可视化
+    write_reports(text_encoder_name, best_by_method, method_tables, list(groups.keys()))#自动写报告
 
 
 if __name__ == "__main__":
